@@ -2845,6 +2845,7 @@
         "blocks": {
           "1565227164670-0": {
             "type": "items",
+            "disabled": true,
             "settings": {
               "link": "",
               "padding_box": "39px 50px 50px 50px",
@@ -2883,6 +2884,7 @@
           },
           "1565227164670-2": {
             "type": "items",
+            "disabled": true,
             "settings": {
               "link": "",
               "padding_box": "39px 50px 50px 50px",
