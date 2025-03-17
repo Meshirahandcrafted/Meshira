@@ -901,19 +901,19 @@
         "blocks": {
           "1523361758164": {
             "type": "infobar",
+            "disabled": true,
             "settings": {
               "show_content": false,
               "show_content_index": false,
               "text": "20% STUDENT DISCOUNT PLUS FREE NEXT DAY DELIVEY, EXCLUDES SALE. <a href=\"#\">DETAILS</a>",
-              "background_image": false,
-              "image": "shopify://shop_images/logo.png"
+              "background_image": false
             }
           },
           "1522754394860": {
             "type": "topbar",
             "settings": {
               "show_content": true,
-              "menu_top": "menu-01"
+              "menu_top": ""
             }
           },
           "1516807368327": {
@@ -928,27 +928,18 @@
             "settings": {
               "newnavigation_item": "Shop",
               "grid": "4",
-              "image1": "",
-              "image2": "",
-              "image3": "",
-              "image4": "",
-              "image5": "",
-              "image6": "",
               "widget": "banner",
               "widgetgallery_title": "SPECIALS",
               "widgetgallery_url": "",
               "collection": "",
               "widgetbanner_url": "",
-              "widgetbanner_img": "shopify://shop_images/banner-logo.png",
               "banners_grid": "none",
               "banner1_url": "",
-              "bottombanners_img_1": "",
               "banners_tit1": "SUMMER <span class=\"sp-base-color\">2018</span>",
               "banners_tit11": "NEW ARRIVALS",
               "color_11": "#ffffff",
               "color_12": "#ffffff",
               "banner2_url": "",
-              "bottombanners_img_2": "",
               "banners_tit2": "CLEARANCE SALES",
               "banners_tit21": "GET UP TO 20% OFF",
               "color_21": "#ffffff",
@@ -968,16 +959,12 @@
           "header_fullwidth": false,
           "logo_text": "bixbang",
           "logo_margin_top": 0,
-          "logo": "shopify://shop_images/bixbang-footer.png",
-          "logo_stuck": "shopify://shop_images/bixbang.png",
           "logo_max_width": 180,
-          "logo_page": "",
           "header_custom": "default",
           "transparent_all": false,
           "menu_bar": "default",
           "menu_sidebar": "main-menu",
           "decs_header_sidebar": "We put a strong emphasis on simplicity, quality and usefulness of fashion products over other factors.",
-          "img_header_sidebar": "shopify://shop_images/banner.jpg",
           "show_text": true,
           "text_header_sidebar": "Monday to Sunday: 9 am - 21 pm",
           "custom_header_sidebar": "70 Washington Square South, NY, US<br>+92 423 567<br>info@bixbang.com",
@@ -998,9 +985,6 @@
           "show_customer_links": true,
           "show_sign_in": true,
           "show_image": false,
-          "img_login": "",
-          "logomobile": "shopify://shop_images/bixbang.png",
-          "logomobile_page": "",
           "logo_max_mobile_width": 110,
           "mobile_custom_menu": "mobilelogocenter"
         }
