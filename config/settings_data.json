@@ -2867,6 +2867,7 @@
             "type": "items",
             "settings": {
               "link": "",
+              "image": "shopify://shop_images/PHOTO-2025-03-21-12-44-14.jpg",
               "padding_box": "39px 50px 50px 50px",
               "option_box": "topright",
               "effect_box": "effect_bottom",
