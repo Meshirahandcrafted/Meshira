@@ -2909,7 +2909,7 @@
           "1565227164670-2"
         ],
         "settings": {
-          "fullwidth": false,
+          "fullwidth": true,
           "padding": "30px 0px 0px 0px",
           "margin": "0px 0px 0px 0px",
           "padding_mobi": "0px 0px 0px 0px",
