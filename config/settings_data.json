@@ -113,14 +113,14 @@
     "breadcrubs_color": "#303030",
     "padding_breadcrubs": "88px 0 92px 0",
     "margin_breadcrubs": "0 0 100px 0",
-    "bg_footer": "#ffffff",
-    "links_color_footer": "#7c7c80",
-    "links_color_footer_hv": "#303030",
-    "color_social": "#777777",
-    "color_social_hv": "#303030",
+    "bg_footer": "#303030",
+    "links_color_footer": "#909090",
+    "links_color_footer_hv": "#ffffff",
+    "color_social": "#909090",
+    "color_social_hv": "#ffffff",
     "paymant_color_text": "#7c7c80",
     "bg_copyright": "#303030",
-    "color_copyright": "#ffffff",
+    "color_copyright": "#909090",
     "def_product_btn": "#303030",
     "def_product_btntext": "#cccccc",
     "def_product_btnhover": "#c71932",
@@ -139,7 +139,7 @@
     "def_text_wchv": "#ffffff",
     "def_border_wchv": "#303030",
     "def_bg_wchv": "#303030",
-    "header_design": "header_style_2",
+    "header_design": "header_type_1",
     "use_scale_product_image": false,
     "notsamewidth": false,
     "product_scale_height": "200",
@@ -241,8 +241,8 @@
     "popup_newsletter_button": "Subscribe",
     "popup_newsletter_question": "Never see this message again",
     "popup_newsletter_formmsg": "Enter Your Email",
-    "popup_newsletter_delay_first": "1000",
-    "popup_newsletter_delay": 0,
+    "popup_newsletter_delay_first": "5000",
+    "popup_newsletter_delay": 1,
     "checkout_header_image": "",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
@@ -912,7 +912,7 @@
           "1522754394860": {
             "type": "topbar",
             "settings": {
-              "show_content": true,
+              "show_content": false,
               "menu_top": "menu-01"
             }
           },
@@ -967,14 +967,14 @@
           "main_menu_selected": "main-menu",
           "header_fullwidth": false,
           "logo_text": "bixbang",
-          "logo_margin_top": 0,
-          "logo": "shopify://shop_images/bixbang-footer.png",
+          "logo_margin_top": 2,
+          "logo": "shopify://shop_images/logo_39500f68-1322-4513-9404-1836787c658a.png",
           "logo_stuck": "shopify://shop_images/bixbang.png",
           "logo_max_width": 180,
-          "logo_page": "",
-          "header_custom": "default",
+          "logo_page": "shopify://shop_images/logo_39500f68-1322-4513-9404-1836787c658a.png",
+          "header_custom": "transparent",
           "transparent_all": false,
-          "menu_bar": "default",
+          "menu_bar": "menucenter",
           "menu_sidebar": "main-menu",
           "decs_header_sidebar": "We put a strong emphasis on simplicity, quality and usefulness of fashion products over other factors.",
           "img_header_sidebar": "shopify://shop_images/banner.jpg",
@@ -1000,7 +1000,7 @@
           "show_image": false,
           "img_login": "",
           "logomobile": "shopify://shop_images/bixbang.png",
-          "logomobile_page": "",
+          "logomobile_page": "shopify://shop_images/logo_39500f68-1322-4513-9404-1836787c658a.png",
           "logo_max_mobile_width": 110,
           "mobile_custom_menu": "mobilelogocenter"
         }
@@ -1150,11 +1150,11 @@
           "1565318443032"
         ],
         "settings": {
-          "show_footer": false,
+          "show_footer": true,
           "fullwidth": false,
           "bg_color": "#ffffff",
           "color": "#ffffff",
-          "color_border": "#dedede",
+          "color_border": "#303030",
           "padding": "0px 0px 0px 0px",
           "margin": "0px 0px 0px 0px",
           "bg_color_mobi": "#ffffff",
@@ -1163,15 +1163,15 @@
           "margin_mobi": "0px 0px 0px 0px",
           "show_logoblock": true,
           "logo_text": "© 2019 RedExp",
-          "logo": "",
+          "logo": "shopify://shop_images/bixbang-footer.png",
           "logo_max_width": 164,
-          "design_footer": "footer_default",
+          "design_footer": "footer_logo",
           "menu_footer": "footer",
-          "padding_container": "98px 110px 96px 110px",
+          "padding_container": "98px 95px 96px 95px",
           "padding_container_laptop": "90px 15px 90px 15px",
           "padding_container_mobi": "90px 15px 90px 15px",
           "style": "style_3",
-          "footer_address": "",
+          "footer_address": "© 2019 RedExp",
           "show_socials": true,
           "facebook_url": "#",
           "twitter_url": "#",
@@ -2563,7 +2563,7 @@
           "logo_text": "bixbang",
           "logo_margin_top": 0,
           "logo": "shopify://shop_images/bixbang.png",
-          "logo_page": "shopify://shop_images/logo_39500f68-1322-4513-9404-1836787c658a.png",
+          "logo_page": "",
           "logo_max_width": 180,
           "show_socials": true,
           "facebook_url": "#",
@@ -2575,7 +2575,7 @@
           "show_options_links": true,
           "show_sign_in": true,
           "logomobile": "shopify://shop_images/bixbang.png",
-          "logomobile_page": "shopify://shop_images/bixbang.png",
+          "logomobile_page": "",
           "logo_max_mobile_width": 110,
           "mobile_custom_menu": "mobilelogoleft"
         }
@@ -2815,274 +2815,268 @@
           "text1": "Lorem Ipsum proin gravida nibh vel velit auctor aliqnean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Class apt"
         }
       },
-      "1565227149298": {
-        "type": "index-section-banner-3",
+      "1565086183892": {
+        "type": "index-section-brands",
         "blocks": {
-          "1565227149298-0": {
-            "type": "items",
+          "1565086183892-0": {
+            "type": "logo_image",
             "settings": {
-              "link": "",
-              "image": "shopify://shop_images/banner28s_8ffb0f7b-e4e1-4bff-a253-8809c657c48b.jpg",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "topleft",
-              "effect_box": "effect_bottom",
-              "style_box": "style_5",
-              "title": "30% off<br>Mid-sesson sale",
-              "text": "",
-              "show_button": true,
-              "text_button": "SHOP NOW",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#ffffff",
-              "color_text": "#909090"
+              "image": "shopify://shop_images/client.png",
+              "link": ""
             }
           },
-          "1565227149298-1": {
-            "type": "items",
+          "1565086183892-1": {
+            "type": "logo_image",
             "settings": {
-              "link": "",
-              "image": "shopify://shop_images/banner29s_fbfcad2c-d5d9-4c00-938a-f21bd5f97ef4.jpg",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "topleft",
-              "effect_box": "effect_bottom",
-              "style_box": "style_5",
-              "title": "Spring/Summer",
-              "text": "Featured Collections",
-              "show_button": true,
-              "text_button": "SHOP NOW",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#ffffff",
-              "color_text": "#ffffff"
+              "image": "shopify://shop_images/For_des_37052f36-c406-41ea-a4b6-3d1c24f9efbe.png",
+              "link": ""
+            }
+          },
+          "1565086183892-2": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/4.png",
+              "link": ""
+            }
+          },
+          "1565086183892-3": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/6.png",
+              "link": ""
+            }
+          },
+          "1565086183892-4": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/3.png",
+              "link": ""
+            }
+          },
+          "1565086183892-5": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/1.png",
+              "link": ""
             }
           }
         },
         "block_order": [
-          "1565227149298-0",
-          "1565227149298-1"
+          "1565086183892-0",
+          "1565086183892-1",
+          "1565086183892-2",
+          "1565086183892-3",
+          "1565086183892-4",
+          "1565086183892-5"
         ],
         "settings": {
           "fullwidth": false,
-          "padding": "0px 0px 0px 0px",
+          "padding": "55px 0px 92px 0px",
           "margin": "0px 0px 0px 0px",
-          "padding_mobi": "0px 0px 0px 0px",
+          "padding_mobi": "21px 0px 65px 0px",
           "margin_mobi": "0px 0px 0px 0px",
-          "effect": "zoom-in-up",
-          "show_title": false,
-          "text1": "POPULAR",
-          "text2": "CLOTHING BRANDS"
+          "effect": "fade-up-left",
+          "padding_content": "40px 20px",
+          "show_bg": false,
+          "bg": "shopify://shop_images/row-bg-3.jpg",
+          "show_overlay": true,
+          "show_border": true,
+          "color_border": "#c2c2c2",
+          "toshow": "6",
+          "step": "2",
+          "module_autoplay": false,
+          "delay_time": "7000"
         }
       },
-      "1565227164670": {
-        "type": "index-section-banner",
-        "blocks": {
-          "1565227164670-0": {
-            "type": "items",
-            "settings": {
-              "link": "",
-              "image": "shopify://shop_images/banner21.jpg",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "bottomright",
-              "effect_box": "effect_top",
-              "style_box": "style_4",
-              "title": "Tank Top",
-              "text": "Lorem ipsum dolor sit amet, eiusmod tempor <br> incididunt ut labor",
-              "show_button": true,
-              "text_button": "SHOP NOW",
-              "link_button": "",
-              "style_button": "style_button_1",
-              "color_title": "#ffffff",
-              "color_text": "#ffffff",
-              "show_box": false
-            }
-          },
-          "1565227164670-1": {
-            "type": "items",
-            "settings": {
-              "link": "",
-              "image": "shopify://shop_images/banner22.jpg",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "topright",
-              "effect_box": "effect_bottom",
-              "style_box": "style_4",
-              "title": "Jeans",
-              "text": "Lorem ipsum dolor sit amet, eiusmod tempor  <br>incididunt ut labor",
-              "show_button": false,
-              "text_button": "Explore Now",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#303030",
-              "color_text": "#303030",
-              "show_box": false
-            }
-          },
-          "1565227164670-2": {
-            "type": "items",
-            "settings": {
-              "link": "",
-              "image": "shopify://shop_images/banner23.jpg",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "topright",
-              "effect_box": "effect_bottom",
-              "style_box": "style_4",
-              "title": "Summer",
-              "text": "sit amet, eiusmod tempor incididunt <br> ut labor",
-              "show_button": false,
-              "text_button": "Explore Now",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#303030",
-              "color_text": "#303030",
-              "show_box": false
-            }
-          }
-        },
-        "block_order": [
-          "1565227164670-0",
-          "1565227164670-1",
-          "1565227164670-2"
-        ],
+      "1565086253684": {
+        "type": "index-section-blog",
         "settings": {
           "fullwidth": false,
-          "padding": "30px 0px 0px 0px",
+          "bg_color": "#ffffff",
+          "border_color": "#ffffff",
+          "padding": "0px 0px 92px 0px",
           "margin": "0px 0px 0px 0px",
-          "padding_mobi": "0px 0px 0px 0px",
+          "bg_color_mobi": "#ffffff",
+          "padding_mobi": "0px 0px 63px 0px",
+          "margin_mobi": "0px 0px 0px 0px",
+          "effect": "fade-down",
+          "show_title": true,
+          "select_heading": "center",
+          "text1": "OUR NEWS BLOG",
+          "text2": "Keep up with the latest fashion",
+          "text3": "",
+          "use_title_as_link": true,
+          "blog": "news",
+          "limit": "3",
+          "height_img": "314",
+          "style_tile_blog": "normal",
+          "show_tags": true,
+          "blog_show_author": true,
+          "blog_show_date": true,
+          "show_comment": true,
+          "show_description": false,
+          "truncate_excerpt": false,
+          "truncate": "15",
+          "truncate_last_symbols": "..."
+        }
+      },
+      "1565140049173": {
+        "type": "index-section-newletter",
+        "settings": {
+          "bg_color": "#ffffff",
+          "border_color": "#dedede",
+          "padding": "92px 0px 100px 0px",
+          "margin": "0px 0px 0px 0px",
+          "bg_color_mobi": "#ffffff",
+          "padding_mobi": "65px 0px 50px 0px",
           "margin_mobi": "0px 0px 0px 0px",
           "effect": "fade-up",
-          "show_title": false,
-          "text1": "POPULAR",
-          "text2": "CLOTHING BRANDS",
-          "order": false
+          "heading": "NEWSLETTERS",
+          "style_title": "style_2",
+          "description": "Get timely updates from your favorite products",
+          "submit": "Subscribe",
+          "placeholder": "Enter Your Email"
         }
       },
-      "1565228193098": {
-        "type": "index-section-banner",
-        "blocks": {
-          "1565228193098-2": {
-            "type": "items",
-            "settings": {
-              "link": "",
-              "image": "shopify://shop_images/banner24.jpg",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "bottomleft",
-              "effect_box": "effect_top",
-              "style_box": "style_4",
-              "title": "Sundress",
-              "text": "Lorem ipsum dolor sit amet, eiusmod tempor <br> incididunt ut labor",
-              "show_button": true,
-              "text_button": "SHOP NOW",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#ffffff",
-              "color_text": "#ffffff",
-              "show_box": true
-            }
-          }
-        },
-        "block_order": [
-          "1565228193098-2"
-        ],
+      "1565581113798": {
+        "type": "index-section-instagram",
         "settings": {
-          "fullwidth": false,
+          "fullwidth": true,
+          "bg_color": "#ffffff",
+          "color": "#ffffff",
+          "border_color": "#ffffff",
           "padding": "0px 0px 0px 0px",
           "margin": "0px 0px 0px 0px",
+          "bg_color_mobi": "#ffffff",
+          "color_mobi": "#ffffff",
           "padding_mobi": "0px 0px 0px 0px",
           "margin_mobi": "0px 0px 0px 0px",
-          "effect": "fade-left",
-          "show_title": false,
-          "text1": "POPULAR",
-          "text2": "CLOTHING BRANDS",
-          "order": true
+          "effect": "fade-down",
+          "in_line": true,
+          "grid_6": false,
+          "userid": "11364876509",
+          "clientid": "8fc62aacf3a341b5beba9a6deb12c5d5",
+          "accesstoken": "11364876509.8fc62aa.a0b97ad681da4676991bbb017b8c3918",
+          "count": "6",
+          "space_item": "0",
+          "show_titles": false,
+          "text1": "<a target=\"_blank\" href=\"https://www.instagram.com/bixbangshopify\">@ FOLLOW</a> US ON",
+          "text2": "INSTAGRAM"
         }
       },
-      "1567149610381": {
-        "type": "index-section-banner",
+      "1565835901571": {
+        "type": "slider-furniture",
         "blocks": {
-          "1567149610381-0": {
-            "type": "items",
+          "1565835901571-0": {
+            "type": "slider_list",
             "settings": {
-              "link": "",
-              "image": "shopify://shop_images/banner27.jpg",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "bottomleft",
-              "effect_box": "effect_top",
-              "style_box": "style_4",
-              "title": "Sweater",
-              "text": "Sit amet, eiusmod tempor incididunt<br> ut labor",
-              "show_button": false,
-              "text_button": "Explore Now",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#ffffff",
-              "color_text": "#ffffff",
-              "show_box": false
+              "image": "shopify://shop_images/home-3-slide1.jpg",
+              "text": "Decor work space",
+              "color_heading": "#505050"
             }
           },
-          "1567149610381-1": {
-            "type": "items",
+          "1565835924689": {
+            "type": "slider_list",
             "settings": {
-              "link": "",
-              "image": "shopify://shop_images/banner25_ad41ba9e-cace-412c-b6ef-9c6dd10a16c4.jpg",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "bottomright",
-              "effect_box": "effect_top",
-              "style_box": "style_4",
-              "title": "Camisole",
-              "text": "Lorem ipsum dolor sit amet, eiusmod<br> tempor incididunt ut labor",
-              "show_button": false,
-              "text_button": "Explore Now",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#ffffff",
-              "color_text": "#ffffff",
-              "show_box": false
-            }
-          },
-          "1567149610381-2": {
-            "type": "items",
-            "settings": {
-              "link": "",
-              "image": "shopify://shop_images/banner25_ad41ba9e-cace-412c-b6ef-9c6dd10a16c4.jpg",
-              "padding_box": "50px",
-              "option_box": "bottomleft",
-              "effect_box": "effect_top",
-              "style_box": "style_4",
-              "title": "Sweater",
-              "text": "Sit amet, eiusmod tempor incididunt<br> ut labor",
-              "show_button": false,
-              "text_button": "Explore Now",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#ffffff",
-              "color_text": "#ffffff",
-              "show_box": false
+              "image": "shopify://shop_images/furniture.jpg",
+              "text": "Experienced style",
+              "color_heading": "#505050"
             }
           }
         },
         "block_order": [
-          "1567149610381-0",
-          "1567149610381-1",
-          "1567149610381-2"
+          "1565835901571-0",
+          "1565835924689"
         ],
         "settings": {
-          "fullwidth": false,
+          "slider_fullwidth": false,
           "padding": "0px 0px 0px 0px",
           "margin": "0px 0px 0px 0px",
           "padding_mobi": "0px 0px 0px 0px",
+          "margin_mobi": "0px 0px 0px 0px"
+        }
+      },
+      "1565836082811": {
+        "type": "index-section-trending",
+        "settings": {
+          "fullwidth": false,
+          "padding": "0px 0px 0px 0px",
+          "margin": "93px 0px 63px 0px",
+          "padding_mobi": "0px 0px 0px 0px",
+          "margin_mobi": "63px 0px 0px 0px",
+          "effect": "fade-up",
+          "show_titles": true,
+          "heading": "TRENDING ITEMS",
+          "sub_heading": "The best choice for your space",
+          "bg_image": "shopify://shop_images/835-1.jpg",
+          "title": "Home Decor Items",
+          "sub_price": "from",
+          "price": "$9.99",
+          "text_button": "SHOP NEW",
+          "url_link": "",
+          "collection": "trendy-items",
+          "color_header": "#fff",
+          "color_text": "#fff",
+          "color_text_button": "#fff",
+          "color_border_button": "#fff",
+          "color_bg_button": "#fff",
+          "background_alpha": "0",
+          "color_text_button_hv": "#303030",
+          "color_border_button_hv": "#fff",
+          "color_bg_button_hv": "#fff",
+          "background_alpha_2": "1"
+        }
+      },
+      "1565836290394": {
+        "type": "index-section-banner-text",
+        "settings": {
+          "padding": "168px 0 168px 0",
+          "margin": "0px 0px 0px 0px",
+          "color": "#ffffff",
+          "padding_mobi": "80px 15px 80px 15px",
           "margin_mobi": "0px 0px 0px 0px",
           "effect": "fade-right",
-          "show_title": false,
-          "text1": "POPULAR",
-          "text2": "CLOTHING BRANDS",
-          "order": true
+          "bg_image": "shopify://shop_images/furniture23.jpg",
+          "heading": "GREAT DESIGN IN YOUR HOME"
+        }
+      },
+      "1565836573161": {
+        "type": "index-section-products",
+        "settings": {
+          "fullwidth": false,
+          "border_color": "#e1e1e1",
+          "padding": "0px 0px 0px 0px",
+          "margin": "92px 0px 0px 0px",
+          "padding_mobi": "63px 0px 0px 0px",
+          "margin_mobi": "0px 0px 0px 0px",
+          "effect": "fade-up",
+          "show_title": true,
+          "text1": "FEATURED PRODUCT",
+          "text2": "The best choice for your space",
+          "text3": "",
+          "use_title_as_link": true,
+          "show_button": false,
+          "button_text": "SHOW ALL",
+          "collection": "featured-products",
+          "limit": "5",
+          "items": "51",
+          "default_carousel": false,
+          "toshow": "5",
+          "step": "2",
+          "module_autoplay": false,
+          "delay_time": "7000"
         }
       }
     },
     "content_for_index": [
-      "1565227164670",
-      "1565228193098",
-      "1567149610381",
-      "1565227149298"
+      "1565835901571",
+      "1565836082811",
+      "1565836290394",
+      "1565836573161",
+      "1565086183892",
+      "1565086253684",
+      "1565140049173",
+      "1565581113798"
     ]
   }
 }
