@@ -759,13 +759,14 @@
           "stickygallery": true,
           "gallery_type": "horizontal",
           "show_thumbnails": true,
+          "truncate_excerpt": false,
+          "truncate": "15",
+          "truncate_last_symbols": "...",
           "show_product_main_info": false,
           "show_sku": false,
           "show_qiantity": false,
           "show_trust_badge": false,
-          "image_l": "shopify://shop_images/For_des.png",
           "image_max_width": "541",
-          "image_lm": "",
           "image_max_width_m": "541",
           "designoption1": "getButtonHtml",
           "designoption2": "getButtonHtml",
@@ -3069,10 +3070,10 @@
     },
     "content_for_index": [
       "1565227164670",
+      "index_section_banner_parallax_zCiq34",
       "1565228193098",
       "1567149610381",
-      "1565227149298",
-      "index_section_banner_parallax_zCiq34"
+      "1565227149298"
     ]
   }
 }
