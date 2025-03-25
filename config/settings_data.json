@@ -3088,12 +3088,12 @@
           "button_text": "SHOW ALL",
           "collection": "",
           "limit": "4",
-          "items": "3",
-          "default_carousel": false,
-          "toshow": "4",
+          "items": "4",
+          "default_carousel": true,
+          "toshow": "3",
           "step": "2",
           "module_autoplay": false,
-          "delay_time": "7000"
+          "delay_time": "5000"
         }
       }
     },
