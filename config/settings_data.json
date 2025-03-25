@@ -3030,7 +3030,6 @@
           "1567149610381-1",
           "1567149610381-2"
         ],
-        "disabled": true,
         "settings": {
           "fullwidth": false,
           "padding": "0px 0px 0px 0px",
@@ -3101,9 +3100,9 @@
       "1565227164670",
       "index_section_banner_parallax_zCiq34",
       "1565228193098",
-      "1567149610381",
       "1565227149298",
-      "index_section_products_Ex3Hea"
+      "index_section_products_Ex3Hea",
+      "1567149610381"
     ]
   }
 }
