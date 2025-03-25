@@ -3068,6 +3068,33 @@
           "color_bg_button_hv": "#fff",
           "background_alpha_2": "0.75"
         }
+      },
+      "index_section_products_Ex3Hea": {
+        "type": "index-section-products",
+        "settings": {
+          "fullwidth": false,
+          "border_color": "#e1e1e1",
+          "padding": "0px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "padding_mobi": "0px 0px 0px 0px",
+          "margin_mobi": "0px 0px 0px 0px",
+          "effect": "none",
+          "show_title": true,
+          "text1": "OUR COLLECTIONS",
+          "text2": "SUMMER 2019",
+          "text3": "",
+          "use_title_as_link": true,
+          "show_button": false,
+          "button_text": "SHOW ALL",
+          "collection": "",
+          "limit": "4",
+          "items": "3",
+          "default_carousel": false,
+          "toshow": "4",
+          "step": "2",
+          "module_autoplay": false,
+          "delay_time": "7000"
+        }
       }
     },
     "content_for_index": [
@@ -3075,7 +3102,8 @@
       "index_section_banner_parallax_zCiq34",
       "1565228193098",
       "1567149610381",
-      "1565227149298"
+      "1565227149298",
+      "index_section_products_Ex3Hea"
     ]
   }
 }
