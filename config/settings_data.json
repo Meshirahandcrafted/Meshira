@@ -2827,6 +2827,7 @@
           "1565227149298-0",
           "1565227149298-1"
         ],
+        "disabled": true,
         "settings": {
           "fullwidth": false,
           "padding": "0px 0px 0px 0px",
@@ -2947,6 +2948,7 @@
         "block_order": [
           "1565228193098-2"
         ],
+        "disabled": true,
         "settings": {
           "fullwidth": false,
           "padding": "0px 0px 0px 0px",
@@ -3026,6 +3028,7 @@
           "1567149610381-1",
           "1567149610381-2"
         ],
+        "disabled": true,
         "settings": {
           "fullwidth": false,
           "padding": "0px 0px 0px 0px",
@@ -3038,13 +3041,38 @@
           "text2": "CLOTHING BRANDS",
           "order": true
         }
+      },
+      "index_section_banner_parallax_zCiq34": {
+        "type": "index-section-banner-parallax",
+        "settings": {
+          "padding": "380px 0",
+          "margin": "0px 0px 0px 0px",
+          "padding_mobi": "180px 0",
+          "margin_mobi": "0px 0px 0px 0px",
+          "position": "left",
+          "sub_heading": "LOOKBOOK SS 2019",
+          "heading": "Basic instinct",
+          "text_button": "Shop Now",
+          "url_link": "",
+          "color_sub_heading": "#fff",
+          "color_heading": "#fff",
+          "color_text_button": "#fff",
+          "color_border_button": "#fff",
+          "color_bg_button": "#fff",
+          "background_alpha": "0.75",
+          "color_text_button_hv": "#fff",
+          "color_border_button_hv": "#fff",
+          "color_bg_button_hv": "#fff",
+          "background_alpha_2": "0.75"
+        }
       }
     },
     "content_for_index": [
       "1565227164670",
       "1565228193098",
       "1567149610381",
-      "1565227149298"
+      "1565227149298",
+      "index_section_banner_parallax_zCiq34"
     ]
   }
 }
