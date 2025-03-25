@@ -3090,7 +3090,7 @@
           "limit": "4",
           "items": "3",
           "default_carousel": true,
-          "toshow": "3",
+          "toshow": "4",
           "step": "2",
           "module_autoplay": true,
           "delay_time": "5000"
