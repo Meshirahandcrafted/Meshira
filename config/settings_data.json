@@ -3078,7 +3078,7 @@
           "margin": "0px 0px 0px 0px",
           "padding_mobi": "0px 0px 0px 0px",
           "margin_mobi": "0px 0px 0px 0px",
-          "effect": "none",
+          "effect": "zoom-in",
           "show_title": true,
           "text1": "OUR COLLECTIONS",
           "text2": "SUMMER 2019",
