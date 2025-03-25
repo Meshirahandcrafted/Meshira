@@ -2910,6 +2910,7 @@
           "1565227164670-1",
           "1565227164670-2"
         ],
+        "disabled": true,
         "settings": {
           "fullwidth": true,
           "padding": "30px 0px 0px 0px",
@@ -3050,6 +3051,7 @@
           "margin": "0px 0px 0px 0px",
           "padding_mobi": "180px 0",
           "margin_mobi": "0px 0px 0px 0px",
+          "bg_image": "shopify://shop_images/image-11.png",
           "position": "left",
           "sub_heading": "LOOKBOOK SS 2019",
           "heading": "Basic instinct",
