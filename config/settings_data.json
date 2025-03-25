@@ -901,7 +901,6 @@
         "blocks": {
           "1523361758164": {
             "type": "infobar",
-            "disabled": true,
             "settings": {
               "show_content": false,
               "show_content_index": false,
@@ -2869,9 +2868,9 @@
               "link": "",
               "image": "shopify://shop_images/image-11.png",
               "padding_box": "39px 50px 50px 50px",
-              "option_box": "topright",
+              "option_box": "topleft",
               "effect_box": "effect_bottom",
-              "style_box": "style_4",
+              "style_box": "style_1",
               "title": "Jeans",
               "text": "Lorem ipsum dolor sit amet, eiusmod tempor  <br>incididunt ut labor",
               "show_button": false,
