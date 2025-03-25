@@ -3092,7 +3092,7 @@
           "default_carousel": true,
           "toshow": "3",
           "step": "2",
-          "module_autoplay": false,
+          "module_autoplay": true,
           "delay_time": "5000"
         }
       }
