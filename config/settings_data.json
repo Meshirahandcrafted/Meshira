@@ -3088,7 +3088,7 @@
           "button_text": "SHOW ALL",
           "collection": "",
           "limit": "4",
-          "items": "4",
+          "items": "3",
           "default_carousel": true,
           "toshow": "3",
           "step": "2",
