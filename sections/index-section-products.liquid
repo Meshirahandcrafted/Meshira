@@ -27,38 +27,8 @@
           {%- endfor -%}
         {% else %}
           {% for i in (1..section.settings.limit) %}
-            <div class="columns">
-              <div class="sp-product product-parent options-js thumbprod-center">
-                <div class="sp-image-box">
-                  <a href="">
-                    <span class="sp-img">
-                      <img src="{{ 'bg.jpg' | asset_img_url: '600x600', crop: 'center' }}" class="lazyload">
-                    </span>
-                  </a>
-                  <div class="gruop-button">
-                    <a href="#" data-toggle="modal" class="sp-btn-quickview" data-tooltip="Quick View"> </a>
-                    <div class="sp-row-btn btn-cart">
-                      <form method="post" enctype="multipart/form-data">
-                        <button class="sp-btn-addtocart  addtocart-item-js thumbprod-button-bg" data-tooltip="Add to cart"><span class="icon icon-shopping_basket"></span> <span>ADD TO CART</span></button>
-                      </form>
-                    </div>
-                    <a class="btn-cart btn-view-more" data-tooltip="View More">View more</a>
-                    <a class="compare wk-app-btn sp-btn-compare" data-toggle="tooltip" data-tooltip="Compare" data-placement="left" href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a>
-                  </div>
-                </div>
-                <div class="sp-description">
-                  <div class="sp-row">
-                    <div class="sp-rating">
-                      <span class="shopify-product-reviews-badge"></span>
-                    </div>
-                  </div>
-                  <h5 class="sp-title prod-thumb-title-color"><a>Basic Swear Shirt</a></h5>
-                  <div class="sp-price">
-                    <span><span class="money">$660.00 </span></span><span class="old-price hide"></span>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div class="banner-item"><a href=""><img data-src="files/banner15.jpg" data-srcset="//store-bixbang.myshopify.com/cdn/shop/files/banner15_400x.jpg?v=1613613089 360w, //store-bixbang.myshopify.com/cdn/shop/files/banner15_600x.jpg?v=1613613089 540w, //store-bixbang.myshopify.com/cdn/shop/files/banner15_800x.jpg?v=1613613089 720w, //store-bixbang.myshopify.com/cdn/shop/files/banner15_1024x.jpg?v=1613613089 1024w" alt="" class="lazyload" src="files/banner15.jpg" srcset="//store-bixbang.myshopify.com/cdn/shop/files/banner15_400x.jpg?v=1613613089 360w, //store-bixbang.myshopify.com/cdn/shop/files/banner15_600x.jpg?v=1613613089 540w, //store-bixbang.myshopify.com/cdn/shop/files/banner15_800x.jpg?v=1613613089 720w, //store-bixbang.myshopify.com/cdn/shop/files/banner15_1024x.jpg?v=1613613089 1024w"></a><div class="banner-content bottomright effect_top style_2" style="padding: 50px"><a href=""><p class="title-1" style="color: #ffffff">Stylish Eternal</p></a><a href="" class="btn-banner btn ">EXPLORE NOW</a></div>
+    </div>
           {% endfor %}
         {% endif %}
       </div>
