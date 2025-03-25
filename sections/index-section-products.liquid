@@ -3,92 +3,50 @@
 {%- assign name_collection = item.collection -%}
 {%- assign collection = collections[name_collection] -%}
 {%- assign length = item.limit | plus: 0 -%}
-<section data-aos="{{ section.settings.effect }}" id="section-{{ section.id }}" class="section-products">
-  <div class="container-indent">
-    <div class="container-fluid{% if item.fullwidth %}-fullwidth{% endif %} container-fluid-custom-mobile-padding" data-sectionname="index_sectionproducts">
-      {%- if item.show_title -%}<div class="sp-block-title">
-        <h2 class="sp-title">
-          {%- if item.use_title_as_link -%}<a href="/collections/{{ collection.handle }}" class="title-hover-underline" title="{{ item.button_text }}">{{ item.text1 }}</a>
-          {%- else -%}{{ item.text1 }}
-          {%- endif -%}
-        </h2>
-        {% unless item.text2 == '' %}<div class="sp-description">{{ item.text2 }}</div>{% endunless %}
-        {% unless item.default_carousel %}{% unless item.text3 == '' %}<p>{{ item.text3 }}</p>{% endunless %}{% endunless %}
-      </div>{%- endif -%}
-
-      {%- if item.default_carousel -%}
-      {%- assign slider_mode = true -%}
-      <div class="sp-carousel-products-js row arrow-location-tab sp-alignment-img sp-layout-product-item slick-animated-show-js" data-slick='{"slidesToShow": {{ item.toshow }}, "slidesToScroll": {{ item.step }}, "autoplay": {{ item.module_autoplay }}, "autoplaySpeed": {{ item.delay_time }}}'>
-        {% if name_collection != blank and collection.products.size > 1 %}
-          {%- for product in collection.products limit: length -%}
-            <div class="col-xs-12 col-lg-12">
-              {%- include "product-grid-item" -%}
-            </div>
-          {%- endfor -%}
-        {% else %}
-          {% for i in (1..section.settings.limit) %}
-            <div class="banner-item"><a href=""><img data-src="files/banner15.jpg" data-srcset="//store-bixbang.myshopify.com/cdn/shop/files/banner15_400x.jpg?v=1613613089 360w, //store-bixbang.myshopify.com/cdn/shop/files/banner15_600x.jpg?v=1613613089 540w, //store-bixbang.myshopify.com/cdn/shop/files/banner15_800x.jpg?v=1613613089 720w, //store-bixbang.myshopify.com/cdn/shop/files/banner15_1024x.jpg?v=1613613089 1024w" alt="" class="lazyload" src="files/banner15.jpg" srcset="//store-bixbang.myshopify.com/cdn/shop/files/banner15_400x.jpg?v=1613613089 360w, //store-bixbang.myshopify.com/cdn/shop/files/banner15_600x.jpg?v=1613613089 540w, //store-bixbang.myshopify.com/cdn/shop/files/banner15_800x.jpg?v=1613613089 720w, //store-bixbang.myshopify.com/cdn/shop/files/banner15_1024x.jpg?v=1613613089 1024w"></a><div class="banner-content bottomright effect_top style_2" style="padding: 50px"><a href=""><p class="title-1" style="color: #ffffff">Stylish Eternal</p></a><a href="" class="btn-banner btn ">EXPLORE NOW</a></div>
+<div id="shopify-section-1565086074531" class="shopify-section"><section id="section-1565086074531" data-aos="fade-up" class="aos-init aos-animate">
+  <div class="container-fluid"><div class="row">
+              
+              
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"> <div class="wrapper">
+  <a href="">
+    </a><div class="banner-item"><a href=""><img data-src="files/banner15.jpg" data-srcset="//store-bixbang.myshopify.com/cdn/shop/files/banner15_400x.jpg?v=1613613089 360w, //store-bixbang.myshopify.com/cdn/shop/files/banner15_600x.jpg?v=1613613089 540w, //store-bixbang.myshopify.com/cdn/shop/files/banner15_800x.jpg?v=1613613089 720w, //store-bixbang.myshopify.com/cdn/shop/files/banner15_1024x.jpg?v=1613613089 1024w" alt="" class="lazyload" src="files/banner15.jpg" srcset="//store-bixbang.myshopify.com/cdn/shop/files/banner15_400x.jpg?v=1613613089 360w, //store-bixbang.myshopify.com/cdn/shop/files/banner15_600x.jpg?v=1613613089 540w, //store-bixbang.myshopify.com/cdn/shop/files/banner15_800x.jpg?v=1613613089 720w, //store-bixbang.myshopify.com/cdn/shop/files/banner15_1024x.jpg?v=1613613089 1024w"></a><div class="banner-content bottomright effect_top style_2" style="padding: 50px"><a href=""><p class="title-1" style="color: #ffffff">Stylish Eternal</p></a><a href="" class="btn-banner btn ">EXPLORE NOW</a></div>
     </div>
-          {% endfor %}
-        {% endif %}
-      </div>
-      {%- else -%}
-      <div class="row sp-layout-product-item">
-        {% if name_collection != blank and collection.products.size > 1 %}
-          {%- for product in collection.products limit: length -%}
-          <div class="col-sm-6 col-xs-12 col-md-4 col-lg-{{ grid }}">
-            {%- include "product-grid-item" -%}
-          </div>
-          {%- endfor -%}
-        {% else %}
-          {% for i in (1..section.settings.limit) %}
-            <div class="col-sm-6 col-xs-12 col-md-4 col-lg-{{ grid }}">
-              <div class="sp-product product-parent options-js thumbprod-center">
-                <div class="sp-image-box">
-                  <a href="">
-                    <span class="sp-img">
-                      <img src="{{ 'bg.jpg' | asset_img_url: '600x600', crop: 'center' }}" class="lazyload">
-                    </span>
-                  </a>
-                  <div class="gruop-button">
-                    <a href="#" data-toggle="modal" class="sp-btn-quickview" data-tooltip="Quick View"> </a>
-                    <div class="sp-row-btn btn-cart">
-                      <form action="/cart/add" method="post" enctype="multipart/form-data">
-                        <input type="hidden" name="id" value="17697232060506">
-                        <button class="sp-btn-addtocart  addtocart-item-js thumbprod-button-bg" data-tooltip="Add to cart"><span class="icon icon-shopping_basket"></span> <span>ADD TO CART</span></button>
-                      </form>
-                    </div>
-                    <a class="btn-cart btn-view-more" data-tooltip="View More">View more</a>
-                    <a class="compare wk-app-btn sp-btn-compare" data-toggle="tooltip" data-tooltip="Compare" data-placement="left" href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a>
-                  </div>
-                </div>
-                <div class="sp-description">
-                  <div class="sp-row">
-                    <div class="sp-rating">
-                      <span class="shopify-product-reviews-badge"></span>
-                    </div>
-                  </div>
-                  <h5 class="sp-title prod-thumb-title-color"><a>Basic Swear Shirt</a></h5>
-                  <div class="sp-price">
-                    <span><span class="money">$660.00 </span></span><span class="old-price hide"></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          {% endfor %}
-        {% endif %}
-      </div>
-      {%- endif -%}
-      
-      {%- if item.show_button -%}
-      <div class="text-center">
-        <a href="/collections/{{ collection.handle }}" class="btn btn-border btn-top">{{ item.button_text }}</a>
-      </div>
-      {%- endif -%}
-
+  
+</div></div>
+              
+              
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"> <div class="wrapper">
+  <a href="">
+    </a><div class="banner-item"><a href=""><img data-src="files/banner16.jpg" data-srcset="//store-bixbang.myshopify.com/cdn/shop/files/banner16_400x.jpg?v=1613613089 360w, //store-bixbang.myshopify.com/cdn/shop/files/banner16_600x.jpg?v=1613613089 540w, //store-bixbang.myshopify.com/cdn/shop/files/banner16_800x.jpg?v=1613613089 720w, //store-bixbang.myshopify.com/cdn/shop/files/banner16_1024x.jpg?v=1613613089 1024w" alt="" class="lazyload" src="files/banner16.jpg" srcset="//store-bixbang.myshopify.com/cdn/shop/files/banner16_400x.jpg?v=1613613089 360w, //store-bixbang.myshopify.com/cdn/shop/files/banner16_600x.jpg?v=1613613089 540w, //store-bixbang.myshopify.com/cdn/shop/files/banner16_800x.jpg?v=1613613089 720w, //store-bixbang.myshopify.com/cdn/shop/files/banner16_1024x.jpg?v=1613613089 1024w"></a><div class="banner-content bottomcenter effect_top style_2" style="padding: 50px"><a href=""><p class="title-1" style="color: #ffffff">In Time</p></a><a href="" class="btn-banner btn ">EXPLORE NOW</a></div>
     </div>
-  </div>
+  
+</div></div>
+              
+              
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"> <div class="wrapper">
+  <a href="">
+    </a><div class="banner-item"><a href=""><img data-src="files/banner17.jpg" data-srcset="//store-bixbang.myshopify.com/cdn/shop/files/banner17_400x.jpg?v=1613613089 360w, //store-bixbang.myshopify.com/cdn/shop/files/banner17_600x.jpg?v=1613613089 540w, //store-bixbang.myshopify.com/cdn/shop/files/banner17_800x.jpg?v=1613613089 720w, //store-bixbang.myshopify.com/cdn/shop/files/banner17_1024x.jpg?v=1613613089 1024w" alt="" class="lazyload" src="files/banner17.jpg" srcset="//store-bixbang.myshopify.com/cdn/shop/files/banner17_400x.jpg?v=1613613089 360w, //store-bixbang.myshopify.com/cdn/shop/files/banner17_600x.jpg?v=1613613089 540w, //store-bixbang.myshopify.com/cdn/shop/files/banner17_800x.jpg?v=1613613089 720w, //store-bixbang.myshopify.com/cdn/shop/files/banner17_1024x.jpg?v=1613613089 1024w"></a><div class="banner-content bottomleft effect_top style_2" style="padding: 50px"><a href=""><p class="title-1" style="color: #ffffff">New Model</p></a><a href="" class="btn-banner btn ">EXPLORE NOW</a></div>
+    </div>
+  
+<div style="clear:both"></div></div></div>
+              
+
+            </div></div>
 </section>
+<style type="text/css">
+  #section-1565086074531{
+    padding:50px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+  }
+
+  @media (max-width: 1024px){
+    #section-1565086074531{
+      padding:50px 0px 0px 0px;
+      margin:0px 0px 0px 0px;
+    }
+  }
+</style>
+</div>
 <style type="text/css">
   #section-{{ section.id }}{
     padding:{{ section.settings.padding }};
