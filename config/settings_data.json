@@ -2831,6 +2831,7 @@
           "1565086074531-0": {
             "type": "items",
             "settings": {
+              "image": "shopify://shop_images/banner17_1024x_9f4c3ed1-615e-456a-a83b-553effef06e2.png",
               "link": "",
               "padding_box": "50px",
               "option_box": "bottomright",
@@ -2848,6 +2849,7 @@
           "1565086074531-1": {
             "type": "items",
             "settings": {
+              "image": "shopify://shop_images/banner18_1024x_251c8b80-501e-450f-835b-d9c4f3bc38e9.png",
               "link": "",
               "padding_box": "50px",
               "option_box": "bottomcenter",
@@ -2865,6 +2867,7 @@
           "1565086074531-2": {
             "type": "items",
             "settings": {
+              "image": "shopify://shop_images/banner19_1024x_36f7edff-29d0-4caa-9b1b-6d6daa7695fe.png",
               "link": "",
               "padding_box": "50px",
               "option_box": "bottomleft",
