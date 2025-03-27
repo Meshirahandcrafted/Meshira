@@ -12,7 +12,7 @@
     "show_preloader": true,
     "use_boxed": false,
     "use_favicon": true,
-    "show_width_container": false,
+    "show_width_container": true,
     "width_container": "1483",
     "big_roundness": 6,
     "ajax_addtocart": true,
