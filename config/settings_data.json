@@ -3200,6 +3200,109 @@
           "text2": "",
           "order": false
         }
+      },
+      "index_section_lookbook_9axrLB": {
+        "type": "index-section-lookbook",
+        "blocks": {
+          "item_8CxD6j": {
+            "type": "item",
+            "settings": {
+              "positiontop_1": "9",
+              "positionleft_1": "63",
+              "product_1": "",
+              "positiontop_2": "26",
+              "positionleft_2": "50",
+              "product_2": "",
+              "positiontop_3": "61",
+              "positionleft_3": "48",
+              "product_3": "",
+              "positiontop_4": "0",
+              "positionleft_4": "0",
+              "product_4": "",
+              "positiontop_5": "20",
+              "positionleft_5": "0",
+              "product_5": ""
+            }
+          },
+          "item_dAzHNc": {
+            "type": "item",
+            "settings": {
+              "positiontop_1": "9",
+              "positionleft_1": "63",
+              "product_1": "",
+              "positiontop_2": "26",
+              "positionleft_2": "50",
+              "product_2": "",
+              "positiontop_3": "61",
+              "positionleft_3": "48",
+              "product_3": "",
+              "positiontop_4": "0",
+              "positionleft_4": "0",
+              "product_4": "",
+              "positiontop_5": "20",
+              "positionleft_5": "0",
+              "product_5": ""
+            }
+          },
+          "item_ePyxg4": {
+            "type": "item",
+            "settings": {
+              "positiontop_1": "9",
+              "positionleft_1": "63",
+              "product_1": "",
+              "positiontop_2": "26",
+              "positionleft_2": "50",
+              "product_2": "",
+              "positiontop_3": "61",
+              "positionleft_3": "48",
+              "product_3": "",
+              "positiontop_4": "0",
+              "positionleft_4": "0",
+              "product_4": "",
+              "positiontop_5": "20",
+              "positionleft_5": "0",
+              "product_5": ""
+            }
+          },
+          "item_Xc4Uie": {
+            "type": "item",
+            "settings": {
+              "positiontop_1": "9",
+              "positionleft_1": "63",
+              "product_1": "",
+              "positiontop_2": "26",
+              "positionleft_2": "50",
+              "product_2": "",
+              "positiontop_3": "61",
+              "positionleft_3": "48",
+              "product_3": "",
+              "positiontop_4": "0",
+              "positionleft_4": "0",
+              "product_4": "",
+              "positiontop_5": "20",
+              "positionleft_5": "0",
+              "product_5": ""
+            }
+          }
+        },
+        "block_order": [
+          "item_8CxD6j",
+          "item_dAzHNc",
+          "item_ePyxg4",
+          "item_Xc4Uie"
+        ],
+        "settings": {
+          "fullwidth": true,
+          "show_title": true,
+          "fullwidthpaddings": false,
+          "text1": "DISPLAY YOUR LOOKBOOK",
+          "text2": "AS GRID + SLIDER",
+          "text3": "",
+          "toshow": "3",
+          "step": "3",
+          "module_autoplay": false,
+          "delay_time": "7000"
+        }
       }
     },
     "content_for_index": [
@@ -3211,7 +3314,8 @@
       "1565087151591",
       "1565086253684",
       "1565140049173",
-      "index_section_banner_XfmKTX"
+      "index_section_banner_XfmKTX",
+      "index_section_lookbook_9axrLB"
     ]
   }
 }
