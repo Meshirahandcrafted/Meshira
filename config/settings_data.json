@@ -3002,6 +3002,7 @@
       },
       "1565087151591": {
         "type": "index-section-product-image",
+        "disabled": true,
         "settings": {
           "fullwidth": false,
           "padding": "0px 0px 0px 0px",
@@ -3302,6 +3303,30 @@
           "module_autoplay": true,
           "delay_time": "5000"
         }
+      },
+      "index_section_products_electronic_bdgW4y": {
+        "type": "index-section-products-electronic",
+        "settings": {
+          "fullwidth": false,
+          "padding": "0px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "padding_mobi": "0px 0px 0px 0px",
+          "margin_mobi": "0px 0px 0px 0px",
+          "effect": "none",
+          "show_title": true,
+          "text1": "OUR COLLECTIONS",
+          "use_title_as_link": true,
+          "show_button": false,
+          "button_text": "SHOW ALL",
+          "collection": "",
+          "limit": "8",
+          "items": "3",
+          "default_carousel": false,
+          "toshow": "3",
+          "step": "2",
+          "module_autoplay": false,
+          "delay_time": "7000"
+        }
       }
     },
     "content_for_index": [
@@ -3314,7 +3339,8 @@
       "1565086253684",
       "1565140049173",
       "index_section_banner_XfmKTX",
-      "index_section_lookbook_9axrLB"
+      "index_section_lookbook_9axrLB",
+      "index_section_products_electronic_bdgW4y"
     ]
   }
 }
