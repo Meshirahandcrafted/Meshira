@@ -14,7 +14,7 @@
     "use_favicon": true,
     "show_width_container": false,
     "width_container": "1483",
-    "big_roundness": 0,
+    "big_roundness": 6,
     "ajax_addtocart": true,
     "addtocart_scroll": false,
     "product_item_show_cart": true,
@@ -80,7 +80,7 @@
     "bg_hearder_search": "#f4f4f4",
     "cat_slogan_text": "#2c2c2c",
     "cat_slogan_icon": "#303030",
-    "color_header_icons": "#303030",
+    "color_header_icons": "#ffffff",
     "color_header_icons_hover": "#c71932",
     "color_header_icons_dp": "#ffffff",
     "color_header_icons_cart_dp": "#777",
@@ -104,6 +104,7 @@
     "color_header_menu_hover_page": "#c71932",
     "color_header_icons_page": "#191919",
     "color_header_icons_hover_page": "#c71932",
+    "home_breadcrumbs": "Meshira",
     "show_breadcrumbs": true,
     "image_breadcrubs": "",
     "bg_breadcrubs": "#ffffff",
@@ -139,7 +140,7 @@
     "def_text_wchv": "#ffffff",
     "def_border_wchv": "#303030",
     "def_bg_wchv": "#303030",
-    "header_design": "header_style_2",
+    "header_design": "header_type_1",
     "use_scale_product_image": false,
     "notsamewidth": false,
     "product_scale_height": "200",
@@ -217,7 +218,7 @@
     "collectionstab_title": "COLLECTIONS",
     "collectionstab_links": "menu-01",
     "show_collectionsbanner": false,
-    "collectionsbannerurl": "shopify:\/\/products\/bixbang-theme",
+    "collectionsbannerurl": "shopify://products/bixbang-theme",
     "collectionsbannertitle": "",
     "collectionsbannerdesc": "",
     "product_colors": "coat: #ff0000,\nyellow: #ffff00,\nblack: #000000,\nblue: #0000FF,\ngreen: #00ff00,\npurple: #800080,\nsilver: #c0c0c0,\nwhite: #ffffff,\nbrown: #7B3F00,\nlight-brown: #feb035,\ndark-turquoise: #23cddc,\norange: #fe9001,\ntan: #eacea7,\nviolet: #EE82EE,\npink: #FFC0CB,\ngrey: #808080,\nred: #ff0000,\nlight blue: #add8e6",
@@ -232,7 +233,7 @@
     "nws_modal_text_color": "#303030",
     "nws_modal_notshowmsg_color": "#777777",
     "popup_newsletter_image_show": true,
-    "popup_newsletter_image": "shopify:\/\/shop_images\/newsletter-popup-img.jpg",
+    "popup_newsletter_image": "shopify://shop_images/newsletter-popup-img.jpg",
     "popup_newsletter_image_fullwidth": false,
     "popup_newsletter_content_center": false,
     "popup_newsletter_title": "SUBSCRIBE NOW",
@@ -283,7 +284,7 @@
     "color_header_mobile_search_btnsearch": "#303030",
     "color_header_mobile_search_text": "#777777",
     "catalogue_mode": false,
-    "google_font_links": "<link href=\"https:\/\/fonts.googleapis.com\/css?family=Beth+Ellen%7CRed+Hat+Display&display=swap\" rel=\"stylesheet\">",
+    "google_font_links": "<link href=\"https://fonts.googleapis.com/css?family=Beth+Ellen%7CRed+Hat+Display&display=swap\" rel=\"stylesheet\">",
     "google_font_styles": "font-family: 'Beth Ellen', cursive;",
     "color_linemobile": "#e9e7e7",
     "color_subscribe": "#fff",
@@ -475,7 +476,7 @@
     "show_addtocart_popup_related": false,
     "show_emptyreview": true,
     "use_countdown_timezone": "false",
-    "countdown_timezone": "US\/Arizona",
+    "countdown_timezone": "US/Arizona",
     "use_rtl": false,
     "def_product_countdown": "rgba(255,255,255,0.9)",
     "def_product_countdown_opacity": "90",
@@ -641,7 +642,7 @@
       "404-template": {
         "type": "404-template",
         "settings": {
-          "image": "shopify:\/\/shop_images\/logo.png",
+          "image": "shopify://shop_images/logo.png",
           "bg_color": "#edeae5",
           "heading": "Error 404",
           "title": "Oops, this page can't be found",
@@ -719,7 +720,7 @@
             "type": "tab_same_html",
             "settings": {
               "title": "additional information",
-              "html": "<table class=\"sp-table-03\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Color:<\/td>\n\t\t\t<td>Blue, Purple, White<\/td>\n\t\t<\/tr>\n\t\t<tr>\n\t\t\t<td>Size:<\/td>\n\t\t\t<td>20, 24<\/td>\n\t\t<\/tr>\n\t\t<tr>\n\t\t\t<td>Material:<\/td>\n\t\t\t<td>100% Polyester<\/td>\n\t\t<\/tr>\n\t<\/tbody>\n<\/table>",
+              "html": "<table class=\"sp-table-03\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Color:</td>\n\t\t\t<td>Blue, Purple, White</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Size:</td>\n\t\t\t<td>20, 24</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Material:</td>\n\t\t\t<td>100% Polyester</td>\n\t\t</tr>\n\t</tbody>\n</table>",
               "open_tab_by_default": false
             }
           },
@@ -763,7 +764,7 @@
           "show_sku": false,
           "show_qiantity": false,
           "show_trust_badge": false,
-          "image_l": "shopify:\/\/shop_images\/For_des.png",
+          "image_l": "shopify://shop_images/For_des.png",
           "image_max_width": "541",
           "image_lm": "",
           "image_max_width_m": "541",
@@ -782,14 +783,14 @@
           "share_facebook": true,
           "share_twitter": true,
           "show_sizechart": true,
-          "btnname": "<span class=\"icon-f-09\"><\/span> Size guide",
-          "popupcontent": "<h6 class=\"sp-title\">SIZE GUIDE<\/h6>\nThis is an approximate conversion table to help you find your size.\n<div class=\"sp-table-responsive-md\">\n\t<table class=\"sp-table-modal-info\">\n\t\t<thead>\n\t\t\t<tr>\n\t\t\t\t<th>Italian<\/th>\n\t\t\t\t<th>Spanish<\/th>\n\t\t\t\t<th>German<\/th>\n\t\t\t\t<th>UK<\/th>\n\t\t\t\t<th>US<\/th>\n\t\t\t\t<th>Japanese<\/th>\n\t\t\t\t<th>Chinese<\/th>\n\t\t\t\t<th>Russian<\/th>\n\t\t\t\t<th>Korean<\/th>\n\t\t\t<\/tr>\n\t\t<\/thead>\n\t\t<tbody>\n\t\t\t<tr>\n\t\t\t\t<td>34<\/td>\n\t\t\t\t<td>30<\/td>\n\t\t\t\t<td>28<\/td>\n\t\t\t\t<td>4<\/td>\n\t\t\t\t<td>00<\/td>\n\t\t\t\t<td>3<\/td>\n\t\t\t\t<td>155\/75A<\/td>\n\t\t\t\t<td>36<\/td>\n\t\t\t\t<td>44<\/td>\n\t\t\t<\/tr>\n\t\t\t<tr>\n\t\t\t\t<td>36<\/td>\n\t\t\t\t<td>32<\/td>\n\t\t\t\t<td>30<\/td>\n\t\t\t\t<td>6<\/td>\n\t\t\t\t<td>0<\/td>\n\t\t\t\t<td>5<\/td>\n\t\t\t\t<td>155\/80A<\/td>\n\t\t\t\t<td>38<\/td>\n\t\t\t\t<td>44<\/td>\n\t\t\t<\/tr>\n\t\t\t<tr>\n\t\t\t\t<td>38<\/td>\n\t\t\t\t<td>34<\/td>\n\t\t\t\t<td>32<\/td>\n\t\t\t\t<td>8<\/td>\n\t\t\t\t<td>2<\/td>\n\t\t\t\t<td>7<\/td>\n\t\t\t\t<td>160\/84A<\/td>\n\t\t\t\t<td>40<\/td>\n\t\t\t\t<td>55<\/td>\n\t\t\t<\/tr>\n\t\t\t<tr>\n\t\t\t\t<td>40<\/td>\n\t\t\t\t<td>36<\/td>\n\t\t\t\t<td>34<\/td>\n\t\t\t\t<td>10<\/td>\n\t\t\t\t<td>4<\/td>\n\t\t\t\t<td>9<\/td>\n\t\t\t\t<td>165\/88A<\/td>\n\t\t\t\t<td>42<\/td>\n\t\t\t\t<td>55<\/td>\n\t\t\t<\/tr>\n\t\t\t<tr>\n\t\t\t\t<td>42<\/td>\n\t\t\t\t<td>38<\/td>\n\t\t\t\t<td>36<\/td>\n\t\t\t\t<td>12<\/td>\n\t\t\t\t<td>6<\/td>\n\t\t\t\t<td>11<\/td>\n\t\t\t\t<td>170\/92A<\/td>\n\t\t\t\t<td>44<\/td>\n\t\t\t\t<td>66<\/td>\n\t\t\t<\/tr>\n\t\t\t<tr>\n\t\t\t\t<td>44<\/td>\n\t\t\t\t<td>40<\/td>\n\t\t\t\t<td>38<\/td>\n\t\t\t\t<td>14<\/td>\n\t\t\t\t<td>8<\/td>\n\t\t\t\t<td>13<\/td>\n\t\t\t\t<td>175\/96A<\/td>\n\t\t\t\t<td>46<\/td>\n\t\t\t\t<td>66<\/td>\n\t\t\t<\/tr>\n\t\t\t<tr>\n\t\t\t\t<td>46<\/td>\n\t\t\t\t<td>42<\/td>\n\t\t\t\t<td>40<\/td>\n\t\t\t\t<td>16<\/td>\n\t\t\t\t<td>10<\/td>\n\t\t\t\t<td>15<\/td>\n\t\t\t\t<td>170\/98A<\/td>\n\t\t\t\t<td>48<\/td>\n\t\t\t\t<td>77<\/td>\n\t\t\t<\/tr>\n\t\t\t<tr>\n\t\t\t\t<td>48<\/td>\n\t\t\t\t<td>44<\/td>\n\t\t\t\t<td>42<\/td>\n\t\t\t\t<td>18<\/td>\n\t\t\t\t<td>12<\/td>\n\t\t\t\t<td>17<\/td>\n\t\t\t\t<td>170\/100B<\/td>\n\t\t\t\t<td>50<\/td>\n\t\t\t\t<td>77<\/td>\n\t\t\t<\/tr>\n\t\t\t<tr>\n\t\t\t\t<td>50<\/td>\n\t\t\t\t<td>46<\/td>\n\t\t\t\t<td>44<\/td>\n\t\t\t\t<td>20<\/td>\n\t\t\t\t<td>14<\/td>\n\t\t\t\t<td>19<\/td>\n\t\t\t\t<td>175\/100B<\/td>\n\t\t\t\t<td>52<\/td>\n\t\t\t\t<td>88<\/td>\n\t\t\t<\/tr>\n\t\t\t<tr>\n\t\t\t\t<td>52<\/td>\n\t\t\t\t<td>48<\/td>\n\t\t\t\t<td>46<\/td>\n\t\t\t\t<td>22<\/td>\n\t\t\t\t<td>16<\/td>\n\t\t\t\t<td>21<\/td>\n\t\t\t\t<td>180\/104B<\/td>\n\t\t\t\t<td>54<\/td>\n\t\t\t\t<td>88<\/td>\n\t\t\t<\/tr>\n\t\t<\/tbody>\n\t<\/table>\n<\/div>",
+          "btnname": "<span class=\"icon-f-09\"></span> Size guide",
+          "popupcontent": "<h6 class=\"sp-title\">SIZE GUIDE</h6>\nThis is an approximate conversion table to help you find your size.\n<div class=\"sp-table-responsive-md\">\n\t<table class=\"sp-table-modal-info\">\n\t\t<thead>\n\t\t\t<tr>\n\t\t\t\t<th>Italian</th>\n\t\t\t\t<th>Spanish</th>\n\t\t\t\t<th>German</th>\n\t\t\t\t<th>UK</th>\n\t\t\t\t<th>US</th>\n\t\t\t\t<th>Japanese</th>\n\t\t\t\t<th>Chinese</th>\n\t\t\t\t<th>Russian</th>\n\t\t\t\t<th>Korean</th>\n\t\t\t</tr>\n\t\t</thead>\n\t\t<tbody>\n\t\t\t<tr>\n\t\t\t\t<td>34</td>\n\t\t\t\t<td>30</td>\n\t\t\t\t<td>28</td>\n\t\t\t\t<td>4</td>\n\t\t\t\t<td>00</td>\n\t\t\t\t<td>3</td>\n\t\t\t\t<td>155/75A</td>\n\t\t\t\t<td>36</td>\n\t\t\t\t<td>44</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td>36</td>\n\t\t\t\t<td>32</td>\n\t\t\t\t<td>30</td>\n\t\t\t\t<td>6</td>\n\t\t\t\t<td>0</td>\n\t\t\t\t<td>5</td>\n\t\t\t\t<td>155/80A</td>\n\t\t\t\t<td>38</td>\n\t\t\t\t<td>44</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td>38</td>\n\t\t\t\t<td>34</td>\n\t\t\t\t<td>32</td>\n\t\t\t\t<td>8</td>\n\t\t\t\t<td>2</td>\n\t\t\t\t<td>7</td>\n\t\t\t\t<td>160/84A</td>\n\t\t\t\t<td>40</td>\n\t\t\t\t<td>55</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td>40</td>\n\t\t\t\t<td>36</td>\n\t\t\t\t<td>34</td>\n\t\t\t\t<td>10</td>\n\t\t\t\t<td>4</td>\n\t\t\t\t<td>9</td>\n\t\t\t\t<td>165/88A</td>\n\t\t\t\t<td>42</td>\n\t\t\t\t<td>55</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td>42</td>\n\t\t\t\t<td>38</td>\n\t\t\t\t<td>36</td>\n\t\t\t\t<td>12</td>\n\t\t\t\t<td>6</td>\n\t\t\t\t<td>11</td>\n\t\t\t\t<td>170/92A</td>\n\t\t\t\t<td>44</td>\n\t\t\t\t<td>66</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td>44</td>\n\t\t\t\t<td>40</td>\n\t\t\t\t<td>38</td>\n\t\t\t\t<td>14</td>\n\t\t\t\t<td>8</td>\n\t\t\t\t<td>13</td>\n\t\t\t\t<td>175/96A</td>\n\t\t\t\t<td>46</td>\n\t\t\t\t<td>66</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td>46</td>\n\t\t\t\t<td>42</td>\n\t\t\t\t<td>40</td>\n\t\t\t\t<td>16</td>\n\t\t\t\t<td>10</td>\n\t\t\t\t<td>15</td>\n\t\t\t\t<td>170/98A</td>\n\t\t\t\t<td>48</td>\n\t\t\t\t<td>77</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td>48</td>\n\t\t\t\t<td>44</td>\n\t\t\t\t<td>42</td>\n\t\t\t\t<td>18</td>\n\t\t\t\t<td>12</td>\n\t\t\t\t<td>17</td>\n\t\t\t\t<td>170/100B</td>\n\t\t\t\t<td>50</td>\n\t\t\t\t<td>77</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td>50</td>\n\t\t\t\t<td>46</td>\n\t\t\t\t<td>44</td>\n\t\t\t\t<td>20</td>\n\t\t\t\t<td>14</td>\n\t\t\t\t<td>19</td>\n\t\t\t\t<td>175/100B</td>\n\t\t\t\t<td>52</td>\n\t\t\t\t<td>88</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td>52</td>\n\t\t\t\t<td>48</td>\n\t\t\t\t<td>46</td>\n\t\t\t\t<td>22</td>\n\t\t\t\t<td>16</td>\n\t\t\t\t<td>21</td>\n\t\t\t\t<td>180/104B</td>\n\t\t\t\t<td>54</td>\n\t\t\t\t<td>88</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div>",
           "show_shipping": true,
-          "btnname2": "<span class=\"icon-f-44\"><\/span> Shipping",
-          "popupcontentshipping": "<h6 class=\"sp-title\">SHIPPING<\/h6>\n<ul>\n\t<li>Complimentary ground shipping within 1 to 7 business days<\/li>\n\t<li>In-store collection available within 1 to 7 business days<\/li>\n\t<li>Next-day and Express delivery options also available<\/li>\n\t<li>Purchases are delivered in an orange box tied with a Bolduc ribbon, with the exception of certain items<\/li>\n\t<li>See the delivery FAQs for details on shipping methods, costs and delivery times<\/li>\n<\/ul>\n<h6 class=\"sp-title\">RETURNS AND EXCHANGES<\/h6>\n<ul>\n\t<li>Easy and complimentary, within 14 days<\/li>\n\t<li>See conditions and procedure in our return FAQs<\/li>\n<\/ul>",
+          "btnname2": "<span class=\"icon-f-44\"></span> Shipping",
+          "popupcontentshipping": "<h6 class=\"sp-title\">SHIPPING</h6>\n<ul>\n\t<li>Complimentary ground shipping within 1 to 7 business days</li>\n\t<li>In-store collection available within 1 to 7 business days</li>\n\t<li>Next-day and Express delivery options also available</li>\n\t<li>Purchases are delivered in an orange box tied with a Bolduc ribbon, with the exception of certain items</li>\n\t<li>See the delivery FAQs for details on shipping methods, costs and delivery times</li>\n</ul>\n<h6 class=\"sp-title\">RETURNS AND EXCHANGES</h6>\n<ul>\n\t<li>Easy and complimentary, within 14 days</li>\n\t<li>See conditions and procedure in our return FAQs</li>\n</ul>",
           "show_message": true,
-          "btnname3": "<span class=\"icon-f-72\"><\/span> Ask about this product",
-          "prpage_tree_col_html": "<div class=\"sp-services-aside\">\n\t<a href=\"#\" class=\"sp-services-block\">\n\t\t<div class=\"sp-col-icon\">\n\t\t\t<i class=\"icon-f-48\"><\/i>\n\t\t<\/div>\n\t\t<div class=\"sp-col-description\">\n\t\t\t<h4 class=\"sp-title\">FREE SHIPPING<\/h4>\n\t\t\t<p>Free shipping on all US order or order above $99<\/p>\n\t\t<\/div>\n\t<\/a>\n\t<a href=\"#\" class=\"sp-services-block\">\n\t\t<div class=\"sp-col-icon\">\n\t\t\t<i class=\"icon-f-35\"><\/i>\n\t\t<\/div>\n\t\t<div class=\"sp-col-description\">\n\t\t\t<h4 class=\"sp-title\">SUPPORT 24\/7<\/h4>\n\t\t\t<p>Contact us 24 hours a day, 7 days a week<\/p>\n\t\t<\/div>\n\t<\/a>\n\t<a href=\"#\" class=\"sp-services-block\">\n\t\t<div class=\"sp-col-icon\">\n\t\t\t<i class=\"icon-e-09\"><\/i>\n\t\t<\/div>\n\t\t<div class=\"sp-col-description\">\n\t\t\t<h4 class=\"sp-title\">30 DAYS RETURN<\/h4>\n\t\t\t<p>Simply return it within 30 days for an exchange.<\/p>\n\t\t<\/div>\n\t<\/a>\n<\/div>",
+          "btnname3": "<span class=\"icon-f-72\"></span> Ask about this product",
+          "prpage_tree_col_html": "<div class=\"sp-services-aside\">\n\t<a href=\"#\" class=\"sp-services-block\">\n\t\t<div class=\"sp-col-icon\">\n\t\t\t<i class=\"icon-f-48\"></i>\n\t\t</div>\n\t\t<div class=\"sp-col-description\">\n\t\t\t<h4 class=\"sp-title\">FREE SHIPPING</h4>\n\t\t\t<p>Free shipping on all US order or order above $99</p>\n\t\t</div>\n\t</a>\n\t<a href=\"#\" class=\"sp-services-block\">\n\t\t<div class=\"sp-col-icon\">\n\t\t\t<i class=\"icon-f-35\"></i>\n\t\t</div>\n\t\t<div class=\"sp-col-description\">\n\t\t\t<h4 class=\"sp-title\">SUPPORT 24/7</h4>\n\t\t\t<p>Contact us 24 hours a day, 7 days a week</p>\n\t\t</div>\n\t</a>\n\t<a href=\"#\" class=\"sp-services-block\">\n\t\t<div class=\"sp-col-icon\">\n\t\t\t<i class=\"icon-e-09\"></i>\n\t\t</div>\n\t\t<div class=\"sp-col-description\">\n\t\t\t<h4 class=\"sp-title\">30 DAYS RETURN</h4>\n\t\t\t<p>Simply return it within 30 days for an exchange.</p>\n\t\t</div>\n\t</a>\n</div>",
           "show_custom_related": true,
           "custom_related_title": "CUSTOM PRODUCTS"
         }
@@ -804,7 +805,7 @@
               "external_link": false,
               "link": "",
               "usecollectionimage": false,
-              "image": "shopify:\/\/shop_images\/banner29s.jpg",
+              "image": "shopify://shop_images/banner29s.jpg",
               "description_size": "big",
               "animation": "use_main_animation",
               "position": "use_main_position",
@@ -824,7 +825,7 @@
               "external_link": false,
               "link": "",
               "usecollectionimage": false,
-              "image": "shopify:\/\/shop_images\/banner28s.jpg",
+              "image": "shopify://shop_images/banner28s.jpg",
               "description_size": "big",
               "animation": "use_main_animation",
               "position": "use_main_position",
@@ -844,7 +845,7 @@
               "external_link": false,
               "link": "",
               "usecollectionimage": false,
-              "image": "shopify:\/\/shop_images\/banner26.jpg",
+              "image": "shopify://shop_images/banner26.jpg",
               "description_size": "big",
               "animation": "use_main_animation",
               "position": "use_main_position",
@@ -864,7 +865,7 @@
               "external_link": false,
               "link": "",
               "usecollectionimage": false,
-              "image": "shopify:\/\/shop_images\/banner25.jpg",
+              "image": "shopify://shop_images/banner25.jpg",
               "description_size": "big",
               "animation": "use_main_animation",
               "position": "use_main_position",
@@ -904,16 +905,15 @@
             "settings": {
               "show_content": false,
               "show_content_index": false,
-              "text": "20% STUDENT DISCOUNT PLUS FREE NEXT DAY DELIVEY, EXCLUDES SALE. <a href=\"#\">DETAILS<\/a>",
-              "background_image": false,
-              "image": "shopify:\/\/shop_images\/logo.png"
+              "text": "20% STUDENT DISCOUNT PLUS FREE NEXT DAY DELIVEY, EXCLUDES SALE. <a href=\"#\">DETAILS</a>",
+              "background_image": false
             }
           },
           "1522754394860": {
             "type": "topbar",
             "settings": {
               "show_content": true,
-              "menu_top": "menu-01"
+              "menu_top": ""
             }
           },
           "1516807368327": {
@@ -928,27 +928,18 @@
             "settings": {
               "newnavigation_item": "Shop",
               "grid": "4",
-              "image1": "",
-              "image2": "",
-              "image3": "",
-              "image4": "",
-              "image5": "",
-              "image6": "",
               "widget": "banner",
               "widgetgallery_title": "SPECIALS",
               "widgetgallery_url": "",
               "collection": "",
               "widgetbanner_url": "",
-              "widgetbanner_img": "shopify:\/\/shop_images\/banner-logo.png",
               "banners_grid": "none",
               "banner1_url": "",
-              "bottombanners_img_1": "",
-              "banners_tit1": "SUMMER <span class=\"sp-base-color\">2018<\/span>",
+              "banners_tit1": "SUMMER <span class=\"sp-base-color\">2018</span>",
               "banners_tit11": "NEW ARRIVALS",
               "color_11": "#ffffff",
               "color_12": "#ffffff",
               "banner2_url": "",
-              "bottombanners_img_2": "",
               "banners_tit2": "CLEARANCE SALES",
               "banners_tit21": "GET UP TO 20% OFF",
               "color_21": "#ffffff",
@@ -968,16 +959,12 @@
           "header_fullwidth": false,
           "logo_text": "bixbang",
           "logo_margin_top": 0,
-          "logo": "shopify:\/\/shop_images\/bixbang-footer.png",
-          "logo_stuck": "shopify:\/\/shop_images\/bixbang.png",
-          "logo_max_width": 180,
-          "logo_page": "",
-          "header_custom": "default",
+          "logo_max_width": 160,
+          "header_custom": "headermenutoggle",
           "transparent_all": false,
           "menu_bar": "default",
           "menu_sidebar": "main-menu",
           "decs_header_sidebar": "We put a strong emphasis on simplicity, quality and usefulness of fashion products over other factors.",
-          "img_header_sidebar": "shopify:\/\/shop_images\/banner.jpg",
           "show_text": true,
           "text_header_sidebar": "Monday to Sunday: 9 am - 21 pm",
           "custom_header_sidebar": "70 Washington Square South, NY, US<br>+92 423 567<br>info@bixbang.com",
@@ -998,9 +985,6 @@
           "show_customer_links": true,
           "show_sign_in": true,
           "show_image": false,
-          "img_login": "",
-          "logomobile": "shopify:\/\/shop_images\/bixbang.png",
-          "logomobile_page": "",
           "logo_max_mobile_width": 110,
           "mobile_custom_menu": "mobilelogocenter"
         }
@@ -1125,21 +1109,29 @@
             "type": "footer_links",
             "settings": {
               "show_content": true,
-              "menu_footer": "menu-footer-1"
+              "menu_footer": ""
             }
           },
           "1565318420888": {
             "type": "footer_links",
             "settings": {
               "show_content": true,
-              "menu_footer": "menu-footer-2"
+              "menu_footer": ""
+            }
+          },
+          "1565771345120": {
+            "type": "footer_instagram",
+            "settings": {
+              "title": "VISIT US ON INSTAGRAM",
+              "color_title": "#7c7c80",
+              "access_token": "11364876509.8fc62aa.a0b97ad681da4676991bbb017b8c3918",
+              "image_count": 3
             }
           },
           "1565318443032": {
             "type": "footer_paymant",
             "settings": {
-              "text_paymant": "<p>132, Moon Street, NewYork, American<\/p><p>Support@bixbang.com<\/p><p>(+132) 888 666<\/p>",
-              "img_paymant": "shopify:\/\/shop_images\/payment-method_a364b0ab-cce5-43bc-9770-1863164f0ae6.png"
+              "text_paymant": "<p>132, Moon Street, NewYork, American</p><p>Support@bixbang.com</p><p>(+132) 888 666</p>"
             }
           }
         },
@@ -1147,10 +1139,11 @@
           "1553746322229",
           "1553755707606",
           "1565318420888",
+          "1565771345120",
           "1565318443032"
         ],
         "settings": {
-          "show_footer": false,
+          "show_footer": true,
           "fullwidth": false,
           "bg_color": "#ffffff",
           "color": "#ffffff",
@@ -1162,16 +1155,15 @@
           "padding_mobi": "0px 0px 0px 0px",
           "margin_mobi": "0px 0px 0px 0px",
           "show_logoblock": true,
-          "logo_text": "© 2019 RedExp",
-          "logo": "",
+          "logo_text": "© RedExp",
           "logo_max_width": 164,
-          "design_footer": "footer_default",
+          "design_footer": "footer_culumn",
           "menu_footer": "footer",
           "padding_container": "98px 110px 96px 110px",
           "padding_container_laptop": "90px 15px 90px 15px",
-          "padding_container_mobi": "90px 15px 90px 15px",
+          "padding_container_mobi": "65px 15px 65px 15px",
           "style": "style_3",
-          "footer_address": "",
+          "footer_address": "© RedExp 2019. Copy Right",
           "show_socials": true,
           "facebook_url": "#",
           "twitter_url": "#",
@@ -1229,12 +1221,12 @@
           "margin": "0px 0px 0px 0px",
           "padding_mobi": "0px 0px 0px 0px",
           "margin_mobi": "0px 0px 0px 0px",
-          "image": "shopify:\/\/shop_images\/about-us-row-bg.jpg",
+          "image": "shopify://shop_images/about-us-row-bg.jpg",
           "title": "our story",
           "description": "“Simple is the best”, they say. Indeed, it is. At Bixbang., we put a strong emphasis on simplicity, quality and usefulness of fashion products over other factors. Our fashion items never get outdated. They are not short-lived as normal fashion clothes. Moreover, with more than 10 years of operating in this field, our staff know best what our customers are looking for and bring them just what they need in style.",
           "title_1": "Contact",
           "description_1": "70 Washington Square South, New York, NY 10012, United States  \n<br>+92 423 567  \n<br>info@bixbang.com",
-          "image_1": "shopify:\/\/shop_images\/contact-img1.jpg",
+          "image_1": "shopify://shop_images/contact-img1.jpg",
           "show_social": true,
           "facebook_url": "#",
           "twitter_url": "#",
@@ -1253,7 +1245,7 @@
             "type": "item",
             "settings": {
               "link": "",
-              "image": "shopify:\/\/shop_images\/testimonial-1.png",
+              "image": "shopify://shop_images/testimonial-1.png",
               "text2": "\"What a wonderful experience we had visiting your great store this past Friday!  Thank you for staying open late for us and for valuing my opinion and allowing me to try on so many wonderful clothes!  I can't wait to wear my new outfit.  We'll be back as we get smaller and need new outfits.  Thanks for your commitment to saving Mother Earth.\"",
               "text3": "Vera Carrik",
               "text4": ""
@@ -1263,7 +1255,7 @@
             "type": "item",
             "settings": {
               "link": "",
-              "image": "shopify:\/\/shop_images\/testimonial-2.png",
+              "image": "shopify://shop_images/testimonial-2.png",
               "text2": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.",
               "text3": "ADRIAN PARKER",
               "text4": ""
@@ -1310,10 +1302,10 @@
           "padding_mobi": "70px 0px 70px 0px",
           "margin_mobi": "0px 0px 0px 0px",
           "effect": "none",
-          "background": "shopify:\/\/shop_images\/about-row-bg-2.jpg",
+          "background": "shopify://shop_images/about-row-bg-2.jpg",
           "title": "“Style is a way to say who you are without having to speak”",
-          "bg_name": "shopify:\/\/shop_images\/signature.png",
-          "title_name": "Rusty \/ CEO",
+          "bg_name": "shopify://shop_images/signature.png",
+          "title_name": "Rusty / CEO",
           "color_heading": "#ffffff",
           "color_text": "#ffffff"
         }
@@ -1348,7 +1340,7 @@
           "1555906207805": {
             "type": "item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/team1-1170x400.jpg",
+              "image": "shopify://shop_images/team1-1170x400.jpg",
               "title": "CLAY JENSEN",
               "text": "Founder"
             }
@@ -1356,10 +1348,10 @@
           "1555904549966": {
             "type": "item-2",
             "settings": {
-              "image_1": "shopify:\/\/shop_images\/team2-570x400.jpg",
+              "image_1": "shopify://shop_images/team2-570x400.jpg",
               "title_1": "GRIEZMAN",
               "text_1": "Fashion Designer",
-              "image_2": "shopify:\/\/shop_images\/team3-570x400.jpg",
+              "image_2": "shopify://shop_images/team3-570x400.jpg",
               "title_2": "VICTORIA",
               "text_2": "Jewelry Designer"
             }
@@ -1367,7 +1359,7 @@
           "1555904540822": {
             "type": "item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/about-row-bg-2.jpg",
+              "image": "shopify://shop_images/about-row-bg-2.jpg",
               "title": "CLAY JENSEN",
               "text": "Founder"
             }
@@ -1375,10 +1367,10 @@
           "1555906255073": {
             "type": "item-2",
             "settings": {
-              "image_1": "shopify:\/\/shop_images\/team5-570x400.jpg",
+              "image_1": "shopify://shop_images/team5-570x400.jpg",
               "title_1": "CLAY JENSEN",
               "text_1": "Founder",
-              "image_2": "shopify:\/\/shop_images\/team6-570x400.jpg",
+              "image_2": "shopify://shop_images/team6-570x400.jpg",
               "title_2": "CLAY JENSEN",
               "text_2": "Founder"
             }
@@ -1418,7 +1410,7 @@
             "settings": {
               "title": "Returns",
               "font_size": 40,
-              "text": "<p>You have 30 (change this) calendar days to return an item from the date you received it. To be eligible for a return, your item must be unused and in the same condition that you received it. Your item must be in the original packaging. Your item needs to have the receipt or proof of purchase.<\/p>\n<p>If your return is approved, we will initiate a refund to your credit card (or original method of payment).<\/p>\n\n<p>You will receive the credit within a certain amount of days, depending on your card issuer’s policies.<\/p>"
+              "text": "<p>You have 30 (change this) calendar days to return an item from the date you received it. To be eligible for a return, your item must be unused and in the same condition that you received it. Your item must be in the original packaging. Your item needs to have the receipt or proof of purchase.</p>\n<p>If your return is approved, we will initiate a refund to your credit card (or original method of payment).</p>\n\n<p>You will receive the credit within a certain amount of days, depending on your card issuer’s policies.</p>"
             }
           },
           "1558334293360": {
@@ -1556,36 +1548,36 @@
           "1556332125423": {
             "type": "header",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fancy1.jpg",
+              "image": "shopify://shop_images/fancy1.jpg",
               "title": "CORAL TOWER",
-              "text": "<p>70 Washington Square South<\/p>\n<p>New York, NY 10012, United States<\/p>\n<p>+92 423 567<\/p><p>\ninfo@bixbang.com<\/p>",
+              "text": "<p>70 Washington Square South</p>\n<p>New York, NY 10012, United States</p>\n<p>+92 423 567</p><p>\ninfo@bixbang.com</p>",
               "text_button": "view map"
             }
           },
           "1556332563239": {
             "type": "header",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fancy2.jpg",
+              "image": "shopify://shop_images/fancy2.jpg",
               "title": "VANDERBILT",
-              "text": "<p>101 Johnson St<\/p>\n<p>Brooklyn, NY 11201, United States<\/p>\n<p>+92 423 567<\/p>\n<p>info@bixbang.com<\/p>",
+              "text": "<p>101 Johnson St</p>\n<p>Brooklyn, NY 11201, United States</p>\n<p>+92 423 567</p>\n<p>info@bixbang.com</p>",
               "text_button": "view map"
             }
           },
           "1556333188060": {
             "type": "header",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fancy3.jpg",
+              "image": "shopify://shop_images/fancy3.jpg",
               "title": "TISCH HALL",
-              "text": "<p>101 Johnson St<\/p>\n<p>Brooklyn, NY 11201, United States<\/p>\n<p>+92 423 567<\/p>\n<p>info@bixbang.com<\/p>",
+              "text": "<p>101 Johnson St</p>\n<p>Brooklyn, NY 11201, United States</p>\n<p>+92 423 567</p>\n<p>info@bixbang.com</p>",
               "text_button": "view map"
             }
           },
           "1556333228493": {
             "type": "header",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fancy4.jpg",
+              "image": "shopify://shop_images/fancy4.jpg",
               "title": "LA MAISON",
-              "text": "<p>101 Johnson St<\/p>\n<p>Brooklyn, NY 11201, United States<\/p>\n<p>+92 423 567<\/p>\n<p>info@bixbang.com<\/p>",
+              "text": "<p>101 Johnson St</p>\n<p>Brooklyn, NY 11201, United States</p>\n<p>+92 423 567</p>\n<p>info@bixbang.com</p>",
               "text_button": "view map"
             }
           }
@@ -1616,7 +1608,7 @@
           "color_mobi": "#ffffff",
           "padding_mobi": "0px 0px 0px 0px",
           "margin_mobi": "0px 0px 0px 0px",
-          "bg_section": "shopify:\/\/shop_images\/row-bg-1.jpg",
+          "bg_section": "shopify://shop_images/row-bg-1.jpg",
           "title_our": "Need our assistance?",
           "text_button": "contact us",
           "button_url": ""
@@ -1674,7 +1666,7 @@
             "settings": {
               "title": "Returns",
               "font_size": 40,
-              "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua<\/p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesuada tortor. Fusce sollicitudin ligula nec commodo interdum. Integer eget sollicitudin leo. Nunc non velit a dolor malesuada suscipit ac ut<\/p>\n<p>Lorem Ipsum proin gravida nibh vel velit auctor aliqnean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Class aptent taciti sociosqu ad litora. Per cu mucius appetere neglegentur. Has ex legere accumsan indoctum. Aenean sollicitudin, lorem quis bibendum auctor nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio<\/p>\n<p><\/p><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere<\/li>\n<li>Sed non mauris vitae erat consequa<\/li>\n<li>Proin neque orci, egestas<\/li>\n<li>Praesent ac pretium ipsum, et ornare null<\/li>\n<\/ul><p><\/p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua<\/p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesua<\/p>\n<h3 style=\"font-size: 22px;line-height: 30px\"><span class=\"style1 \">Learn more:<\/span><\/h3><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere<\/li>\n<li>Sed non mauris vitae erat consequa<\/li>\n<li>Proin neque orci, egestas<\/li>\n<li>Praesent ac pretium ipsum, et ornare null<\/li>\n<\/ul>"
+              "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua</p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesuada tortor. Fusce sollicitudin ligula nec commodo interdum. Integer eget sollicitudin leo. Nunc non velit a dolor malesuada suscipit ac ut</p>\n<p>Lorem Ipsum proin gravida nibh vel velit auctor aliqnean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Class aptent taciti sociosqu ad litora. Per cu mucius appetere neglegentur. Has ex legere accumsan indoctum. Aenean sollicitudin, lorem quis bibendum auctor nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio</p>\n<p></p><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere</li>\n<li>Sed non mauris vitae erat consequa</li>\n<li>Proin neque orci, egestas</li>\n<li>Praesent ac pretium ipsum, et ornare null</li>\n</ul><p></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua</p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesua</p>\n<h3 style=\"font-size: 22px;line-height: 30px\"><span class=\"style1 \">Learn more:</span></h3><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere</li>\n<li>Sed non mauris vitae erat consequa</li>\n<li>Proin neque orci, egestas</li>\n<li>Praesent ac pretium ipsum, et ornare null</li>\n</ul>"
             }
           },
           "1558347556078": {
@@ -1682,7 +1674,7 @@
             "settings": {
               "title": "Billing and buying",
               "font_size": 40,
-              "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua<\/p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesuada tortor. Fusce sollicitudin ligula nec commodo interdum. Integer eget sollicitudin leo. Nunc non velit a dolor malesuada suscipit ac ut<\/p>\n<p>Lorem Ipsum proin gravida nibh vel velit auctor aliqnean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Class aptent taciti sociosqu ad litora. Per cu mucius appetere neglegentur. Has ex legere accumsan indoctum. Aenean sollicitudin, lorem quis bibendum auctor nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio<\/p>\n<p><\/p><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere<\/li>\n<li>Sed non mauris vitae erat consequa<\/li>\n<li>Proin neque orci, egestas<\/li>\n<li>Praesent ac pretium ipsum, et ornare null<\/li>\n<\/ul><p><\/p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua<\/p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesua<\/p>\n<h3 style=\"font-size: 22px;line-height: 30px\"><span class=\"style1 \">Learn more:<\/span><\/h3><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere<\/li>\n<li>Sed non mauris vitae erat consequa<\/li>\n<li>Proin neque orci, egestas<\/li>\n<li>Praesent ac pretium ipsum, et ornare null<\/li>\n<\/ul>"
+              "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua</p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesuada tortor. Fusce sollicitudin ligula nec commodo interdum. Integer eget sollicitudin leo. Nunc non velit a dolor malesuada suscipit ac ut</p>\n<p>Lorem Ipsum proin gravida nibh vel velit auctor aliqnean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Class aptent taciti sociosqu ad litora. Per cu mucius appetere neglegentur. Has ex legere accumsan indoctum. Aenean sollicitudin, lorem quis bibendum auctor nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio</p>\n<p></p><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere</li>\n<li>Sed non mauris vitae erat consequa</li>\n<li>Proin neque orci, egestas</li>\n<li>Praesent ac pretium ipsum, et ornare null</li>\n</ul><p></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua</p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesua</p>\n<h3 style=\"font-size: 22px;line-height: 30px\"><span class=\"style1 \">Learn more:</span></h3><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere</li>\n<li>Sed non mauris vitae erat consequa</li>\n<li>Proin neque orci, egestas</li>\n<li>Praesent ac pretium ipsum, et ornare null</li>\n</ul>"
             }
           },
           "1558403413505": {
@@ -1690,7 +1682,7 @@
             "settings": {
               "title": "Selling",
               "font_size": 40,
-              "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua<\/p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesuada tortor. Fusce sollicitudin ligula nec commodo interdum. Integer eget sollicitudin leo. Nunc non velit a dolor malesuada suscipit ac ut<\/p>\n<p>Lorem Ipsum proin gravida nibh vel velit auctor aliqnean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Class aptent taciti sociosqu ad litora. Per cu mucius appetere neglegentur. Has ex legere accumsan indoctum. Aenean sollicitudin, lorem quis bibendum auctor nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio<\/p>\n<p><\/p><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere<\/li>\n<li>Sed non mauris vitae erat consequa<\/li>\n<li>Proin neque orci, egestas<\/li>\n<li>Praesent ac pretium ipsum, et ornare null<\/li>\n<\/ul><p><\/p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua<\/p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesua<\/p>\n<h3 style=\"font-size: 22px;line-height: 30px\"><span class=\"style1 \">Learn more:<\/span><\/h3><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere<\/li>\n<li>Sed non mauris vitae erat consequa<\/li>\n<li>Proin neque orci, egestas<\/li>\n<li>Praesent ac pretium ipsum, et ornare null<\/li>\n<\/ul>"
+              "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua</p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesuada tortor. Fusce sollicitudin ligula nec commodo interdum. Integer eget sollicitudin leo. Nunc non velit a dolor malesuada suscipit ac ut</p>\n<p>Lorem Ipsum proin gravida nibh vel velit auctor aliqnean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Class aptent taciti sociosqu ad litora. Per cu mucius appetere neglegentur. Has ex legere accumsan indoctum. Aenean sollicitudin, lorem quis bibendum auctor nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio</p>\n<p></p><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere</li>\n<li>Sed non mauris vitae erat consequa</li>\n<li>Proin neque orci, egestas</li>\n<li>Praesent ac pretium ipsum, et ornare null</li>\n</ul><p></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua</p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesua</p>\n<h3 style=\"font-size: 22px;line-height: 30px\"><span class=\"style1 \">Learn more:</span></h3><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere</li>\n<li>Sed non mauris vitae erat consequa</li>\n<li>Proin neque orci, egestas</li>\n<li>Praesent ac pretium ipsum, et ornare null</li>\n</ul>"
             }
           },
           "1558403460074": {
@@ -1698,7 +1690,7 @@
             "settings": {
               "title": "Fees and billing",
               "font_size": 40,
-              "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua<\/p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesuada tortor. Fusce sollicitudin ligula nec commodo interdum. Integer eget sollicitudin leo. Nunc non velit a dolor malesuada suscipit ac ut<\/p>\n<p>Lorem Ipsum proin gravida nibh vel velit auctor aliqnean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Class aptent taciti sociosqu ad litora. Per cu mucius appetere neglegentur. Has ex legere accumsan indoctum. Aenean sollicitudin, lorem quis bibendum auctor nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio<\/p>\n<p><\/p><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere<\/li>\n<li>Sed non mauris vitae erat consequa<\/li>\n<li>Proin neque orci, egestas<\/li>\n<li>Praesent ac pretium ipsum, et ornare null<\/li>\n<\/ul><p><\/p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua<\/p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesua<\/p>\n<h3 style=\"font-size: 22px;line-height: 30px\"><span class=\"style1 \">Learn more:<\/span><\/h3><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere<\/li>\n<li>Sed non mauris vitae erat consequa<\/li>\n<li>Proin neque orci, egestas<\/li>\n<li>Praesent ac pretium ipsum, et ornare null<\/li>\n<\/ul>"
+              "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua</p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesuada tortor. Fusce sollicitudin ligula nec commodo interdum. Integer eget sollicitudin leo. Nunc non velit a dolor malesuada suscipit ac ut</p>\n<p>Lorem Ipsum proin gravida nibh vel velit auctor aliqnean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Class aptent taciti sociosqu ad litora. Per cu mucius appetere neglegentur. Has ex legere accumsan indoctum. Aenean sollicitudin, lorem quis bibendum auctor nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio</p>\n<p></p><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere</li>\n<li>Sed non mauris vitae erat consequa</li>\n<li>Proin neque orci, egestas</li>\n<li>Praesent ac pretium ipsum, et ornare null</li>\n</ul><p></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua</p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesua</p>\n<h3 style=\"font-size: 22px;line-height: 30px\"><span class=\"style1 \">Learn more:</span></h3><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere</li>\n<li>Sed non mauris vitae erat consequa</li>\n<li>Proin neque orci, egestas</li>\n<li>Praesent ac pretium ipsum, et ornare null</li>\n</ul>"
             }
           },
           "1558403565200": {
@@ -1706,7 +1698,7 @@
             "settings": {
               "title": "Shipping and tracking",
               "font_size": 40,
-              "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua<\/p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesuada tortor. Fusce sollicitudin ligula nec commodo interdum. Integer eget sollicitudin leo. Nunc non velit a dolor malesuada suscipit ac ut<\/p>\n<p>Lorem Ipsum proin gravida nibh vel velit auctor aliqnean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Class aptent taciti sociosqu ad litora. Per cu mucius appetere neglegentur. Has ex legere accumsan indoctum. Aenean sollicitudin, lorem quis bibendum auctor nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio<\/p>\n<p><\/p><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere<\/li>\n<li>Sed non mauris vitae erat consequa<\/li>\n<li>Proin neque orci, egestas<\/li>\n<li>Praesent ac pretium ipsum, et ornare null<\/li>\n<\/ul><p><\/p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua<\/p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesua<\/p>\n<h3 style=\"font-size: 22px;line-height: 30px\"><span class=\"style1 \">Learn more:<\/span><\/h3><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere<\/li>\n<li>Sed non mauris vitae erat consequa<\/li>\n<li>Proin neque orci, egestas<\/li>\n<li>Praesent ac pretium ipsum, et ornare null<\/li>\n<\/ul>"
+              "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua</p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesuada tortor. Fusce sollicitudin ligula nec commodo interdum. Integer eget sollicitudin leo. Nunc non velit a dolor malesuada suscipit ac ut</p>\n<p>Lorem Ipsum proin gravida nibh vel velit auctor aliqnean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Class aptent taciti sociosqu ad litora. Per cu mucius appetere neglegentur. Has ex legere accumsan indoctum. Aenean sollicitudin, lorem quis bibendum auctor nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio</p>\n<p></p><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere</li>\n<li>Sed non mauris vitae erat consequa</li>\n<li>Proin neque orci, egestas</li>\n<li>Praesent ac pretium ipsum, et ornare null</li>\n</ul><p></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua</p>\n<p>Nunc vulputate consectetur ipsum, eget sollicitudin lorem ultricies at. Donec rhoncus sit amet sapien ut viverra. Pellentesque non elementum augue. Proin vitae malesua</p>\n<h3 style=\"font-size: 22px;line-height: 30px\"><span class=\"style1 \">Learn more:</span></h3><ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere</li>\n<li>Sed non mauris vitae erat consequa</li>\n<li>Proin neque orci, egestas</li>\n<li>Praesent ac pretium ipsum, et ornare null</li>\n</ul>"
             }
           }
         },
@@ -1735,21 +1727,21 @@
             "type": "Typography",
             "settings": {
               "title": "",
-              "text": "<h1 style=\"margin-bottom: 15px\">Heading 1<\/h1><h2 style=\"margin-bottom: 15px\">Heading 2<\/h2><h3 style=\"margin-bottom: 15px\">Heading 3<\/h3><h4 style=\"margin-bottom: 15px\">Heading 4<\/h4><h5 style=\"margin-bottom: 15px\">Heading 5<\/h5><h6 style=\"margin-bottom: 15px\">Heading 6<\/h6>"
+              "text": "<h1 style=\"margin-bottom: 15px\">Heading 1</h1><h2 style=\"margin-bottom: 15px\">Heading 2</h2><h3 style=\"margin-bottom: 15px\">Heading 3</h3><h4 style=\"margin-bottom: 15px\">Heading 4</h4><h5 style=\"margin-bottom: 15px\">Heading 5</h5><h6 style=\"margin-bottom: 15px\">Heading 6</h6>"
             }
           },
           "1558167229997": {
             "type": "Typography",
             "settings": {
               "title": "",
-              "text": "<blockquote><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua<\/p><\/blockquote>"
+              "text": "<blockquote><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat gravida tellus vel tempus. Nulla fermentum orci maximus tellus semper ultrices. Nulla ultrices tortor a dolor malesua</p></blockquote>"
             }
           },
           "1558167255119": {
             "type": "Typography",
             "settings": {
               "title": "",
-              "text": "<ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere<\/li>\n<li>Sed non mauris vitae erat consequa<\/li>\n<li>Proin neque orci, egestas<\/li>\n<li>Praesent ac pretium ipsum, et ornare null<\/li>\n<\/ul>"
+              "text": "<ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere</li>\n<li>Sed non mauris vitae erat consequa</li>\n<li>Proin neque orci, egestas</li>\n<li>Praesent ac pretium ipsum, et ornare null</li>\n</ul>"
             }
           },
           "1558167268795": {
@@ -1945,7 +1937,7 @@
             "settings": {
               "title": "Additional terms and conditions and compliance with laws",
               "font_size": 40,
-              "text": "Certain of the products, promotions, and services that Bixbang offers, such as rewards or gift cards, are subject to terms and conditions in addition to these Terms of Use. In some instances, there may be promotional programs that are not available for beneficiaries of federally-funded programs. If you wish to see the terms and conditions that apply to rewards program(s), gift cards or any other product, promotion, or service, please visit any Stop & Shop store, check elsewhere on this website, and\/or call the number listed below. It is your responsibility to comply with such terms and conditions, as well as with all laws and regulations that apply to your purchase and use of any product or service.<br> <br>\nIf any provision of these Terms of Use is found to be illegal or unenforceable, the remaining provisions of these terms and conditions shall be unaffected and shall continue to be fully valid, binding, and enforceable. These terms and conditions and our Privacy Policy constitute the entire understanding and agreement between you and Stop & Shop with respect to the use of our website."
+              "text": "Certain of the products, promotions, and services that Bixbang offers, such as rewards or gift cards, are subject to terms and conditions in addition to these Terms of Use. In some instances, there may be promotional programs that are not available for beneficiaries of federally-funded programs. If you wish to see the terms and conditions that apply to rewards program(s), gift cards or any other product, promotion, or service, please visit any Stop & Shop store, check elsewhere on this website, and/or call the number listed below. It is your responsibility to comply with such terms and conditions, as well as with all laws and regulations that apply to your purchase and use of any product or service.<br> <br>\nIf any provision of these Terms of Use is found to be illegal or unenforceable, the remaining provisions of these terms and conditions shall be unaffected and shall continue to be fully valid, binding, and enforceable. These terms and conditions and our Privacy Policy constitute the entire understanding and agreement between you and Stop & Shop with respect to the use of our website."
             }
           }
         },
@@ -1972,7 +1964,7 @@
         "settings": {
           "padding": "0",
           "margin": "0",
-          "html": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d23762.27812417315!2d-87.77767196955361!3d41.88673251938333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e33464083bb5d%3A0x88c06bd7af5693eb!2sSouth+Austin%2C+Chicago%2C+Illinois!5e0!3m2!1svi!2sus!4v1558320050864!5m2!1svi!2sus\" style=\"border:0\" allowfullscreen=\"\" width=\"100%\" height=\"730\" frameborder=\"0\"><\/iframe>"
+          "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23762.27812417315!2d-87.77767196955361!3d41.88673251938333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e33464083bb5d%3A0x88c06bd7af5693eb!2sSouth+Austin%2C+Chicago%2C+Illinois!5e0!3m2!1svi!2sus!4v1558320050864!5m2!1svi!2sus\" style=\"border:0\" allowfullscreen=\"\" width=\"100%\" height=\"730\" frameborder=\"0\"></iframe>"
         }
       },
       "contact-info": {
@@ -1981,33 +1973,33 @@
           "1558322311552": {
             "type": "header",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fancy1.jpg",
+              "image": "shopify://shop_images/fancy1.jpg",
               "title": "CORAL TOWER",
-              "text": "<p>70 Washington Square South<br>New York, NY 10012, United States<br>+92 423 567<br>info@bixbang.com<\/p>"
+              "text": "<p>70 Washington Square South<br>New York, NY 10012, United States<br>+92 423 567<br>info@bixbang.com</p>"
             }
           },
           "1558322336600": {
             "type": "header",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fancy2.jpg",
+              "image": "shopify://shop_images/fancy2.jpg",
               "title": "VANDERBILT",
-              "text": "<p>101 Johnson St<br>Brooklyn, NY 11201, United States<br>+92 423 567<br>info@bixbang.com<\/p>"
+              "text": "<p>101 Johnson St<br>Brooklyn, NY 11201, United States<br>+92 423 567<br>info@bixbang.com</p>"
             }
           },
           "1558322366721": {
             "type": "header",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fancy3.jpg",
+              "image": "shopify://shop_images/fancy3.jpg",
               "title": "TISCH HALL",
-              "text": "<p>22 Washington Square N<br>New York, NY 10011, United States<br>+92 423 567<br>info@bixbang.com<\/p>"
+              "text": "<p>22 Washington Square N<br>New York, NY 10011, United States<br>+92 423 567<br>info@bixbang.com</p>"
             }
           },
           "1558322399488": {
             "type": "header",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fancy4.jpg",
+              "image": "shopify://shop_images/fancy4.jpg",
               "title": "LA MAISON",
-              "text": "<p>753 Washington Square S<br>New York, NY 10012, United States<br>+92 423 567<br>info@bixbang.com<\/p>"
+              "text": "<p>753 Washington Square S<br>New York, NY 10012, United States<br>+92 423 567<br>info@bixbang.com</p>"
             }
           }
         },
@@ -2051,28 +2043,28 @@
             "type": "header",
             "settings": {
               "title": "CORAL TOWER",
-              "text": "<p>70 Washington Square South New York, NY 10012, United States<\/p>\n<p>+92 423 567<\/p>\n<p>info@bixbang.com<\/p>"
+              "text": "<p>70 Washington Square South New York, NY 10012, United States</p>\n<p>+92 423 567</p>\n<p>info@bixbang.com</p>"
             }
           },
           "1558338856840": {
             "type": "header",
             "settings": {
               "title": "VANDERBILT",
-              "text": "<p>70 Washington Square South New York, NY 10012, United States<\/p>\n<p>+92 423 567<\/p>\n<p>info@bixbang.com<\/p>"
+              "text": "<p>70 Washington Square South New York, NY 10012, United States</p>\n<p>+92 423 567</p>\n<p>info@bixbang.com</p>"
             }
           },
           "1558338897902": {
             "type": "header",
             "settings": {
               "title": "TISCH HALL",
-              "text": "<p>70 Washington Square South New York, NY 10012, United States<\/p>\n<p>+92 423 567<\/p>\n<p>info@bixbang.com<\/p>"
+              "text": "<p>70 Washington Square South New York, NY 10012, United States</p>\n<p>+92 423 567</p>\n<p>info@bixbang.com</p>"
             }
           },
           "1558338926501": {
             "type": "header",
             "settings": {
               "title": "LA MAISON",
-              "text": "<p>70 Washington Square South New York, NY 10012, United States<\/p>\n<p>+92 423 567<\/p>\n<p>info@bixbang.com<\/p>"
+              "text": "<p>70 Washington Square South New York, NY 10012, United States</p>\n<p>+92 423 567</p>\n<p>info@bixbang.com</p>"
             }
           }
         },
@@ -2103,7 +2095,7 @@
           "heading": "Got Any Questions?",
           "font_size": 40,
           "sub_heading": "If you have any questions, please fell free to get in touch with us. We will reply to you as soon as possible. Thank you!",
-          "html": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d23766.857126260686!2d-87.769594!3d41.87442!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e33464083bb5d%3A0x88c06bd7af5693eb!2sSouth+Austin%2C+Chicago%2C+Illinois!5e0!3m2!1svi!2sus!4v1558340145163!5m2!1svi!2sus\" width=\"100%\" height=\"570\" frameborder=\"0\" style=\"border:0\" allowfullscreen=\"\"><\/iframe>"
+          "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23766.857126260686!2d-87.769594!3d41.87442!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e33464083bb5d%3A0x88c06bd7af5693eb!2sSouth+Austin%2C+Chicago%2C+Illinois!5e0!3m2!1svi!2sus!4v1558340145163!5m2!1svi!2sus\" width=\"100%\" height=\"570\" frameborder=\"0\" style=\"border:0\" allowfullscreen=\"\"></iframe>"
         }
       },
       "contact-form-1": {
@@ -2116,7 +2108,7 @@
           "margin_mobi": "0px 0px 0px 0px",
           "heading": "Got Any Questions?",
           "font_size": 40,
-          "sub_heading": "<p>70 Washington Square South<\/p>\n<p>New York, NY 10012<\/p>\n<p>United States<\/p>\n<p>+92 423 567<\/p>\n<p>info@bixbang.com<\/p>",
+          "sub_heading": "<p>70 Washington Square South</p>\n<p>New York, NY 10012</p>\n<p>United States</p>\n<p>+92 423 567</p>\n<p>info@bixbang.com</p>",
           "color_heading": "#303030",
           "color": "#303030",
           "facebook_url": "#",
@@ -2139,14 +2131,14 @@
       "about-template-2": {
         "type": "about-template-2",
         "settings": {
-          "image": "shopify:\/\/shop_images\/about-us-row-bg.jpg",
+          "image": "shopify://shop_images/about-us-row-bg.jpg",
           "title": "Who we are",
           "description": "Bixbang is a well established America fashion brand founded in 2003 in LA by two young designers John Doe and Mary Jane. Voka has been always in cooperation with people from different fields of art like the design, photography and music. The Bixbang boutique is located in the district Mar Vista, a residential and commercial neighborhood on the Westside of Los Angeles.",
-          "image_banner": "shopify:\/\/shop_images\/about-img2.jpg",
-          "image_name": "shopify:\/\/shop_images\/signature_1.png",
+          "image_banner": "shopify://shop_images/about-img2.jpg",
+          "image_name": "shopify://shop_images/signature_1.png",
           "title_1": "Fashion Discover",
           "description_1": "Our audience is wonderfully unique. And we do everything we can to help you find your fit, offering our Bixbang Brands in more than 30 sizes – and we’re committed to providing all sizes at the same price – so you can be confident we’ve got the perfect thing for you. We’re also proud to partner with GLAAD, one of the biggest voices in LGBTQ activism.",
-          "image_banner_1": "shopify:\/\/shop_images\/about-img3.jpg"
+          "image_banner_1": "shopify://shop_images/about-img3.jpg"
         }
       },
       "index-section-brands": {
@@ -2155,49 +2147,49 @@
           "1558577608790": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1.png",
+              "image": "shopify://shop_images/1.png",
               "link": ""
             }
           },
           "1558577623961": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/2.png",
+              "image": "shopify://shop_images/2.png",
               "link": ""
             }
           },
           "1558577636800": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/3.png",
+              "image": "shopify://shop_images/3.png",
               "link": ""
             }
           },
           "1558577650020": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/6.png",
+              "image": "shopify://shop_images/6.png",
               "link": ""
             }
           },
           "1558577663564": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/4.png",
+              "image": "shopify://shop_images/4.png",
               "link": ""
             }
           },
           "1558577677784": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/For_des_37052f36-c406-41ea-a4b6-3d1c24f9efbe.png",
+              "image": "shopify://shop_images/For_des_37052f36-c406-41ea-a4b6-3d1c24f9efbe.png",
               "link": ""
             }
           },
           "1558577693281": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/2.png",
+              "image": "shopify://shop_images/2.png",
               "link": ""
             }
           }
@@ -2235,7 +2227,7 @@
         "settings": {
           "margin": "0 0 0 0",
           "padding": "270px 0 0px 0",
-          "image": "shopify:\/\/shop_images\/coming-soon-bg.jpg",
+          "image": "shopify://shop_images/coming-soon-bg.jpg",
           "day": "Days",
           "time_day": "11"
         }
@@ -2264,49 +2256,49 @@
           "1562121246826": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/For_des_37052f36-c406-41ea-a4b6-3d1c24f9efbe.png",
+              "image": "shopify://shop_images/For_des_37052f36-c406-41ea-a4b6-3d1c24f9efbe.png",
               "link": ""
             }
           },
           "1562121271606": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/4.png",
+              "image": "shopify://shop_images/4.png",
               "link": ""
             }
           },
           "1562121286778": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/6.png",
+              "image": "shopify://shop_images/6.png",
               "link": ""
             }
           },
           "1562121303875": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/3.png",
+              "image": "shopify://shop_images/3.png",
               "link": ""
             }
           },
           "1562121332285": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/2.png",
+              "image": "shopify://shop_images/2.png",
               "link": ""
             }
           },
           "1562121348076": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1.png",
+              "image": "shopify://shop_images/1.png",
               "link": ""
             }
           },
           "1565685351729": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/client.png",
+              "image": "shopify://shop_images/client.png",
               "link": ""
             }
           }
@@ -2345,7 +2337,7 @@
             "type": "item",
             "settings": {
               "link": "",
-              "image": "shopify:\/\/shop_images\/testimonial-1.png",
+              "image": "shopify://shop_images/testimonial-1.png",
               "text2": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.",
               "text3": "ADRIAN PARKER",
               "text4": ""
@@ -2355,7 +2347,7 @@
             "type": "item",
             "settings": {
               "link": "",
-              "image": "shopify:\/\/shop_images\/testimonial-2.png",
+              "image": "shopify://shop_images/testimonial-2.png",
               "text2": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.",
               "text3": "ADRIAN PARKER",
               "text4": ""
@@ -2365,7 +2357,7 @@
             "type": "item",
             "settings": {
               "link": "",
-              "image": "shopify:\/\/shop_images\/testimonial-3.png",
+              "image": "shopify://shop_images/testimonial-3.png",
               "text2": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.",
               "text3": "ADRIAN PARKER",
               "text4": ""
@@ -2515,19 +2507,12 @@
               "linklist": "main-menu",
               "newnavigation_item": "Shop",
               "grid": "4",
-              "image1": "",
-              "image2": "",
-              "image3": "",
-              "image4": "",
-              "image5": "",
-              "image6": "",
               "widget": "banner",
               "widgetgallery_title": "SPECIALS",
               "widgetgallery_url": "",
               "collection": "",
               "collection_limit": "4",
               "widgetbanner_url": "",
-              "widgetbanner_img": "shopify:\/\/shop_images\/banner-logo.png",
               "widgetbanner_title": "",
               "widgetbanner_title2": "",
               "widgetbanner_title3": "",
@@ -2540,13 +2525,11 @@
               "banners_grid": "none",
               "html": "Custom Html",
               "banner1_url": "",
-              "bottombanners_img_1": "",
-              "banners_tit1": "SUMMER <span class=\"sp-base-color\">2019<\/span>",
+              "banners_tit1": "SUMMER <span class=\"sp-base-color\">2019</span>",
               "banners_tit11": "NEW ARRIVALS",
               "color_11": "#ffffff",
               "color_12": "#ffffff",
               "banner2_url": "",
-              "bottombanners_img_2": "",
               "banners_tit2": "CLEARANCE SALES",
               "banners_tit21": "GET UP TO 20% OFF",
               "color_21": "#ffffff",
@@ -2562,8 +2545,6 @@
           "header_fullwidth": false,
           "logo_text": "bixbang",
           "logo_margin_top": 0,
-          "logo": "shopify:\/\/shop_images\/bixbang.png",
-          "logo_page": "shopify:\/\/shop_images\/logo_39500f68-1322-4513-9404-1836787c658a.png",
           "logo_max_width": 180,
           "show_socials": true,
           "facebook_url": "#",
@@ -2574,8 +2555,6 @@
           "show_customer_links": true,
           "show_options_links": true,
           "show_sign_in": true,
-          "logomobile": "shopify:\/\/shop_images\/bixbang.png",
-          "logomobile_page": "shopify:\/\/shop_images\/bixbang.png",
           "logo_max_mobile_width": 110,
           "mobile_custom_menu": "mobilelogoleft"
         }
@@ -2586,33 +2565,33 @@
           "1563337978778": {
             "type": "header",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fancy1.jpg",
+              "image": "shopify://shop_images/fancy1.jpg",
               "title": "CORAL TOWER",
-              "text": "<p>70 Washington Square South<br>New York, NY 10012, United States<br>+92 423 567<br>info@bixbang.com<\/p>"
+              "text": "<p>70 Washington Square South<br>New York, NY 10012, United States<br>+92 423 567<br>info@bixbang.com</p>"
             }
           },
           "1563338051606": {
             "type": "header",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fancy2.jpg",
+              "image": "shopify://shop_images/fancy2.jpg",
               "title": "VANDERBILT",
-              "text": "<p>101 Johnson St<br>Brooklyn, NY 11201, United States<br>+92 423 567<br>info@bixbang.com<\/p>"
+              "text": "<p>101 Johnson St<br>Brooklyn, NY 11201, United States<br>+92 423 567<br>info@bixbang.com</p>"
             }
           },
           "1563338089471": {
             "type": "header",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fancy3.jpg",
+              "image": "shopify://shop_images/fancy3.jpg",
               "title": "TISCH HALL",
-              "text": "<p>22 Washington Square N<br>New York, NY 10011, United States<br>+92 423 567<br>info@bixbang.com<\/p>"
+              "text": "<p>22 Washington Square N<br>New York, NY 10011, United States<br>+92 423 567<br>info@bixbang.com</p>"
             }
           },
           "1563338130450": {
             "type": "header",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fancy4.jpg",
+              "image": "shopify://shop_images/fancy4.jpg",
               "title": "LA MAISON",
-              "text": "<p>753 Washington Square S<br>New York, NY 10012, United States<br>+92 423 567<br>info@bixbang.com<\/p>"
+              "text": "<p>753 Washington Square S<br>New York, NY 10012, United States<br>+92 423 567<br>info@bixbang.com</p>"
             }
           }
         },
@@ -2728,49 +2707,49 @@
           "1563356333568": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/client.png",
+              "image": "shopify://shop_images/client.png",
               "link": ""
             }
           },
           "1563356358503": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/For_des_37052f36-c406-41ea-a4b6-3d1c24f9efbe.png",
+              "image": "shopify://shop_images/For_des_37052f36-c406-41ea-a4b6-3d1c24f9efbe.png",
               "link": ""
             }
           },
           "1563356360708": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/4.png",
+              "image": "shopify://shop_images/4.png",
               "link": ""
             }
           },
           "1563356364122": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/6.png",
+              "image": "shopify://shop_images/6.png",
               "link": ""
             }
           },
           "1563356372001": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/3.png",
+              "image": "shopify://shop_images/3.png",
               "link": ""
             }
           },
           "1563356374371": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/2.png",
+              "image": "shopify://shop_images/2.png",
               "link": ""
             }
           },
           "1563356376412": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1.png",
+              "image": "shopify://shop_images/1.png",
               "link": ""
             }
           }
@@ -2815,274 +2794,326 @@
           "text1": "Lorem Ipsum proin gravida nibh vel velit auctor aliqnean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Class apt"
         }
       },
-      "1565227149298": {
-        "type": "index-section-banner-3",
+      "1565086052103": {
+        "type": "slider-watch",
         "blocks": {
-          "1565227149298-0": {
-            "type": "items",
+          "1565086052103-0": {
+            "type": "slider_list",
             "settings": {
-              "link": "",
-              "image": "shopify:\/\/shop_images\/banner28s_8ffb0f7b-e4e1-4bff-a253-8809c657c48b.jpg",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "topleft",
-              "effect_box": "effect_bottom",
-              "style_box": "style_5",
-              "title": "30% off<br>Mid-sesson sale",
-              "text": "",
-              "show_button": true,
-              "text_button": "SHOP NOW",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#ffffff",
-              "color_text": "#909090"
+              "image": "shopify://shop_images/image-11.png",
+              "text": "Never miss any second",
+              "color_text": "#ffffff"
             }
           },
-          "1565227149298-1": {
-            "type": "items",
+          "1565086052103-1": {
+            "type": "slider_list",
             "settings": {
-              "link": "",
-              "image": "shopify:\/\/shop_images\/banner29s_fbfcad2c-d5d9-4c00-938a-f21bd5f97ef4.jpg",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "topleft",
-              "effect_box": "effect_bottom",
-              "style_box": "style_5",
-              "title": "Spring\/Summer",
-              "text": "Featured Collections",
-              "show_button": true,
-              "text_button": "SHOP NOW",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#ffffff",
+              "image": "shopify://shop_images/PHOTO-2025-03-21-12-44-14.jpg",
+              "text": "Fashion. Style. Class.",
               "color_text": "#ffffff"
             }
           }
         },
         "block_order": [
-          "1565227149298-0",
-          "1565227149298-1"
+          "1565086052103-0",
+          "1565086052103-1"
         ],
         "settings": {
-          "fullwidth": false,
           "padding": "0px 0px 0px 0px",
           "margin": "0px 0px 0px 0px",
           "padding_mobi": "0px 0px 0px 0px",
+          "margin_mobi": "0px 0px 0px 0px"
+        }
+      },
+      "1565086074531": {
+        "type": "index-section-banner-custom",
+        "blocks": {
+          "1565086074531-0": {
+            "type": "items",
+            "settings": {
+              "link": "",
+              "padding_box": "50px",
+              "option_box": "bottomright",
+              "effect_box": "effect_top",
+              "style_box": "style_2",
+              "title": "Stylish Eternal",
+              "text": "",
+              "show_button": true,
+              "text_button": "EXPLORE NOW",
+              "link_button": "",
+              "color_title": "#ffffff",
+              "color_text": "#909090"
+            }
+          },
+          "1565086074531-1": {
+            "type": "items",
+            "settings": {
+              "link": "",
+              "padding_box": "50px",
+              "option_box": "bottomcenter",
+              "effect_box": "effect_top",
+              "style_box": "style_2",
+              "title": "In Time",
+              "text": "",
+              "show_button": true,
+              "text_button": "EXPLORE NOW",
+              "link_button": "",
+              "color_title": "#ffffff",
+              "color_text": "#909090"
+            }
+          },
+          "1565086074531-2": {
+            "type": "items",
+            "settings": {
+              "link": "",
+              "padding_box": "50px",
+              "option_box": "bottomleft",
+              "effect_box": "effect_top",
+              "style_box": "style_2",
+              "title": "New Model",
+              "text": "",
+              "show_button": true,
+              "text_button": "EXPLORE NOW",
+              "link_button": "",
+              "color_title": "#ffffff",
+              "color_text": "#909090"
+            }
+          }
+        },
+        "block_order": [
+          "1565086074531-0",
+          "1565086074531-1",
+          "1565086074531-2"
+        ],
+        "settings": {
+          "fullwidth": false,
+          "padding": "50px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "padding_mobi": "50px 0px 0px 0px",
           "margin_mobi": "0px 0px 0px 0px",
-          "effect": "zoom-in-up",
+          "effect": "fade-up",
           "show_title": false,
           "text1": "POPULAR",
           "text2": "CLOTHING BRANDS"
         }
       },
-      "1565227164670": {
-        "type": "index-section-banner",
+      "1565086183892": {
+        "type": "index-section-brands",
         "blocks": {
-          "1565227164670-0": {
-            "type": "items",
+          "1565086183892-0": {
+            "type": "logo_image",
             "settings": {
-              "link": "",
-              "image": "shopify:\/\/shop_images\/banner21.jpg",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "bottomright",
-              "effect_box": "effect_top",
-              "style_box": "style_4",
-              "title": "Tank Top",
-              "text": "Lorem ipsum dolor sit amet, eiusmod tempor <br> incididunt ut labor",
-              "show_button": true,
-              "text_button": "SHOP NOW",
-              "link_button": "",
-              "style_button": "style_button_1",
-              "color_title": "#ffffff",
-              "color_text": "#ffffff",
-              "show_box": false
+              "link": ""
             }
           },
-          "1565227164670-1": {
-            "type": "items",
+          "1565086183892-1": {
+            "type": "logo_image",
             "settings": {
-              "link": "",
-              "image": "shopify:\/\/shop_images\/banner22.jpg",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "topright",
-              "effect_box": "effect_bottom",
-              "style_box": "style_4",
-              "title": "Jeans",
-              "text": "Lorem ipsum dolor sit amet, eiusmod tempor  <br>incididunt ut labor",
-              "show_button": false,
-              "text_button": "Explore Now",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#303030",
-              "color_text": "#303030",
-              "show_box": false
+              "link": ""
             }
           },
-          "1565227164670-2": {
-            "type": "items",
+          "1565086183892-2": {
+            "type": "logo_image",
             "settings": {
-              "link": "",
-              "image": "shopify:\/\/shop_images\/banner23.jpg",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "topright",
-              "effect_box": "effect_bottom",
-              "style_box": "style_4",
-              "title": "Summer",
-              "text": "sit amet, eiusmod tempor incididunt <br> ut labor",
-              "show_button": false,
-              "text_button": "Explore Now",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#303030",
-              "color_text": "#303030",
-              "show_box": false
+              "link": ""
+            }
+          },
+          "1565086183892-3": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "1565086183892-4": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "1565086183892-5": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
             }
           }
         },
         "block_order": [
-          "1565227164670-0",
-          "1565227164670-1",
-          "1565227164670-2"
+          "1565086183892-0",
+          "1565086183892-1",
+          "1565086183892-2",
+          "1565086183892-3",
+          "1565086183892-4",
+          "1565086183892-5"
         ],
         "settings": {
-          "fullwidth": false,
-          "padding": "30px 0px 0px 0px",
-          "margin": "0px 0px 0px 0px",
-          "padding_mobi": "0px 0px 0px 0px",
-          "margin_mobi": "0px 0px 0px 0px",
-          "effect": "fade-up",
-          "show_title": false,
-          "text1": "POPULAR",
-          "text2": "CLOTHING BRANDS",
-          "order": false
-        }
-      },
-      "1565228193098": {
-        "type": "index-section-banner",
-        "blocks": {
-          "1565228193098-2": {
-            "type": "items",
-            "settings": {
-              "link": "",
-              "image": "shopify:\/\/shop_images\/banner24.jpg",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "bottomleft",
-              "effect_box": "effect_top",
-              "style_box": "style_4",
-              "title": "Sundress",
-              "text": "Lorem ipsum dolor sit amet, eiusmod tempor <br> incididunt ut labor",
-              "show_button": true,
-              "text_button": "SHOP NOW",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#ffffff",
-              "color_text": "#ffffff",
-              "show_box": true
-            }
-          }
-        },
-        "block_order": [
-          "1565228193098-2"
-        ],
-        "settings": {
-          "fullwidth": false,
-          "padding": "0px 0px 0px 0px",
+          "fullwidth": true,
+          "padding": "60px 95px",
           "margin": "0px 0px 0px 0px",
           "padding_mobi": "0px 0px 0px 0px",
           "margin_mobi": "0px 0px 0px 0px",
           "effect": "fade-left",
-          "show_title": false,
-          "text1": "POPULAR",
-          "text2": "CLOTHING BRANDS",
-          "order": true
+          "padding_content": "70px 20px",
+          "show_bg": true,
+          "show_overlay": false,
+          "show_border": false,
+          "color_border": "#c2c2c2",
+          "toshow": "6",
+          "step": "2",
+          "module_autoplay": false,
+          "delay_time": "7000"
         }
       },
-      "1567149610381": {
-        "type": "index-section-banner",
+      "1565086253684": {
+        "type": "index-section-blog",
+        "settings": {
+          "fullwidth": false,
+          "bg_color": "#ffffff",
+          "border_color": "#dedede",
+          "padding": "95px 0px 92px 0px",
+          "margin": "0px 0px 0px 0px",
+          "bg_color_mobi": "#ffffff",
+          "padding_mobi": "63px 0px 63px 0px",
+          "margin_mobi": "0px 0px 0px 0px",
+          "effect": "fade-up",
+          "show_title": true,
+          "select_heading": "center",
+          "text1": "LATES FROM BLOG",
+          "text2": "Get timely updates from your favorite products",
+          "text3": "",
+          "use_title_as_link": true,
+          "blog": "news",
+          "limit": "3",
+          "height_img": "320",
+          "style_tile_blog": "normal",
+          "show_tags": true,
+          "blog_show_author": true,
+          "blog_show_date": true,
+          "show_comment": true,
+          "show_description": false,
+          "truncate_excerpt": false,
+          "truncate": "15",
+          "truncate_last_symbols": "..."
+        }
+      },
+      "1565087151591": {
+        "type": "index-section-product-image",
+        "settings": {
+          "fullwidth": false,
+          "padding": "0px 0px 0px 0px",
+          "margin": "100px 100px 100px 100px",
+          "padding_mobi": "0px 0px 0px 0px",
+          "margin_mobi": "63px 0px 63px 0px",
+          "effect": "flip-up",
+          "show_title": true,
+          "text1": "CHOOSE YOUR DIAL",
+          "text2": "How do you feel",
+          "collection": "",
+          "limit": "6",
+          "items": "2"
+        }
+      },
+      "1565140049173": {
+        "type": "index-section-newletter",
+        "settings": {
+          "bg_color": "#ffffff",
+          "border_color": "#dedede",
+          "padding": "92px 0px 100px 0px",
+          "margin": "0px 0px 0px 0px",
+          "bg_color_mobi": "#ffffff",
+          "padding_mobi": "65px 0px 50px 0px",
+          "margin_mobi": "0px 0px 0px 0px",
+          "effect": "fade-up",
+          "heading": "NEWSLETTERS",
+          "style_title": "style_2",
+          "description": "Get timely updates from your favorite products",
+          "submit": "Subscribe",
+          "placeholder": "Enter Your Email"
+        }
+      },
+      "1565140379179": {
+        "type": "index-section-tabs",
         "blocks": {
-          "1567149610381-0": {
-            "type": "items",
+          "1565140379179-0": {
+            "type": "item",
             "settings": {
-              "link": "",
-              "image": "shopify:\/\/shop_images\/banner27.jpg",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "bottomleft",
-              "effect_box": "effect_top",
-              "style_box": "style_4",
-              "title": "Sweater",
-              "text": "Sit amet, eiusmod tempor incididunt<br> ut labor",
-              "show_button": false,
-              "text_button": "Explore Now",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#ffffff",
-              "color_text": "#ffffff",
-              "show_box": false
+              "tab_name": "ALL",
+              "collection": "best-seller",
+              "limit": "6",
+              "toshow": "3",
+              "step": "1",
+              "module_autoplay": false,
+              "delay_time": "7000"
             }
           },
-          "1567149610381-1": {
-            "type": "items",
+          "1565140379179-1": {
+            "type": "item",
             "settings": {
-              "link": "",
-              "image": "shopify:\/\/shop_images\/banner25_ad41ba9e-cace-412c-b6ef-9c6dd10a16c4.jpg",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "bottomright",
-              "effect_box": "effect_top",
-              "style_box": "style_4",
-              "title": "Camisole",
-              "text": "Lorem ipsum dolor sit amet, eiusmod<br> tempor incididunt ut labor",
-              "show_button": false,
-              "text_button": "Explore Now",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#ffffff",
-              "color_text": "#ffffff",
-              "show_box": false
+              "tab_name": "Multifunction",
+              "collection": "featured-products",
+              "limit": "6",
+              "toshow": "4",
+              "step": "1",
+              "module_autoplay": false,
+              "delay_time": "7000"
             }
           },
-          "1567149610381-2": {
-            "type": "items",
+          "1565140379179-2": {
+            "type": "item",
             "settings": {
-              "link": "",
-              "image": "shopify:\/\/shop_images\/banner25_ad41ba9e-cace-412c-b6ef-9c6dd10a16c4.jpg",
-              "padding_box": "50px",
-              "option_box": "bottomleft",
-              "effect_box": "effect_top",
-              "style_box": "style_4",
-              "title": "Sweater",
-              "text": "Sit amet, eiusmod tempor incididunt<br> ut labor",
-              "show_button": false,
-              "text_button": "Explore Now",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#ffffff",
-              "color_text": "#ffffff",
-              "show_box": false
+              "tab_name": "Watch",
+              "collection": "featured-products",
+              "limit": "6",
+              "toshow": "4",
+              "step": "1",
+              "module_autoplay": false,
+              "delay_time": "7000"
+            }
+          },
+          "1565140602221": {
+            "type": "item",
+            "settings": {
+              "tab_name": "Titanium",
+              "collection": "trendy-items",
+              "limit": "6",
+              "toshow": "3",
+              "step": "1",
+              "module_autoplay": false,
+              "delay_time": "7000"
             }
           }
         },
         "block_order": [
-          "1567149610381-0",
-          "1567149610381-1",
-          "1567149610381-2"
+          "1565140379179-0",
+          "1565140379179-1",
+          "1565140379179-2",
+          "1565140602221"
         ],
         "settings": {
           "fullwidth": false,
-          "padding": "0px 0px 0px 0px",
+          "bg_color": "#ffffff",
+          "padding": "63px 0px 100px 0px",
           "margin": "0px 0px 0px 0px",
-          "padding_mobi": "0px 0px 0px 0px",
+          "bg_color_mobi": "#ffffff",
+          "padding_mobi": "63px 0px 63px 0px",
           "margin_mobi": "0px 0px 0px 0px",
           "effect": "fade-right",
-          "show_title": false,
-          "text1": "POPULAR",
-          "text2": "CLOTHING BRANDS",
-          "order": true
+          "layout_type": "grid",
+          "grid_row": "3",
+          "show_title": true,
+          "text1": "FEATURED PRODUCT",
+          "btn_more": true,
+          "btn_text": "Shop More"
         }
       }
     },
     "content_for_index": [
-      "1565227164670",
-      "1565228193098",
-      "1567149610381",
-      "1565227149298"
+      "1565086052103",
+      "1565086074531",
+      "1565140379179",
+      "1565086183892",
+      "1565087151591",
+      "1565086253684",
+      "1565140049173"
     ]
   }
 }
