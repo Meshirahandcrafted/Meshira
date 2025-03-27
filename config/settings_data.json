@@ -3299,9 +3299,9 @@
           "text2": "AS GRID + SLIDER",
           "text3": "",
           "toshow": "3",
-          "step": "3",
-          "module_autoplay": false,
-          "delay_time": "7000"
+          "step": "4",
+          "module_autoplay": true,
+          "delay_time": "5000"
         }
       }
     },
