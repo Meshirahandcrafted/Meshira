@@ -3086,7 +3086,7 @@
           "use_title_as_link": true,
           "show_button": false,
           "button_text": "SHOW ALL",
-          "collection": "",
+          "collection": "our-collection",
           "limit": "4",
           "items": "4",
           "default_carousel": true,
