@@ -3166,6 +3166,7 @@
             "type": "items",
             "settings": {
               "link": "",
+              "image": "shopify://shop_images/banner_1024x2_1f207d54-89d1-4416-a6cd-ce727dcd8ac2.jpg",
               "padding_box": "50px",
               "option_box": "topleft",
               "effect_box": "effect_bottom",
