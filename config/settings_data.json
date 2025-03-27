@@ -14,7 +14,7 @@
     "use_favicon": true,
     "show_width_container": false,
     "width_container": "1483",
-    "big_roundness": 0,
+    "big_roundness": 6,
     "ajax_addtocart": true,
     "addtocart_scroll": false,
     "product_item_show_cart": true,
@@ -104,6 +104,7 @@
     "color_header_menu_hover_page": "#c71932",
     "color_header_icons_page": "#191919",
     "color_header_icons_hover_page": "#c71932",
+    "home_breadcrumbs": "Meshira",
     "show_breadcrumbs": true,
     "image_breadcrubs": "",
     "bg_breadcrubs": "#ffffff",
@@ -905,15 +906,14 @@
               "show_content": false,
               "show_content_index": false,
               "text": "20% STUDENT DISCOUNT PLUS FREE NEXT DAY DELIVEY, EXCLUDES SALE. <a href=\"#\">DETAILS</a>",
-              "background_image": false,
-              "image": "shopify://shop_images/logo.png"
+              "background_image": false
             }
           },
           "1522754394860": {
             "type": "topbar",
             "settings": {
               "show_content": true,
-              "menu_top": "menu-01"
+              "menu_top": ""
             }
           },
           "1516807368327": {
@@ -928,27 +928,18 @@
             "settings": {
               "newnavigation_item": "Shop",
               "grid": "4",
-              "image1": "",
-              "image2": "",
-              "image3": "",
-              "image4": "",
-              "image5": "",
-              "image6": "",
               "widget": "banner",
               "widgetgallery_title": "SPECIALS",
               "widgetgallery_url": "",
               "collection": "",
               "widgetbanner_url": "",
-              "widgetbanner_img": "shopify://shop_images/banner-logo.png",
               "banners_grid": "none",
               "banner1_url": "",
-              "bottombanners_img_1": "",
               "banners_tit1": "SUMMER <span class=\"sp-base-color\">2018</span>",
               "banners_tit11": "NEW ARRIVALS",
               "color_11": "#ffffff",
               "color_12": "#ffffff",
               "banner2_url": "",
-              "bottombanners_img_2": "",
               "banners_tit2": "CLEARANCE SALES",
               "banners_tit21": "GET UP TO 20% OFF",
               "color_21": "#ffffff",
@@ -968,16 +959,12 @@
           "header_fullwidth": false,
           "logo_text": "bixbang",
           "logo_margin_top": 0,
-          "logo": "shopify://shop_images/bixbang-footer.png",
-          "logo_stuck": "shopify://shop_images/bixbang.png",
           "logo_max_width": 160,
-          "logo_page": "shopify://shop_images/logo_39500f68-1322-4513-9404-1836787c658a.png",
           "header_custom": "headermenutoggle",
           "transparent_all": false,
           "menu_bar": "default",
           "menu_sidebar": "main-menu",
           "decs_header_sidebar": "We put a strong emphasis on simplicity, quality and usefulness of fashion products over other factors.",
-          "img_header_sidebar": "shopify://shop_images/banner.jpg",
           "show_text": true,
           "text_header_sidebar": "Monday to Sunday: 9 am - 21 pm",
           "custom_header_sidebar": "70 Washington Square South, NY, US<br>+92 423 567<br>info@bixbang.com",
@@ -998,9 +985,6 @@
           "show_customer_links": true,
           "show_sign_in": true,
           "show_image": false,
-          "img_login": "",
-          "logomobile": "shopify://shop_images/tv-video-logo.png",
-          "logomobile_page": "shopify://shop_images/logo_39500f68-1322-4513-9404-1836787c658a.png",
           "logo_max_mobile_width": 110,
           "mobile_custom_menu": "mobilelogocenter"
         }
@@ -1125,14 +1109,14 @@
             "type": "footer_links",
             "settings": {
               "show_content": true,
-              "menu_footer": "menu-footer-1"
+              "menu_footer": ""
             }
           },
           "1565318420888": {
             "type": "footer_links",
             "settings": {
               "show_content": true,
-              "menu_footer": "menu-footer-2"
+              "menu_footer": ""
             }
           },
           "1565771345120": {
@@ -1147,8 +1131,7 @@
           "1565318443032": {
             "type": "footer_paymant",
             "settings": {
-              "text_paymant": "<p>132, Moon Street, NewYork, American</p><p>Support@bixbang.com</p><p>(+132) 888 666</p>",
-              "img_paymant": "shopify://shop_images/payment-method_a364b0ab-cce5-43bc-9770-1863164f0ae6.png"
+              "text_paymant": "<p>132, Moon Street, NewYork, American</p><p>Support@bixbang.com</p><p>(+132) 888 666</p>"
             }
           }
         },
@@ -1173,7 +1156,6 @@
           "margin_mobi": "0px 0px 0px 0px",
           "show_logoblock": true,
           "logo_text": "© RedExp",
-          "logo": "shopify://shop_images/bixbang.png",
           "logo_max_width": 164,
           "design_footer": "footer_culumn",
           "menu_footer": "footer",
@@ -2525,19 +2507,12 @@
               "linklist": "main-menu",
               "newnavigation_item": "Shop",
               "grid": "4",
-              "image1": "",
-              "image2": "",
-              "image3": "",
-              "image4": "",
-              "image5": "",
-              "image6": "",
               "widget": "banner",
               "widgetgallery_title": "SPECIALS",
               "widgetgallery_url": "",
               "collection": "",
               "collection_limit": "4",
               "widgetbanner_url": "",
-              "widgetbanner_img": "shopify://shop_images/banner-logo.png",
               "widgetbanner_title": "",
               "widgetbanner_title2": "",
               "widgetbanner_title3": "",
@@ -2550,13 +2525,11 @@
               "banners_grid": "none",
               "html": "Custom Html",
               "banner1_url": "",
-              "bottombanners_img_1": "",
               "banners_tit1": "SUMMER <span class=\"sp-base-color\">2019</span>",
               "banners_tit11": "NEW ARRIVALS",
               "color_11": "#ffffff",
               "color_12": "#ffffff",
               "banner2_url": "",
-              "bottombanners_img_2": "",
               "banners_tit2": "CLEARANCE SALES",
               "banners_tit21": "GET UP TO 20% OFF",
               "color_21": "#ffffff",
@@ -2572,8 +2545,6 @@
           "header_fullwidth": false,
           "logo_text": "bixbang",
           "logo_margin_top": 0,
-          "logo": "shopify://shop_images/bixbang.png",
-          "logo_page": "",
           "logo_max_width": 180,
           "show_socials": true,
           "facebook_url": "#",
@@ -2584,8 +2555,6 @@
           "show_customer_links": true,
           "show_options_links": true,
           "show_sign_in": true,
-          "logomobile": "shopify://shop_images/bixbang.png",
-          "logomobile_page": "",
           "logo_max_mobile_width": 110,
           "mobile_custom_menu": "mobilelogoleft"
         }
@@ -2831,17 +2800,15 @@
           "1565086052103-0": {
             "type": "slider_list",
             "settings": {
-              "image": "shopify://shop_images/watch22-1.jpg",
               "text": "Never miss any second",
-              "color_text": "#fff"
+              "color_text": "#ffffff"
             }
           },
           "1565086052103-1": {
             "type": "slider_list",
             "settings": {
-              "image": "shopify://shop_images/3123213123.jpg",
               "text": "Fashion. Style. Class.",
-              "color_text": "#fff"
+              "color_text": "#ffffff"
             }
           }
         },
@@ -2862,7 +2829,6 @@
           "1565086074531-0": {
             "type": "items",
             "settings": {
-              "image": "shopify://shop_images/banner15.jpg",
               "link": "",
               "padding_box": "50px",
               "option_box": "bottomright",
@@ -2880,7 +2846,6 @@
           "1565086074531-1": {
             "type": "items",
             "settings": {
-              "image": "shopify://shop_images/banner16.jpg",
               "link": "",
               "padding_box": "50px",
               "option_box": "bottomcenter",
@@ -2898,7 +2863,6 @@
           "1565086074531-2": {
             "type": "items",
             "settings": {
-              "image": "shopify://shop_images/banner17.jpg",
               "link": "",
               "padding_box": "50px",
               "option_box": "bottomleft",
@@ -2937,42 +2901,36 @@
           "1565086183892-0": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/e.png",
               "link": ""
             }
           },
           "1565086183892-1": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/d.png",
               "link": ""
             }
           },
           "1565086183892-2": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/client-white.png",
               "link": ""
             }
           },
           "1565086183892-3": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/c.png",
               "link": ""
             }
           },
           "1565086183892-4": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/b.png",
               "link": ""
             }
           },
           "1565086183892-5": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/a.png",
               "link": ""
             }
           }
@@ -2994,7 +2952,6 @@
           "effect": "fade-left",
           "padding_content": "70px 20px",
           "show_bg": true,
-          "bg": "shopify://shop_images/row-bg-3.jpg",
           "show_overlay": false,
           "show_border": false,
           "color_border": "#c2c2c2",
