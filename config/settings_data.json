@@ -3107,6 +3107,17 @@
           "btn_more": true,
           "btn_text": "Shop More"
         }
+      },
+      "index_section_custom_html_YFCpYG": {
+        "type": "index-section-custom_html",
+        "settings": {
+          "topoffset": true,
+          "fullwidth": false,
+          "data": "<section class=\"full-width-video\">\n    <div class=\"video-container\">\n        <iframe src=\"https://www.youtube.com/embed/YOUR_VIDEO_ID?autoplay=1&mute=1&loop=1&playlist=YOUR_VIDEO_ID\" frameborder=\"0\" allowfullscreen>\n        </iframe>\n    </div>\n</section>\n\n<style>\n    .full-width-video {\n        width: 100%;\n        margin: 0;\n        padding: 0;\n    }\n    .video-container {\n        width: 100%;\n        height: 500px; /* Adjust height as needed */\n        position: relative;\n        overflow: hidden;\n    }\n    .video-container iframe {\n        width: 100%;\n        height: 100%;\n    }\n</style>",
+          "usebgcolor": false,
+          "usebgcolorfullwidth": false,
+          "bgco": "#ffffff"
+        }
       }
     },
     "content_for_index": [
@@ -3116,7 +3127,8 @@
       "1565086183892",
       "1565087151591",
       "1565086253684",
-      "1565140049173"
+      "1565140049173",
+      "index_section_custom_html_YFCpYG"
     ]
   }
 }
