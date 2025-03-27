@@ -2891,7 +2891,7 @@
         "settings": {
           "fullwidth": false,
           "padding": "50px 0px 0px 0px",
-          "margin": "0px 0px 0px 0px",
+          "margin": "0px 0px 30px 0px",
           "padding_mobi": "50px 0px 0px 0px",
           "margin_mobi": "0px 0px 0px 0px",
           "effect": "fade-up",
@@ -2948,6 +2948,7 @@
           "1565086183892-4",
           "1565086183892-5"
         ],
+        "disabled": true,
         "settings": {
           "fullwidth": true,
           "padding": "60px 95px",
@@ -2968,6 +2969,7 @@
       },
       "1565086253684": {
         "type": "index-section-blog",
+        "disabled": true,
         "settings": {
           "fullwidth": false,
           "bg_color": "#ffffff",
@@ -3000,6 +3002,7 @@
       },
       "1565087151591": {
         "type": "index-section-product-image",
+        "disabled": true,
         "settings": {
           "fullwidth": false,
           "padding": "0px 0px 0px 0px",
@@ -3017,6 +3020,7 @@
       },
       "1565140049173": {
         "type": "index-section-newletter",
+        "disabled": true,
         "settings": {
           "bg_color": "#ffffff",
           "border_color": "#dedede",
@@ -3091,6 +3095,7 @@
           "1565140379179-2",
           "1565140602221"
         ],
+        "disabled": true,
         "settings": {
           "fullwidth": false,
           "bg_color": "#ffffff",
@@ -3111,7 +3116,86 @@
       "full_width_video_hChHQW": {
         "type": "full-width-video",
         "settings": {
-          "video": "shopify://files/videos/Meshira 01.mp4"
+          "video": "shopify://files/videos/Meshira 02.mp4"
+        }
+      },
+      "index_section_banner_XfmKTX": {
+        "type": "index-section-banner",
+        "blocks": {
+          "items_JUmJ8c": {
+            "type": "items",
+            "settings": {
+              "link": "",
+              "padding_box": "50px",
+              "option_box": "topleft",
+              "effect_box": "effect_bottom",
+              "style_box": "style_1",
+              "title": "New Collection",
+              "text": "from $199",
+              "show_button": true,
+              "text_button": "Explore Now",
+              "link_button": "",
+              "style_button": "style",
+              "color_title": "#303030",
+              "color_text": "#909090",
+              "show_box": false
+            }
+          },
+          "items_9jeCXi": {
+            "type": "items",
+            "settings": {
+              "link": "",
+              "padding_box": "50px",
+              "option_box": "topleft",
+              "effect_box": "effect_bottom",
+              "style_box": "style_1",
+              "title": "New Collection",
+              "text": "from $199",
+              "show_button": true,
+              "text_button": "Explore Now",
+              "link_button": "",
+              "style_button": "style",
+              "color_title": "#303030",
+              "color_text": "#909090",
+              "show_box": false
+            }
+          },
+          "items_UhXnhW": {
+            "type": "items",
+            "settings": {
+              "link": "",
+              "padding_box": "50px",
+              "option_box": "topleft",
+              "effect_box": "effect_bottom",
+              "style_box": "style_1",
+              "title": "New Collection",
+              "text": "from $199",
+              "show_button": true,
+              "text_button": "Explore Now",
+              "link_button": "",
+              "style_button": "style",
+              "color_title": "#303030",
+              "color_text": "#909090",
+              "show_box": false
+            }
+          }
+        },
+        "block_order": [
+          "items_JUmJ8c",
+          "items_9jeCXi",
+          "items_UhXnhW"
+        ],
+        "settings": {
+          "fullwidth": false,
+          "padding": "0px 0px 0px 0px",
+          "margin": "50px 0px 0px 0px",
+          "padding_mobi": "0px 0px 0px 0px",
+          "margin_mobi": "0px 0px 0px 0px",
+          "effect": "none",
+          "show_title": true,
+          "text1": "Our Collections",
+          "text2": "",
+          "order": false
         }
       }
     },
@@ -3123,7 +3207,8 @@
       "1565086183892",
       "1565087151591",
       "1565086253684",
-      "1565140049173"
+      "1565140049173",
+      "index_section_banner_XfmKTX"
     ]
   }
 }
