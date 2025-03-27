@@ -3,185 +3,122 @@
 {%- assign name_collection = item.collection -%}
 {%- assign collection = collections[name_collection] -%}
 {%- assign length = item.limit | plus: 0 -%}
-<div id="shopify-section-b462771a-dd64-4463-a87c-7c22ec85f4d7" class="shopify-section index-section"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.15/swiper-bundle.css">
+<section data-aos="{{ section.settings.effect }}" id="section-{{ section.id }}" class="section-products">
+  <div class="container-indent">
+    <div class="container-fluid{% if item.fullwidth %}-fullwidth{% endif %} container-fluid-custom-mobile-padding" data-sectionname="index_sectionproducts">
+      {%- if item.show_title -%}<div class="sp-block-title">
+        <h2 class="sp-title">
+          {%- if item.use_title_as_link -%}<a href="/collections/{{ collection.handle }}" class="title-hover-underline" title="{{ item.button_text }}">{{ item.text1 }}</a>
+          {%- else -%}{{ item.text1 }}
+          {%- endif -%}
+        </h2>
+        {% unless item.text2 == '' %}<div class="sp-description">{{ item.text2 }}</div>{% endunless %}
+        {% unless item.default_carousel %}{% unless item.text3 == '' %}<p>{{ item.text3 }}</p>{% endunless %}{% endunless %}
+      </div>{%- endif -%}
 
-<section class="bestSellers-carousel relative section-b462771a-dd64-4463-a87c-7c22ec85f4d7">
-  <h2>Best Sellers</h2>
-  <div class="swiper-container swiper--b462771a-dd64-4463-a87c-7c22ec85f4d7 swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events" id="carousel--b462771a-dd64-4463-a87c-7c22ec85f4d7">
-    <div class="swiper-wrapper" id="swiper-wrapper-ec66abcb1cd2fbc3" aria-live="off" style="transition-duration: 1000ms; transform: translate3d(-1271.63px, 0px, 0px);"><div class="swiper-slide slide--e038cef1-0897-4e1c-b88d-f96468d40434 swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" role="group" aria-label="1 / 14" style="width: 318.205px; margin-right: 40px;">
-        <a href="/products/cosmos-in-black">
-          <img src="//www.drapery-silk.com/cdn/shop/products/13_96304871-594b-401b-8982-5867ac5938c6.jpg?v=1618293088" class="w-100 lazyload visible_lazy">
-          <h3>Saree1</h3>
-          <p><span class="money">Rs. 37,800.00</span> </p>
-          </a>
+      {%- if item.default_carousel -%}
+      {%- assign slider_mode = true -%}
+      <div class="sp-carousel-products-js row arrow-location-tab sp-alignment-img sp-layout-product-item slick-animated-show-js" data-slick='{"slidesToShow": {{ item.toshow }}, "slidesToScroll": {{ item.step }}, "autoplay": {{ item.module_autoplay }}, "autoplaySpeed": {{ item.delay_time }}}'>
+        {% if name_collection != blank and collection.products.size > 1 %}
+          {%- for product in collection.products limit: length -%}
+            <div class="col-xs-12 col-lg-12">
+              {%- include "product-grid-item" -%}
+            </div>
+          {%- endfor -%}
+        {% else %}
+          {% for i in (1..section.settings.limit) %}
+            <div class="columns">
+              <div class="sp-product product-parent options-js thumbprod-center">
+                <div class="sp-image-box">
+                  <a href="">
+                    <span class="sp-img">
+                      <img src="{{ 'bg.jpg' | asset_img_url: '600x600', crop: 'center' }}" class="lazyload">
+                    </span>
+                  </a>
+                  <div class="gruop-button">
+                    <a href="#" data-toggle="modal" class="sp-btn-quickview" data-tooltip="Quick View"> </a>
+                    <div class="sp-row-btn btn-cart">
+                      <form method="post" enctype="multipart/form-data">
+                        <button class="sp-btn-addtocart  addtocart-item-js thumbprod-button-bg" data-tooltip="Add to cart"><span class="icon icon-shopping_basket"></span> <span>ADD TO CART</span></button>
+                      </form>
+                    </div>
+                    <a class="btn-cart btn-view-more" data-tooltip="View More">View more</a>
+                    <a class="compare wk-app-btn sp-btn-compare" data-toggle="tooltip" data-tooltip="Compare" data-placement="left" href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+                <div class="sp-description">
+                  <div class="sp-row">
+                    <div class="sp-rating">
+                      <span class="shopify-product-reviews-badge"></span>
+                    </div>
+                  </div>
+                  <h5 class="sp-title prod-thumb-title-color"><a>Basic Swear Shirt</a></h5>
+                  <div class="sp-price">
+                    <span><span class="money">$660.00 </span></span><span class="old-price hide"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        {% endif %}
       </div>
-      <div class="swiper-slide slide--33a00dc0-3811-4667-ab2b-40fa1d06a5de swiper-slide-duplicate" data-swiper-slide-index="3" role="group" aria-label="2 / 14" style="width: 318.205px; margin-right: 40px;">
-        <a href="/products/the-whimsical-garden">
-          <img src="//www.drapery-silk.com/cdn/shop/files/Untitled-1_0006_29-05-24_Drapery_B0404.jpg?v=1723398983" class="w-100 visible_lazy lazyloaded">
-          <h3> Saree2 </h3>
-          <p> <span class="money">Rs. 42,550.00</span> </p>
-          </a>
-        </div>
-      <div class="swiper-slide slide--42f8cf15-72a5-4ddb-8309-2fdd1a6820fa swiper-slide-duplicate" data-swiper-slide-index="4" role="group" aria-label="3 / 14" style="width: 318.205px; margin-right: 40px;">
-        <a href="/products/the-mystic-feathers">
-          <img src="//www.drapery-silk.com/cdn/shop/files/17-09-24-Drapery-Festive-0476.jpg?v=1728386620" class="w-100 visible_lazy lazyloaded">
-          <h3> Saree3 </h3>
-          <p>
-            <span class="money">Rs. 28,090.00</span>
-          </p>
-          </a>
+      {%- else -%}
+      <div class="row sp-layout-product-item">
+        {% if name_collection != blank and collection.products.size > 1 %}
+          {%- for product in collection.products limit: length -%}
+          <div class="col-sm-6 col-xs-12 col-md-4 col-lg-{{ grid }}">
+            {%- include "product-grid-item" -%}
+          </div>
+          {%- endfor -%}
+        {% else %}
+          {% for i in (1..section.settings.limit) %}
+            <div class="col-sm-6 col-xs-12 col-md-4 col-lg-{{ grid }}">
+              <div class="sp-product product-parent options-js thumbprod-center">
+                <div class="sp-image-box">
+                  <a href="">
+                    <span class="sp-img">
+                      <img src="{{ 'bg.jpg' | asset_img_url: '600x600', crop: 'center' }}" class="lazyload">
+                    </span>
+                  </a>
+                  <div class="gruop-button">
+                    <a href="#" data-toggle="modal" class="sp-btn-quickview" data-tooltip="Quick View"> </a>
+                    <div class="sp-row-btn btn-cart">
+                      <form action="/cart/add" method="post" enctype="multipart/form-data">
+                        <input type="hidden" name="id" value="17697232060506">
+                        <button class="sp-btn-addtocart  addtocart-item-js thumbprod-button-bg" data-tooltip="Add to cart"><span class="icon icon-shopping_basket"></span> <span>ADD TO CART</span></button>
+                      </form>
+                    </div>
+                    <a class="btn-cart btn-view-more" data-tooltip="View More">View more</a>
+                    <a class="compare wk-app-btn sp-btn-compare" data-toggle="tooltip" data-tooltip="Compare" data-placement="left" href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+                <div class="sp-description">
+                  <div class="sp-row">
+                    <div class="sp-rating">
+                      <span class="shopify-product-reviews-badge"></span>
+                    </div>
+                  </div>
+                  <h5 class="sp-title prod-thumb-title-color"><a>Basic Swear Shirt</a></h5>
+                  <div class="sp-price">
+                    <span><span class="money">$660.00 </span></span><span class="old-price hide"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        {% endif %}
       </div>
-      <div class="swiper-slide slide--3e44456b-f92b-42b0-abb4-309dd2c90e02 swiper-slide-duplicate" data-swiper-slide-index="5" role="group" aria-label="4 / 14" style="width: 318.205px; margin-right: 40px;">
-        <a href="/products/old-school-silk-saree-weave">
-          <img src="//www.drapery-silk.com/cdn/shop/products/139-1_f3db1922-c179-4523-8ce1-08c291b904bd_1.jpg?v=1614862927" class="w-100 visible_lazy lazyloaded">
-            <h3> SAREE1 </h3>
-          <p> <span class="money">Rs. 31,500.00</span> </p> 
-        </a>
+      {%- endif -%}
+      
+      {%- if item.show_button -%}
+      <div class="text-center">
+        <a href="/collections/{{ collection.handle }}" class="btn btn-border btn-top">{{ item.button_text }}</a>
       </div>
-      <div class="swiper-slide slide--5f21e300-2390-4069-b1d7-2d876bb91f8d swiper-slide-prev" data-swiper-slide-index="0" role="group" aria-label="5 / 14" style="width: 318.205px; margin-right: 40px;">
-        <a href="/products/product-template.liquid">
-          <img src="//www.drapery-silk.com/cdn/shop/products/Model-Advt17-12-20Drapery5E.2.993_8581f5f4-f211-4c10-9c12-3843bcd46804.jpg?v=1618469961" class="w-100 visible_lazy lazyloaded">
-          <h3> Saree4A </h3>
-          <p> <span class="money">Rs. 33,100.00</span> </p>
-          </a>
-      </div>
-      <div class="swiper-slide slide--821df7b7-34e9-4af9-bb69-578ced69ae91 swiper-slide-active" data-swiper-slide-index="1" role="group" aria-label="6 / 14" style="width: 318.205px; margin-right: 40px;">
-        <a href="/products/clown-fish-woven-in-gold-zari-with-antique-zari-border">
-          <img src="//www.drapery-silk.com/cdn/shop/files/218.A.jpg?v=1698579477" class="w-100 visible_lazy lazyloaded">
-          <h3> Saree5 </h3>
-          <p> <span class="money">Rs. 47,490.00</span> </p>
-          </a>
-      </div>
-      <div class="swiper-slide slide--e038cef1-0897-4e1c-b88d-f96468d40434 swiper-slide-next" data-swiper-slide-index="2" role="group" aria-label="7 / 14" style="width: 318.205px; margin-right: 40px;">
-        <a href="/products/cosmos-in-black">
-          <img src="//www.drapery-silk.com/cdn/shop/products/13_96304871-594b-401b-8982-5867ac5938c6.jpg?v=1618293088" class="w-100 visible_lazy lazyloaded">
-          <h3> Saree6 </h3>
-          <p> <span class="money">Rs. 37,800.00</span> </p>
-          </a>
-      </div>
-      <div class="swiper-slide slide--33a00dc0-3811-4667-ab2b-40fa1d06a5de" data-swiper-slide-index="3" role="group" aria-label="8 / 14" style="width: 318.205px; margin-right: 40px;">
-        <a href="/products/the-whimsical-garden"> <img src="//www.drapery-silk.com/cdn/shop/files/Untitled-1_0006_29-05-24_Drapery_B0404.jpg?v=1723398983" class="w-100 visible_lazy lazyloaded">
-          <h3> Saree7 </h3>
-          <p> <span class="money">Rs. 42,550.00</span> </p>
-          </a>
-      </div>
-      <div class="swiper-slide slide--42f8cf15-72a5-4ddb-8309-2fdd1a6820fa" data-swiper-slide-index="4" role="group" aria-label="9 / 14" style="width: 318.205px; margin-right: 40px;">
-        <a href="/products/the-mystic-feathers">
-          <img src="//www.drapery-silk.com/cdn/shop/files/17-09-24-Drapery-Festive-0476.jpg?v=1728386620" class="w-100 visible_lazy lazyloaded">
-          <h3> Saree8 </h3>
-          <p> <span class="money">Rs. 28,090.00</span> </p>
-          </a>
-      </div>
-      <div class="swiper-slide slide--3e44456b-f92b-42b0-abb4-309dd2c90e02" data-swiper-slide-index="5" role="group" aria-label="10 / 14" style="width: 318.205px; margin-right: 40px;">
-        <a href="/products/old-school-silk-saree-weave">
-          <img src="//www.drapery-silk.com/cdn/shop/products/139-1_f3db1922-c179-4523-8ce1-08c291b904bd_1.jpg?v=1614862927" class="w-100 visible_lazy lazyloaded">
-          <h3> Saree9 </h3>
-          <p> <span class="money">Rs. 31,500.00</span> </p>
-          </a>
-      </div>
-      <div class="swiper-slide slide--5f21e300-2390-4069-b1d7-2d876bb91f8d swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" role="group" aria-label="11 / 14" style="width: 318.205px; margin-right: 40px;">
-        <a href="/products/the-dual-pallu-in-velocity-blue"> 
-          <img src="//www.drapery-silk.com/cdn/shop/products/Model-Advt17-12-20Drapery5E.2.993_8581f5f4-f211-4c10-9c12-3843bcd46804.jpg?v=1618469961" class="w-100 visible_lazy lazyloaded">
-          <h3> Saree10 </h3>
-          <p> <span class="money">Rs. 33,100.00</span> </p>
-          </a>
-      </div>
-      <div class="swiper-slide slide--821df7b7-34e9-4af9-bb69-578ced69ae91 swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="1" role="group" aria-label="12 / 14" style="width: 318.205px; margin-right: 40px;">
-        <a href="/products/clown-fish-woven-in-gold-zari-with-antique-zari-border">
-          <img src="//www.drapery-silk.com/cdn/shop/files/218.A.jpg?v=1698579477" class="w-100 visible_lazy lazyloaded">
-          <h3> Saree11 </h3>
-          <p> <span class="money">Rs. 47,490.00</span> </p>
-          </a>
-      </div>
-      <div class="swiper-slide slide--e038cef1-0897-4e1c-b88d-f96468d40434 swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" role="group" aria-label="13 / 14" style="width: 318.205px; margin-right: 40px;">
-        <a href="/products/cosmos-in-black">
-          <img src="//www.drapery-silk.com/cdn/shop/products/13_96304871-594b-401b-8982-5867ac5938c6.jpg?v=1618293088" class="w-100 visible_lazy lazyloaded">
-          <h3> Saree12 </h3> 
-          <p> <span class="money">Rs. 37,800.00</span> </p>
-          </a>
-      </div>
-      <div class="swiper-slide slide--33a00dc0-3811-4667-ab2b-40fa1d06a5de swiper-slide-duplicate" data-swiper-slide-index="3" role="group" aria-label="14 / 14" style="width: 318.205px; margin-right: 40px;">
-        <a href="/products/the-whimsical-garden">
-          <img src="//www.drapery-silk.com/cdn/shop/files/Untitled-1_0006_29-05-24_Drapery_B0404.jpg?v=1723398983" class="w-100 visible_lazy lazyloaded">
-          <h3> Saree13 </h3>
-          <p> <span class="money">Rs. 42,550.00</span> </p>
-          </a>
-      </div>
+      {%- endif -%}
+
     </div>
-  <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
   </div>
 </section>
-
-<style>
-.bestSellers-carousel {
-  position: relative;
-  overflow: hidden;
-  margin: 100px auto;
-}
-.bestSellers-carousel .swiper-container {
-  overflow:hidden;
-}
-.bestSellers-carousel a, .bestSellers-carousel a:hover {
-  color: #A3A3A3;
-  text-decoration: none;
-}
-.bestSellers-carousel h3, .bestSellers-carousel h2 {
-  text-transform: uppercase;
-}
-.bestSellers-carousel h2 {
-  text-align: center;
-  margin-bottom: 40px;
-}
-.bestSellers-carousel .swiper-slide h3 {
-  color: #231F20;
-  margin-top: 20px;
-}
-</style>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.15/swiper-bundle.min.js"></script>
-<script>
-  var swiper = new Swiper(".swiper--b462771a-dd64-4463-a87c-7c22ec85f4d7", {
-    slidesPerView: 3.9,
-    centeredSlides: true,
-    loop: true,
-    spaceBetween: 40,
-    speed: 1000,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1.2,
-        spaceBetween: 20
-      },
-      640: {
-        slidesPerView: 2.2,
-        spaceBetween: 40
-      },
-      1000: {
-        slidesPerView: 3.9,
-        spaceBetween: 40
-      }
-    }
-  });
-</script>
-
-</div>
-<style type="text/css">
-  #section-1565086074531{
-    padding:50px 0px 0px 0px;
-    margin:0px 0px 0px 0px;
-  }
-
-  @media (max-width: 1024px){
-    #section-1565086074531{
-      padding:50px 0px 0px 0px;
-      margin:0px 0px 0px 0px;
-    }
-  }
-</style>
-</div>
 <style type="text/css">
   #section-{{ section.id }}{
     padding:{{ section.settings.padding }};
