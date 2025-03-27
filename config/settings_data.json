@@ -80,7 +80,7 @@
     "bg_hearder_search": "#f4f4f4",
     "cat_slogan_text": "#2c2c2c",
     "cat_slogan_icon": "#303030",
-    "color_header_icons": "#303030",
+    "color_header_icons": "#ffffff",
     "color_header_icons_hover": "#c71932",
     "color_header_icons_dp": "#ffffff",
     "color_header_icons_cart_dp": "#777",
@@ -759,14 +759,13 @@
           "stickygallery": true,
           "gallery_type": "horizontal",
           "show_thumbnails": true,
-          "truncate_excerpt": false,
-          "truncate": "15",
-          "truncate_last_symbols": "...",
           "show_product_main_info": false,
           "show_sku": false,
           "show_qiantity": false,
           "show_trust_badge": false,
+          "image_l": "shopify://shop_images/For_des.png",
           "image_max_width": "541",
+          "image_lm": "",
           "image_max_width_m": "541",
           "designoption1": "getButtonHtml",
           "designoption2": "getButtonHtml",
@@ -906,14 +905,15 @@
               "show_content": false,
               "show_content_index": false,
               "text": "20% STUDENT DISCOUNT PLUS FREE NEXT DAY DELIVEY, EXCLUDES SALE. <a href=\"#\">DETAILS</a>",
-              "background_image": false
+              "background_image": false,
+              "image": "shopify://shop_images/logo.png"
             }
           },
           "1522754394860": {
             "type": "topbar",
             "settings": {
               "show_content": true,
-              "menu_top": ""
+              "menu_top": "menu-01"
             }
           },
           "1516807368327": {
@@ -928,18 +928,27 @@
             "settings": {
               "newnavigation_item": "Shop",
               "grid": "4",
+              "image1": "",
+              "image2": "",
+              "image3": "",
+              "image4": "",
+              "image5": "",
+              "image6": "",
               "widget": "banner",
               "widgetgallery_title": "SPECIALS",
               "widgetgallery_url": "",
               "collection": "",
               "widgetbanner_url": "",
+              "widgetbanner_img": "shopify://shop_images/banner-logo.png",
               "banners_grid": "none",
               "banner1_url": "",
+              "bottombanners_img_1": "",
               "banners_tit1": "SUMMER <span class=\"sp-base-color\">2018</span>",
               "banners_tit11": "NEW ARRIVALS",
               "color_11": "#ffffff",
               "color_12": "#ffffff",
               "banner2_url": "",
+              "bottombanners_img_2": "",
               "banners_tit2": "CLEARANCE SALES",
               "banners_tit21": "GET UP TO 20% OFF",
               "color_21": "#ffffff",
@@ -959,12 +968,16 @@
           "header_fullwidth": false,
           "logo_text": "bixbang",
           "logo_margin_top": 0,
-          "logo_max_width": 180,
-          "header_custom": "default",
+          "logo": "shopify://shop_images/bixbang-footer.png",
+          "logo_stuck": "shopify://shop_images/bixbang.png",
+          "logo_max_width": 160,
+          "logo_page": "shopify://shop_images/logo_39500f68-1322-4513-9404-1836787c658a.png",
+          "header_custom": "headermenutoggle",
           "transparent_all": false,
           "menu_bar": "default",
           "menu_sidebar": "main-menu",
           "decs_header_sidebar": "We put a strong emphasis on simplicity, quality and usefulness of fashion products over other factors.",
+          "img_header_sidebar": "shopify://shop_images/banner.jpg",
           "show_text": true,
           "text_header_sidebar": "Monday to Sunday: 9 am - 21 pm",
           "custom_header_sidebar": "70 Washington Square South, NY, US<br>+92 423 567<br>info@bixbang.com",
@@ -985,6 +998,9 @@
           "show_customer_links": true,
           "show_sign_in": true,
           "show_image": false,
+          "img_login": "",
+          "logomobile": "shopify://shop_images/tv-video-logo.png",
+          "logomobile_page": "shopify://shop_images/logo_39500f68-1322-4513-9404-1836787c658a.png",
           "logo_max_mobile_width": 110,
           "mobile_custom_menu": "mobilelogocenter"
         }
@@ -1109,20 +1125,30 @@
             "type": "footer_links",
             "settings": {
               "show_content": true,
-              "menu_footer": ""
+              "menu_footer": "menu-footer-1"
             }
           },
           "1565318420888": {
             "type": "footer_links",
             "settings": {
               "show_content": true,
-              "menu_footer": ""
+              "menu_footer": "menu-footer-2"
+            }
+          },
+          "1565771345120": {
+            "type": "footer_instagram",
+            "settings": {
+              "title": "VISIT US ON INSTAGRAM",
+              "color_title": "#7c7c80",
+              "access_token": "11364876509.8fc62aa.a0b97ad681da4676991bbb017b8c3918",
+              "image_count": 3
             }
           },
           "1565318443032": {
             "type": "footer_paymant",
             "settings": {
-              "text_paymant": "<p>132, Moon Street, NewYork, American</p><p>Support@bixbang.com</p><p>(+132) 888 666</p>"
+              "text_paymant": "<p>132, Moon Street, NewYork, American</p><p>Support@bixbang.com</p><p>(+132) 888 666</p>",
+              "img_paymant": "shopify://shop_images/payment-method_a364b0ab-cce5-43bc-9770-1863164f0ae6.png"
             }
           }
         },
@@ -1130,10 +1156,11 @@
           "1553746322229",
           "1553755707606",
           "1565318420888",
+          "1565771345120",
           "1565318443032"
         ],
         "settings": {
-          "show_footer": false,
+          "show_footer": true,
           "fullwidth": false,
           "bg_color": "#ffffff",
           "color": "#ffffff",
@@ -1145,15 +1172,16 @@
           "padding_mobi": "0px 0px 0px 0px",
           "margin_mobi": "0px 0px 0px 0px",
           "show_logoblock": true,
-          "logo_text": "© 2019 RedExp",
+          "logo_text": "© RedExp",
+          "logo": "shopify://shop_images/bixbang.png",
           "logo_max_width": 164,
-          "design_footer": "footer_default",
+          "design_footer": "footer_culumn",
           "menu_footer": "footer",
           "padding_container": "98px 110px 96px 110px",
           "padding_container_laptop": "90px 15px 90px 15px",
-          "padding_container_mobi": "90px 15px 90px 15px",
+          "padding_container_mobi": "65px 15px 65px 15px",
           "style": "style_3",
-          "footer_address": "",
+          "footer_address": "© RedExp 2019. Copy Right",
           "show_socials": true,
           "facebook_url": "#",
           "twitter_url": "#",
@@ -2497,12 +2525,19 @@
               "linklist": "main-menu",
               "newnavigation_item": "Shop",
               "grid": "4",
+              "image1": "",
+              "image2": "",
+              "image3": "",
+              "image4": "",
+              "image5": "",
+              "image6": "",
               "widget": "banner",
               "widgetgallery_title": "SPECIALS",
               "widgetgallery_url": "",
               "collection": "",
               "collection_limit": "4",
               "widgetbanner_url": "",
+              "widgetbanner_img": "shopify://shop_images/banner-logo.png",
               "widgetbanner_title": "",
               "widgetbanner_title2": "",
               "widgetbanner_title3": "",
@@ -2515,11 +2550,13 @@
               "banners_grid": "none",
               "html": "Custom Html",
               "banner1_url": "",
+              "bottombanners_img_1": "",
               "banners_tit1": "SUMMER <span class=\"sp-base-color\">2019</span>",
               "banners_tit11": "NEW ARRIVALS",
               "color_11": "#ffffff",
               "color_12": "#ffffff",
               "banner2_url": "",
+              "bottombanners_img_2": "",
               "banners_tit2": "CLEARANCE SALES",
               "banners_tit21": "GET UP TO 20% OFF",
               "color_21": "#ffffff",
@@ -2535,6 +2572,8 @@
           "header_fullwidth": false,
           "logo_text": "bixbang",
           "logo_margin_top": 0,
+          "logo": "shopify://shop_images/bixbang.png",
+          "logo_page": "",
           "logo_max_width": 180,
           "show_socials": true,
           "facebook_url": "#",
@@ -2545,6 +2584,8 @@
           "show_customer_links": true,
           "show_options_links": true,
           "show_sign_in": true,
+          "logomobile": "shopify://shop_images/bixbang.png",
+          "logomobile_page": "",
           "logo_max_mobile_width": 110,
           "mobile_custom_menu": "mobilelogoleft"
         }
@@ -2784,326 +2825,336 @@
           "text1": "Lorem Ipsum proin gravida nibh vel velit auctor aliqnean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Class apt"
         }
       },
-      "1565227149298": {
-        "type": "index-section-banner-3",
+      "1565086052103": {
+        "type": "slider-watch",
         "blocks": {
-          "1565227149298-0": {
-            "type": "items",
+          "1565086052103-0": {
+            "type": "slider_list",
             "settings": {
-              "link": "",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "topleft",
-              "effect_box": "effect_bottom",
-              "style_box": "style_5",
-              "title": "30% off<br>Mid-sesson sale",
-              "text": "",
-              "show_button": true,
-              "text_button": "SHOP NOW",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#ffffff",
-              "color_text": "#909090"
+              "image": "shopify://shop_images/watch22-1.jpg",
+              "text": "Never miss any second",
+              "color_text": "#fff"
             }
           },
-          "1565227149298-1": {
-            "type": "items",
+          "1565086052103-1": {
+            "type": "slider_list",
             "settings": {
-              "link": "",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "topleft",
-              "effect_box": "effect_bottom",
-              "style_box": "style_5",
-              "title": "Spring/Summer",
-              "text": "Featured Collections",
-              "show_button": true,
-              "text_button": "SHOP NOW",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#ffffff",
-              "color_text": "#ffffff"
+              "image": "shopify://shop_images/3123213123.jpg",
+              "text": "Fashion. Style. Class.",
+              "color_text": "#fff"
             }
           }
         },
         "block_order": [
-          "1565227149298-0",
-          "1565227149298-1"
+          "1565086052103-0",
+          "1565086052103-1"
         ],
-        "disabled": true,
         "settings": {
-          "fullwidth": false,
           "padding": "0px 0px 0px 0px",
           "margin": "0px 0px 0px 0px",
           "padding_mobi": "0px 0px 0px 0px",
+          "margin_mobi": "0px 0px 0px 0px"
+        }
+      },
+      "1565086074531": {
+        "type": "index-section-banner-custom",
+        "blocks": {
+          "1565086074531-0": {
+            "type": "items",
+            "settings": {
+              "image": "shopify://shop_images/banner15.jpg",
+              "link": "",
+              "padding_box": "50px",
+              "option_box": "bottomright",
+              "effect_box": "effect_top",
+              "style_box": "style_2",
+              "title": "Stylish Eternal",
+              "text": "",
+              "show_button": true,
+              "text_button": "EXPLORE NOW",
+              "link_button": "",
+              "color_title": "#ffffff",
+              "color_text": "#909090"
+            }
+          },
+          "1565086074531-1": {
+            "type": "items",
+            "settings": {
+              "image": "shopify://shop_images/banner16.jpg",
+              "link": "",
+              "padding_box": "50px",
+              "option_box": "bottomcenter",
+              "effect_box": "effect_top",
+              "style_box": "style_2",
+              "title": "In Time",
+              "text": "",
+              "show_button": true,
+              "text_button": "EXPLORE NOW",
+              "link_button": "",
+              "color_title": "#ffffff",
+              "color_text": "#909090"
+            }
+          },
+          "1565086074531-2": {
+            "type": "items",
+            "settings": {
+              "image": "shopify://shop_images/banner17.jpg",
+              "link": "",
+              "padding_box": "50px",
+              "option_box": "bottomleft",
+              "effect_box": "effect_top",
+              "style_box": "style_2",
+              "title": "New Model",
+              "text": "",
+              "show_button": true,
+              "text_button": "EXPLORE NOW",
+              "link_button": "",
+              "color_title": "#ffffff",
+              "color_text": "#909090"
+            }
+          }
+        },
+        "block_order": [
+          "1565086074531-0",
+          "1565086074531-1",
+          "1565086074531-2"
+        ],
+        "settings": {
+          "fullwidth": false,
+          "padding": "50px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "padding_mobi": "50px 0px 0px 0px",
           "margin_mobi": "0px 0px 0px 0px",
-          "effect": "zoom-in-up",
+          "effect": "fade-up",
           "show_title": false,
           "text1": "POPULAR",
           "text2": "CLOTHING BRANDS"
         }
       },
-      "1565227164670": {
-        "type": "index-section-banner",
+      "1565086183892": {
+        "type": "index-section-brands",
         "blocks": {
-          "1565227164670-0": {
-            "type": "items",
-            "disabled": true,
+          "1565086183892-0": {
+            "type": "logo_image",
             "settings": {
-              "link": "",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "bottomright",
-              "effect_box": "effect_top",
-              "style_box": "style_4",
-              "title": "Tank Top",
-              "text": "Lorem ipsum dolor sit amet, eiusmod tempor <br> incididunt ut labor",
-              "show_button": true,
-              "text_button": "SHOP NOW",
-              "link_button": "",
-              "style_button": "style_button_1",
-              "color_title": "#ffffff",
-              "color_text": "#ffffff",
-              "show_box": false
+              "image": "shopify://shop_images/e.png",
+              "link": ""
             }
           },
-          "1565227164670-1": {
-            "type": "items",
+          "1565086183892-1": {
+            "type": "logo_image",
             "settings": {
-              "link": "",
-              "image": "shopify://shop_images/image-11.png",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "topleft",
-              "effect_box": "effect_bottom",
-              "style_box": "style_1",
-              "title": "Jeans",
-              "text": "Lorem ipsum dolor sit amet, eiusmod tempor  <br>incididunt ut labor",
-              "show_button": false,
-              "text_button": "Explore Now",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#303030",
-              "color_text": "#303030",
-              "show_box": false
+              "image": "shopify://shop_images/d.png",
+              "link": ""
             }
           },
-          "1565227164670-2": {
-            "type": "items",
-            "disabled": true,
+          "1565086183892-2": {
+            "type": "logo_image",
             "settings": {
-              "link": "",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "topright",
-              "effect_box": "effect_bottom",
-              "style_box": "style_4",
-              "title": "Summer",
-              "text": "sit amet, eiusmod tempor incididunt <br> ut labor",
-              "show_button": false,
-              "text_button": "Explore Now",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#303030",
-              "color_text": "#303030",
-              "show_box": false
+              "image": "shopify://shop_images/client-white.png",
+              "link": ""
+            }
+          },
+          "1565086183892-3": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/c.png",
+              "link": ""
+            }
+          },
+          "1565086183892-4": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/b.png",
+              "link": ""
+            }
+          },
+          "1565086183892-5": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/a.png",
+              "link": ""
             }
           }
         },
         "block_order": [
-          "1565227164670-0",
-          "1565227164670-1",
-          "1565227164670-2"
+          "1565086183892-0",
+          "1565086183892-1",
+          "1565086183892-2",
+          "1565086183892-3",
+          "1565086183892-4",
+          "1565086183892-5"
         ],
         "settings": {
           "fullwidth": true,
-          "padding": "30px 0px 0px 0px",
-          "margin": "0px 0px 0px 0px",
-          "padding_mobi": "0px 0px 0px 0px",
-          "margin_mobi": "0px 0px 0px 0px",
-          "effect": "fade-up",
-          "show_title": false,
-          "text1": "POPULAR",
-          "text2": "CLOTHING BRANDS",
-          "order": false
-        }
-      },
-      "1565228193098": {
-        "type": "index-section-banner",
-        "blocks": {
-          "1565228193098-2": {
-            "type": "items",
-            "settings": {
-              "link": "",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "bottomleft",
-              "effect_box": "effect_top",
-              "style_box": "style_4",
-              "title": "Sundress",
-              "text": "Lorem ipsum dolor sit amet, eiusmod tempor <br> incididunt ut labor",
-              "show_button": true,
-              "text_button": "SHOP NOW",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#ffffff",
-              "color_text": "#ffffff",
-              "show_box": true
-            }
-          }
-        },
-        "block_order": [
-          "1565228193098-2"
-        ],
-        "disabled": true,
-        "settings": {
-          "fullwidth": false,
-          "padding": "0px 0px 0px 0px",
+          "padding": "60px 95px",
           "margin": "0px 0px 0px 0px",
           "padding_mobi": "0px 0px 0px 0px",
           "margin_mobi": "0px 0px 0px 0px",
           "effect": "fade-left",
-          "show_title": false,
-          "text1": "POPULAR",
-          "text2": "CLOTHING BRANDS",
-          "order": true
+          "padding_content": "70px 20px",
+          "show_bg": true,
+          "bg": "shopify://shop_images/row-bg-3.jpg",
+          "show_overlay": false,
+          "show_border": false,
+          "color_border": "#c2c2c2",
+          "toshow": "6",
+          "step": "2",
+          "module_autoplay": false,
+          "delay_time": "7000"
         }
       },
-      "1567149610381": {
-        "type": "index-section-banner",
+      "1565086253684": {
+        "type": "index-section-blog",
+        "settings": {
+          "fullwidth": false,
+          "bg_color": "#ffffff",
+          "border_color": "#dedede",
+          "padding": "95px 0px 92px 0px",
+          "margin": "0px 0px 0px 0px",
+          "bg_color_mobi": "#ffffff",
+          "padding_mobi": "63px 0px 63px 0px",
+          "margin_mobi": "0px 0px 0px 0px",
+          "effect": "fade-up",
+          "show_title": true,
+          "select_heading": "center",
+          "text1": "LATES FROM BLOG",
+          "text2": "Get timely updates from your favorite products",
+          "text3": "",
+          "use_title_as_link": true,
+          "blog": "news",
+          "limit": "3",
+          "height_img": "320",
+          "style_tile_blog": "normal",
+          "show_tags": true,
+          "blog_show_author": true,
+          "blog_show_date": true,
+          "show_comment": true,
+          "show_description": false,
+          "truncate_excerpt": false,
+          "truncate": "15",
+          "truncate_last_symbols": "..."
+        }
+      },
+      "1565087151591": {
+        "type": "index-section-product-image",
+        "settings": {
+          "fullwidth": false,
+          "padding": "0px 0px 0px 0px",
+          "margin": "100px 100px 100px 100px",
+          "padding_mobi": "0px 0px 0px 0px",
+          "margin_mobi": "63px 0px 63px 0px",
+          "effect": "flip-up",
+          "show_title": true,
+          "text1": "CHOOSE YOUR DIAL",
+          "text2": "How do you feel",
+          "collection": "",
+          "limit": "6",
+          "items": "2"
+        }
+      },
+      "1565140049173": {
+        "type": "index-section-newletter",
+        "settings": {
+          "bg_color": "#ffffff",
+          "border_color": "#dedede",
+          "padding": "92px 0px 100px 0px",
+          "margin": "0px 0px 0px 0px",
+          "bg_color_mobi": "#ffffff",
+          "padding_mobi": "65px 0px 50px 0px",
+          "margin_mobi": "0px 0px 0px 0px",
+          "effect": "fade-up",
+          "heading": "NEWSLETTERS",
+          "style_title": "style_2",
+          "description": "Get timely updates from your favorite products",
+          "submit": "Subscribe",
+          "placeholder": "Enter Your Email"
+        }
+      },
+      "1565140379179": {
+        "type": "index-section-tabs",
         "blocks": {
-          "1567149610381-0": {
-            "type": "items",
+          "1565140379179-0": {
+            "type": "item",
             "settings": {
-              "link": "",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "bottomleft",
-              "effect_box": "effect_top",
-              "style_box": "style_4",
-              "title": "Sweater",
-              "text": "Sit amet, eiusmod tempor incididunt<br> ut labor",
-              "show_button": false,
-              "text_button": "Explore Now",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#ffffff",
-              "color_text": "#ffffff",
-              "show_box": false
+              "tab_name": "ALL",
+              "collection": "best-seller",
+              "limit": "6",
+              "toshow": "3",
+              "step": "1",
+              "module_autoplay": false,
+              "delay_time": "7000"
             }
           },
-          "1567149610381-1": {
-            "type": "items",
+          "1565140379179-1": {
+            "type": "item",
             "settings": {
-              "link": "",
-              "padding_box": "39px 50px 50px 50px",
-              "option_box": "bottomright",
-              "effect_box": "effect_top",
-              "style_box": "style_4",
-              "title": "Camisole",
-              "text": "Lorem ipsum dolor sit amet, eiusmod<br> tempor incididunt ut labor",
-              "show_button": false,
-              "text_button": "Explore Now",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#ffffff",
-              "color_text": "#ffffff",
-              "show_box": false
+              "tab_name": "Multifunction",
+              "collection": "featured-products",
+              "limit": "6",
+              "toshow": "4",
+              "step": "1",
+              "module_autoplay": false,
+              "delay_time": "7000"
             }
           },
-          "1567149610381-2": {
-            "type": "items",
+          "1565140379179-2": {
+            "type": "item",
             "settings": {
-              "link": "",
-              "padding_box": "50px",
-              "option_box": "bottomleft",
-              "effect_box": "effect_top",
-              "style_box": "style_4",
-              "title": "Sweater",
-              "text": "Sit amet, eiusmod tempor incididunt<br> ut labor",
-              "show_button": false,
-              "text_button": "Explore Now",
-              "link_button": "",
-              "style_button": "style",
-              "color_title": "#ffffff",
-              "color_text": "#ffffff",
-              "show_box": false
+              "tab_name": "Watch",
+              "collection": "featured-products",
+              "limit": "6",
+              "toshow": "4",
+              "step": "1",
+              "module_autoplay": false,
+              "delay_time": "7000"
+            }
+          },
+          "1565140602221": {
+            "type": "item",
+            "settings": {
+              "tab_name": "Titanium",
+              "collection": "trendy-items",
+              "limit": "6",
+              "toshow": "3",
+              "step": "1",
+              "module_autoplay": false,
+              "delay_time": "7000"
             }
           }
         },
         "block_order": [
-          "1567149610381-0",
-          "1567149610381-1",
-          "1567149610381-2"
+          "1565140379179-0",
+          "1565140379179-1",
+          "1565140379179-2",
+          "1565140602221"
         ],
-        "disabled": true,
         "settings": {
           "fullwidth": false,
-          "padding": "0px 0px 0px 0px",
+          "bg_color": "#ffffff",
+          "padding": "63px 0px 100px 0px",
           "margin": "0px 0px 0px 0px",
-          "padding_mobi": "0px 0px 0px 0px",
+          "bg_color_mobi": "#ffffff",
+          "padding_mobi": "63px 0px 63px 0px",
           "margin_mobi": "0px 0px 0px 0px",
           "effect": "fade-right",
-          "show_title": false,
-          "text1": "POPULAR",
-          "text2": "CLOTHING BRANDS",
-          "order": true
-        }
-      },
-      "index_section_banner_parallax_zCiq34": {
-        "type": "index-section-banner-parallax",
-        "disabled": true,
-        "settings": {
-          "padding": "380px 0",
-          "margin": "0px 0px 0px 0px",
-          "padding_mobi": "180px 0",
-          "margin_mobi": "0px 0px 0px 0px",
-          "bg_image": "shopify://shop_images/image-11.png",
-          "position": "left",
-          "sub_heading": "LOOKBOOK SS 2019",
-          "heading": "Basic instinct",
-          "text_button": "Shop Now",
-          "url_link": "",
-          "color_sub_heading": "#ffffff",
-          "color_heading": "#ffffff",
-          "color_text_button": "#ffffff",
-          "color_border_button": "#ffffff",
-          "color_bg_button": "#ffffff",
-          "background_alpha": "0.75",
-          "color_text_button_hv": "#ffffff",
-          "color_border_button_hv": "#ffffff",
-          "color_bg_button_hv": "#ffffff",
-          "background_alpha_2": "0.75"
-        }
-      },
-      "index_section_products_Ex3Hea": {
-        "type": "index-section-products",
-        "settings": {
-          "fullwidth": true,
-          "border_color": "#e1e1e1",
-          "padding": "0px 0px 0px 0px",
-          "margin": "0px 0px 0px 0px",
-          "padding_mobi": "0px 0px 0px 0px",
-          "margin_mobi": "0px 0px 0px 0px",
-          "effect": "zoom-in",
+          "layout_type": "grid",
+          "grid_row": "3",
           "show_title": true,
-          "text1": "OUR COLLECTIONS",
-          "text2": "SUMMER 2019",
-          "text3": "",
-          "use_title_as_link": true,
-          "show_button": false,
-          "button_text": "SHOW ALL",
-          "collection": "our-collection",
-          "limit": "4",
-          "items": "4",
-          "default_carousel": true,
-          "toshow": "3",
-          "step": "2",
-          "module_autoplay": true,
-          "delay_time": "5000"
+          "text1": "FEATURED PRODUCT",
+          "btn_more": true,
+          "btn_text": "Shop More"
         }
       }
     },
     "content_for_index": [
-      "1565227164670",
-      "index_section_banner_parallax_zCiq34",
-      "1565228193098",
-      "1565227149298",
-      "index_section_products_Ex3Hea",
-      "1567149610381"
+      "1565086052103",
+      "1565086074531",
+      "1565140379179",
+      "1565086183892",
+      "1565087151591",
+      "1565086253684",
+      "1565140049173"
     ]
   }
 }
