@@ -10,7 +10,7 @@
 {
   "current": {
     "show_preloader": true,
-    "use_boxed": true,
+    "use_boxed": false,
     "use_favicon": true,
     "show_width_container": false,
     "width_container": "1483",
