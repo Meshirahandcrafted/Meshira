@@ -3126,6 +3126,7 @@
             "type": "items",
             "settings": {
               "link": "",
+              "image": "shopify://shop_images/banner-01_1024x_42e675bc-c87f-4665-87e1-7a2919b6b0fe.jpg",
               "padding_box": "50px",
               "option_box": "topleft",
               "effect_box": "effect_bottom",
@@ -3145,6 +3146,7 @@
             "type": "items",
             "settings": {
               "link": "",
+              "image": "shopify://shop_images/banner_1024-1x.jpg",
               "padding_box": "50px",
               "option_box": "topleft",
               "effect_box": "effect_bottom",
