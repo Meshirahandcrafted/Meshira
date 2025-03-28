@@ -44,9 +44,25 @@
               <div class="sp-hotspot-content">
                 <a href="#" class="sp-btn-close"></a>
                 <div class="sp-img">
+                  <!--
                   <a href="{{ pri.url }}">
                     <img src="{{ pri.featured_image.src | product_img_url: '150x' }}" alt="{{ pri.featured_image.alt }}">
                   </a>
+                  -->
+                  <div style="position: relative; display: inline-block;">
+                  
+  <!-- Lookbook Image -->
+  <img src="{{ block.settings.image | img_url: 'large' }}" alt="Lookbook Image" style="width: 100%;">
+
+  <!-- Add to Cart Button Overlay -->
+  <form method="post" action="/cart/add" style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%);">
+    <input type="hidden" name="id" value="{{ block.settings.product.variants.first.id }}" />
+    <button type="submit" style="background: #ff6600; color: white; padding: 10px 20px; border: none; cursor: pointer;">
+      Add to Cart
+    </button>
+  </form>
+</div>
+
                   
                 </div>
                 
