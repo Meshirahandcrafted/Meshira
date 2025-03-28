@@ -3227,6 +3227,26 @@
               "product_5": ""
             }
           },
+          "item_Q8Q6Yy": {
+            "type": "item",
+            "settings": {
+              "positiontop_1": "9",
+              "positionleft_1": "63",
+              "product_1": "",
+              "positiontop_2": "26",
+              "positionleft_2": "50",
+              "product_2": "",
+              "positiontop_3": "61",
+              "positionleft_3": "48",
+              "product_3": "",
+              "positiontop_4": "0",
+              "positionleft_4": "0",
+              "product_4": "",
+              "positiontop_5": "20",
+              "positionleft_5": "0",
+              "product_5": ""
+            }
+          },
           "item_dAzHNc": {
             "type": "item",
             "settings": {
@@ -3290,6 +3310,7 @@
         },
         "block_order": [
           "item_8CxD6j",
+          "item_Q8Q6Yy",
           "item_dAzHNc",
           "item_ePyxg4",
           "item_Xc4Uie"
