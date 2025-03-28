@@ -3049,7 +3049,7 @@
               "tab_name": "",
               "collection": "best-seller",
               "limit": "6",
-              "toshow": "6",
+              "toshow": "5",
               "step": "1",
               "module_autoplay": true,
               "delay_time": "5000"
