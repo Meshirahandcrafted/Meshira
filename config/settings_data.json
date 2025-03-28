@@ -227,7 +227,7 @@
     "color_email": "#303030",
     "bg_email": "#ffffff",
     "border_email": "#303030",
-    "popup_newsletter_show": false,
+    "popup_newsletter_show": true,
     "nws_modal_br_color": "#ffffff",
     "nws_modal_br_opacity": 0.5,
     "nws_modal_text_color": "#303030",
@@ -957,10 +957,10 @@
           "header_sticky_header": true,
           "main_menu_selected": "main-menu",
           "header_fullwidth": false,
-          "logo_text": "Meshira",
+          "logo_text": "bixbang",
           "logo_margin_top": 0,
           "logo_max_width": 160,
-          "header_custom": "default",
+          "header_custom": "headermenutoggle",
           "transparent_all": false,
           "menu_bar": "default",
           "menu_sidebar": "main-menu",
@@ -2797,13 +2797,6 @@
       "1565086052103": {
         "type": "slider-watch",
         "blocks": {
-          "slider_list_GG6nJ7": {
-            "type": "slider_list",
-            "settings": {
-              "text": "Never miss any second",
-              "color_text": "#fff"
-            }
-          },
           "1565086052103-0": {
             "type": "slider_list",
             "settings": {
@@ -2822,7 +2815,6 @@
           }
         },
         "block_order": [
-          "slider_list_GG6nJ7",
           "1565086052103-0",
           "1565086052103-1"
         ],
@@ -3212,26 +3204,6 @@
       "index_section_lookbook_9axrLB": {
         "type": "index-section-lookbook",
         "blocks": {
-          "item_nnUMMM": {
-            "type": "item",
-            "settings": {
-              "positiontop_1": "9",
-              "positionleft_1": "63",
-              "product_1": "",
-              "positiontop_2": "26",
-              "positionleft_2": "50",
-              "product_2": "",
-              "positiontop_3": "61",
-              "positionleft_3": "48",
-              "product_3": "",
-              "positiontop_4": "0",
-              "positionleft_4": "0",
-              "product_4": "",
-              "positiontop_5": "20",
-              "positionleft_5": "0",
-              "product_5": ""
-            }
-          },
           "item_8CxD6j": {
             "type": "item",
             "settings": {
@@ -3314,7 +3286,6 @@
           }
         },
         "block_order": [
-          "item_nnUMMM",
           "item_8CxD6j",
           "item_dAzHNc",
           "item_ePyxg4",
