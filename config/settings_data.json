@@ -227,7 +227,7 @@
     "color_email": "#303030",
     "bg_email": "#ffffff",
     "border_email": "#303030",
-    "popup_newsletter_show": true,
+    "popup_newsletter_show": false,
     "nws_modal_br_color": "#ffffff",
     "nws_modal_br_opacity": 0.5,
     "nws_modal_text_color": "#303030",
@@ -958,17 +958,13 @@
           "main_menu_selected": "main-menu",
           "header_fullwidth": false,
           "logo_text": "bixbang",
-          "logo_margin_top": 2,
-          "logo": "shopify://shop_images/logo_39500f68-1322-4513-9404-1836787c658a.png",
-          "logo_stuck": "shopify://shop_images/bixbang.png",
-          "logo_max_width": 180,
-          "logo_page": "shopify://shop_images/logo_39500f68-1322-4513-9404-1836787c658a.png",
-          "header_custom": "transparent",
+          "logo_margin_top": 0,
+          "logo_max_width": 160,
+          "header_custom": "headermenutoggle",
           "transparent_all": false,
-          "menu_bar": "menucenter",
+          "menu_bar": "default",
           "menu_sidebar": "main-menu",
           "decs_header_sidebar": "We put a strong emphasis on simplicity, quality and usefulness of fashion products over other factors.",
-          "img_header_sidebar": "shopify://shop_images/banner.jpg",
           "show_text": true,
           "text_header_sidebar": "Monday to Sunday: 9 am - 21 pm",
           "custom_header_sidebar": "70 Washington Square South, NY, US<br>+92 423 567<br>info@bixbang.com",
@@ -989,9 +985,6 @@
           "show_customer_links": true,
           "show_sign_in": true,
           "show_image": false,
-          "img_login": "",
-          "logomobile": "shopify://shop_images/bixbang.png",
-          "logomobile_page": "shopify://shop_images/logo_39500f68-1322-4513-9404-1836787c658a.png",
           "logo_max_mobile_width": 110,
           "mobile_custom_menu": "mobilelogocenter"
         }
@@ -2804,6 +2797,13 @@
       "1565086052103": {
         "type": "slider-watch",
         "blocks": {
+          "slider_list_GG6nJ7": {
+            "type": "slider_list",
+            "settings": {
+              "text": "Never miss any second",
+              "color_text": "#fff"
+            }
+          },
           "1565086052103-0": {
             "type": "slider_list",
             "settings": {
@@ -2822,6 +2822,7 @@
           }
         },
         "block_order": [
+          "slider_list_GG6nJ7",
           "1565086052103-0",
           "1565086052103-1"
         ],
@@ -3211,6 +3212,26 @@
       "index_section_lookbook_9axrLB": {
         "type": "index-section-lookbook",
         "blocks": {
+          "item_nnUMMM": {
+            "type": "item",
+            "settings": {
+              "positiontop_1": "9",
+              "positionleft_1": "63",
+              "product_1": "",
+              "positiontop_2": "26",
+              "positionleft_2": "50",
+              "product_2": "",
+              "positiontop_3": "61",
+              "positionleft_3": "48",
+              "product_3": "",
+              "positiontop_4": "0",
+              "positionleft_4": "0",
+              "product_4": "",
+              "positiontop_5": "20",
+              "positionleft_5": "0",
+              "product_5": ""
+            }
+          },
           "item_8CxD6j": {
             "type": "item",
             "settings": {
@@ -3293,6 +3314,7 @@
           }
         },
         "block_order": [
+          "item_nnUMMM",
           "item_8CxD6j",
           "item_dAzHNc",
           "item_ePyxg4",
