@@ -3049,7 +3049,7 @@
               "tab_name": "",
               "collection": "best-seller",
               "limit": "6",
-              "toshow": "3",
+              "toshow": "4",
               "step": "1",
               "module_autoplay": true,
               "delay_time": "5000"
@@ -3111,7 +3111,7 @@
           "margin_mobi": "0px 0px 0px 0px",
           "effect": "fade-right",
           "layout_type": "slide",
-          "grid_row": "3",
+          "grid_row": "4",
           "show_title": true,
           "text1": "FEATURED PRODUCT",
           "btn_more": true,
