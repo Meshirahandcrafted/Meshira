@@ -62,8 +62,7 @@
                   {%- if pri.available -%}
                   {%- if pri.variants.size == 1 and settings.product_item_show_cart -%}
                   <form action="/cart/add" method="post" enctype="multipart/form-data">
-                    <button class="sp-btn-addtocart  addtocart-item-js thumbprod-button-bg" data-tooltip="Add to cart"><span class="icon icon-shopping_basket"></span> <span>ADD TO CART</span></button>
-                    
+                    <input type="hidden" name="id" value="{{ pri.selected_or_first_available_variant.id }}">
                     <button class="btn{% if settings.ajax_addtocart %} addtocart-item-js{% endif %}" title='{{ 'products.general.add_to_cart' | t | capitalize }}'>{{ 'products.general.add_to_cart' | t }}</button>
                   </form>
                   {%- elsif settings.product_item_show_quickview -%}
