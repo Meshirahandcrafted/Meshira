@@ -3212,7 +3212,7 @@
               "image": "shopify://shop_images/banner_1024x2_1f207d54-89d1-4416-a6cd-ce727dcd8ac2.jpg",
               "positiontop_1": "9",
               "positionleft_1": "63",
-              "product_1": "saree",
+              "product_1": "",
               "positiontop_2": "26",
               "positionleft_2": "50",
               "product_2": "",
@@ -3315,6 +3315,7 @@
           "item_ePyxg4",
           "item_Xc4Uie"
         ],
+        "disabled": true,
         "settings": {
           "fullwidth": true,
           "show_title": true,
@@ -3330,6 +3331,7 @@
       },
       "index_section_products_electronic_bdgW4y": {
         "type": "index-section-products-electronic",
+        "disabled": true,
         "settings": {
           "fullwidth": false,
           "padding": "0px 0px 0px 0px",
