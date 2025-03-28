@@ -3045,17 +3045,18 @@
           "1565140379179-0": {
             "type": "item",
             "settings": {
-              "tab_name": "ALL",
+              "tab_name": "",
               "collection": "best-seller",
               "limit": "6",
               "toshow": "3",
               "step": "1",
-              "module_autoplay": false,
-              "delay_time": "7000"
+              "module_autoplay": true,
+              "delay_time": "5000"
             }
           },
           "1565140379179-1": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "tab_name": "Multifunction",
               "collection": "featured-products",
@@ -3068,6 +3069,7 @@
           },
           "1565140379179-2": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "tab_name": "Watch",
               "collection": "featured-products",
@@ -3080,6 +3082,7 @@
           },
           "1565140602221": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "tab_name": "Titanium",
               "collection": "trendy-items",
@@ -3097,9 +3100,8 @@
           "1565140379179-2",
           "1565140602221"
         ],
-        "disabled": true,
         "settings": {
-          "fullwidth": false,
+          "fullwidth": true,
           "bg_color": "#ffffff",
           "padding": "63px 0px 100px 0px",
           "margin": "0px 0px 0px 0px",
@@ -3107,7 +3109,7 @@
           "padding_mobi": "63px 0px 63px 0px",
           "margin_mobi": "0px 0px 0px 0px",
           "effect": "fade-right",
-          "layout_type": "grid",
+          "layout_type": "slide",
           "grid_row": "3",
           "show_title": true,
           "text1": "FEATURED PRODUCT",
