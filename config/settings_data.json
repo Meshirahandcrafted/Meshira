@@ -227,7 +227,7 @@
     "color_email": "#303030",
     "bg_email": "#ffffff",
     "border_email": "#303030",
-    "popup_newsletter_show": true,
+    "popup_newsletter_show": false,
     "nws_modal_br_color": "#ffffff",
     "nws_modal_br_opacity": 0.5,
     "nws_modal_text_color": "#303030",
