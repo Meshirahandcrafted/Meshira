@@ -3105,7 +3105,7 @@
           "fullwidth": true,
           "bg_color": "#ffffff",
           "padding": "63px 0px 100px 0px",
-          "margin": "0px 0px 0px 0px",
+          "margin": "0px 20px 0px 20px",
           "bg_color_mobi": "#ffffff",
           "padding_mobi": "63px 0px 63px 0px",
           "margin_mobi": "0px 0px 0px 0px",
