@@ -68,6 +68,7 @@
                   {%- elsif settings.product_item_show_quickview -%}
                   <a href="#" data-toggle="modal" data-target="#ModalquickView" class="btn" title="{{ 'products.general.view_all_variants' | t | capitalize }}" data-value="{{ pri.url }}" data-quantity="{% for variant in pri.variants %}{% if variant.inventory_policy == "continue" %}{{ variant.id }}-continue;{% else %}{{ variant.id }}-{{ variant.inventory_quantity }};{% endif %}{% endfor %}"{% if settings.first_variant_column_is_image and settings.use_in_the_small_products %} data-optionimages='{% include 'get_product_images_from_first_column' %}'{% endif %}>{{ 'products.general.view_all_variants' | t }}</a>
                   {%- else -%}
+                    
                   <a href="{{ pri.url }}" class="btn" title="Go to product">{{ 'products.general.view_all_variants' | t }}</a>
                   {%- endif -%}
                   {%- else -%}
