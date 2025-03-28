@@ -62,7 +62,8 @@
                   {%- if pri.available -%}
                   {%- if pri.variants.size == 1 and settings.product_item_show_cart -%}
                   <form action="/cart/add" method="post" enctype="multipart/form-data">
-                    <input type="hidden" name="id" value="{{ pri.selected_or_first_available_variant.id }}">
+                    <button class="sp-btn-addtocart  addtocart-item-js thumbprod-button-bg" data-tooltip="Add to cart"><span class="icon icon-shopping_basket"></span> <span>ADD TO CART</span></button>
+                    
                     <button class="btn{% if settings.ajax_addtocart %} addtocart-item-js{% endif %}" title='{{ 'products.general.add_to_cart' | t | capitalize }}'>{{ 'products.general.add_to_cart' | t }}</button>
                   </form>
                   {%- elsif settings.product_item_show_quickview -%}
@@ -77,16 +78,7 @@
                 </div>
                 
               </div>
-              <div class="gruop-button">
-                    <a href="#" data-toggle="modal" class="sp-btn-quickview" data-tooltip="Quick View"> </a>
-                    <div class="sp-row-btn btn-cart">
-                      <form method="post" enctype="multipart/form-data">
-                        <button class="sp-btn-addtocart  addtocart-item-js thumbprod-button-bg" data-tooltip="Add to cart"><span class="icon icon-shopping_basket"></span> <span>ADD TO CART</span></button>
-                      </form>
-                    </div>
-                    <a class="btn-cart btn-view-more" data-tooltip="View More">View more</a>
-                    <a class="compare wk-app-btn sp-btn-compare" data-toggle="tooltip" data-tooltip="Compare" data-placement="left" href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a>
-                  </div>
+              
             </div>
           </div>
           {%- endunless -%}
