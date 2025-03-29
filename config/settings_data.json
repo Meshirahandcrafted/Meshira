@@ -3047,7 +3047,7 @@
             "type": "item",
             "settings": {
               "tab_name": "",
-              "collection": "best-seller",
+              "collection": "best-sellers",
               "limit": "6",
               "toshow": "5",
               "step": "1",
