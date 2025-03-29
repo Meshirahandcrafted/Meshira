@@ -1224,12 +1224,10 @@
           "margin": "0px 0px 0px 0px",
           "padding_mobi": "0px 0px 0px 0px",
           "margin_mobi": "0px 0px 0px 0px",
-          "image": "shopify://shop_images/about-us-row-bg.jpg",
           "title": "our story",
           "description": "“Simple is the best”, they say. Indeed, it is. At Bixbang., we put a strong emphasis on simplicity, quality and usefulness of fashion products over other factors. Our fashion items never get outdated. They are not short-lived as normal fashion clothes. Moreover, with more than 10 years of operating in this field, our staff know best what our customers are looking for and bring them just what they need in style.",
           "title_1": "Contact",
           "description_1": "70 Washington Square South, New York, NY 10012, United States  \n<br>+92 423 567  \n<br>info@bixbang.com",
-          "image_1": "shopify://shop_images/contact-img1.jpg",
           "show_social": true,
           "facebook_url": "#",
           "twitter_url": "#",
@@ -1305,9 +1303,7 @@
           "padding_mobi": "70px 0px 70px 0px",
           "margin_mobi": "0px 0px 0px 0px",
           "effect": "none",
-          "background": "shopify://shop_images/about-row-bg-2.jpg",
           "title": "“Style is a way to say who you are without having to speak”",
-          "bg_name": "shopify://shop_images/signature.png",
           "title_name": "Rusty / CEO",
           "color_heading": "#ffffff",
           "color_text": "#ffffff"
@@ -2040,13 +2036,15 @@
         "blocks": {
           "1558338769599": {
             "type": "header",
+            "disabled": true,
             "settings": {
               "title": "CORAL TOWER",
-              "text": "<p>70 Washington Square South New York, NY 10012, United States</p>\n<p>+92 423 567</p>\n<p>info@bixbang.com</p>"
+              "text": "<p>70 Washington Square South New York, NY 10012, United States</p><p>+92 423 567</p><p>info@bixbang.com</p>"
             }
           },
           "1558338856840": {
             "type": "header",
+            "disabled": true,
             "settings": {
               "title": "VANDERBILT",
               "text": "<p>70 Washington Square South New York, NY 10012, United States</p>\n<p>+92 423 567</p>\n<p>info@bixbang.com</p>"
@@ -2054,6 +2052,7 @@
           },
           "1558338897902": {
             "type": "header",
+            "disabled": true,
             "settings": {
               "title": "TISCH HALL",
               "text": "<p>70 Washington Square South New York, NY 10012, United States</p>\n<p>+92 423 567</p>\n<p>info@bixbang.com</p>"
@@ -2061,6 +2060,7 @@
           },
           "1558338926501": {
             "type": "header",
+            "disabled": true,
             "settings": {
               "title": "LA MAISON",
               "text": "<p>70 Washington Square South New York, NY 10012, United States</p>\n<p>+92 423 567</p>\n<p>info@bixbang.com</p>"
@@ -2107,7 +2107,7 @@
           "margin_mobi": "0px 0px 0px 0px",
           "heading": "Got Any Questions?",
           "font_size": 40,
-          "sub_heading": "<p>70 Washington Square South</p>\n<p>New York, NY 10012</p>\n<p>United States</p>\n<p>+92 423 567</p>\n<p>info@bixbang.com</p>",
+          "sub_heading": "<p>No. 64/1&2, Venkatarathinam Nagar,</p><p>Adyar, Chennai – 600020</p><p>+91 74011 79779</p><p>info@meshira.in</p>",
           "color_heading": "#303030",
           "color": "#303030",
           "facebook_url": "#",
@@ -2130,14 +2130,10 @@
       "about-template-2": {
         "type": "about-template-2",
         "settings": {
-          "image": "shopify://shop_images/about-us-row-bg.jpg",
           "title": "Who we are",
           "description": "Bixbang is a well established America fashion brand founded in 2003 in LA by two young designers John Doe and Mary Jane. Voka has been always in cooperation with people from different fields of art like the design, photography and music. The Bixbang boutique is located in the district Mar Vista, a residential and commercial neighborhood on the Westside of Los Angeles.",
-          "image_banner": "shopify://shop_images/about-img2.jpg",
-          "image_name": "shopify://shop_images/signature_1.png",
           "title_1": "Fashion Discover",
-          "description_1": "Our audience is wonderfully unique. And we do everything we can to help you find your fit, offering our Bixbang Brands in more than 30 sizes – and we’re committed to providing all sizes at the same price – so you can be confident we’ve got the perfect thing for you. We’re also proud to partner with GLAAD, one of the biggest voices in LGBTQ activism.",
-          "image_banner_1": "shopify://shop_images/about-img3.jpg"
+          "description_1": "Our audience is wonderfully unique. And we do everything we can to help you find your fit, offering our Bixbang Brands in more than 30 sizes – and we’re committed to providing all sizes at the same price – so you can be confident we’ve got the perfect thing for you. We’re also proud to partner with GLAAD, one of the biggest voices in LGBTQ activism."
         }
       },
       "index-section-brands": {
@@ -2255,49 +2251,42 @@
           "1562121246826": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/For_des_37052f36-c406-41ea-a4b6-3d1c24f9efbe.png",
               "link": ""
             }
           },
           "1562121271606": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/4.png",
               "link": ""
             }
           },
           "1562121286778": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/6.png",
               "link": ""
             }
           },
           "1562121303875": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/3.png",
               "link": ""
             }
           },
           "1562121332285": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/2.png",
               "link": ""
             }
           },
           "1562121348076": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/1.png",
               "link": ""
             }
           },
           "1565685351729": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/client.png",
               "link": ""
             }
           }
@@ -2320,7 +2309,6 @@
           "effect": "none",
           "padding_content": "24px 20px",
           "show_bg": false,
-          "bg": "",
           "show_border": true,
           "color_border": "#c2c2c2",
           "toshow": "6",
@@ -2336,7 +2324,6 @@
             "type": "item",
             "settings": {
               "link": "",
-              "image": "shopify://shop_images/testimonial-1.png",
               "text2": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.",
               "text3": "ADRIAN PARKER",
               "text4": ""
@@ -2346,7 +2333,6 @@
             "type": "item",
             "settings": {
               "link": "",
-              "image": "shopify://shop_images/testimonial-2.png",
               "text2": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.",
               "text3": "ADRIAN PARKER",
               "text4": ""
@@ -2356,7 +2342,6 @@
             "type": "item",
             "settings": {
               "link": "",
-              "image": "shopify://shop_images/testimonial-3.png",
               "text2": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.",
               "text3": "ADRIAN PARKER",
               "text4": ""
@@ -2377,7 +2362,6 @@
           "color_mobi": "#ffffff",
           "padding_mobi": "0px 0px 0px 0px",
           "margin_mobi": "70px 0 0 0",
-          "bg_image": "",
           "show_overlay": false,
           "text1": "",
           "module_autoplay": false,
@@ -2702,49 +2686,42 @@
           "1563356333568": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/client.png",
               "link": ""
             }
           },
           "1563356358503": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/For_des_37052f36-c406-41ea-a4b6-3d1c24f9efbe.png",
               "link": ""
             }
           },
           "1563356360708": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/4.png",
               "link": ""
             }
           },
           "1563356364122": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/6.png",
               "link": ""
             }
           },
           "1563356372001": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/3.png",
               "link": ""
             }
           },
           "1563356374371": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/2.png",
               "link": ""
             }
           },
           "1563356376412": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify://shop_images/1.png",
               "link": ""
             }
           }
@@ -2766,7 +2743,6 @@
           "margin_mobi": "0px 0px 0px 0px",
           "padding_content": "24px 20px",
           "show_bg": false,
-          "bg": "",
           "show_border": true,
           "color_border": "#c2c2c2",
           "toshow": "6",
