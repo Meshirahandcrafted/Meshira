@@ -2547,6 +2547,7 @@
         "blocks": {
           "1563337978778": {
             "type": "header",
+            "disabled": true,
             "settings": {
               "title": "CORAL TOWER",
               "text": "<p>70 Washington Square South<br>New York, NY 10012, United States<br>+92 423 567<br>info@bixbang.com</p>"
@@ -2554,6 +2555,7 @@
           },
           "1563338051606": {
             "type": "header",
+            "disabled": true,
             "settings": {
               "title": "VANDERBILT",
               "text": "<p>101 Johnson St<br>Brooklyn, NY 11201, United States<br>+92 423 567<br>info@bixbang.com</p>"
@@ -2561,6 +2563,7 @@
           },
           "1563338089471": {
             "type": "header",
+            "disabled": true,
             "settings": {
               "title": "TISCH HALL",
               "text": "<p>22 Washington Square N<br>New York, NY 10011, United States<br>+92 423 567<br>info@bixbang.com</p>"
@@ -2568,6 +2571,7 @@
           },
           "1563338130450": {
             "type": "header",
+            "disabled": true,
             "settings": {
               "title": "LA MAISON",
               "text": "<p>753 Washington Square S<br>New York, NY 10012, United States<br>+92 423 567<br>info@bixbang.com</p>"
@@ -2581,14 +2585,14 @@
           "1563338130450"
         ],
         "settings": {
-          "padding": "50px 0px 50px 0px",
+          "padding": "0px 0px 50px 0px",
           "margin": "0px 0px 0px 0px",
-          "padding_mobi": "50px 0px 50px 0px",
+          "padding_mobi": "0px 0px 50px 0px",
           "margin_mobi": "0px 0px 0px 0px",
           "color_heading": "#303030",
           "color": "#303030",
           "show_title": true,
-          "heading": "Stores",
+          "heading": "",
           "font_size": 40
         }
       },
