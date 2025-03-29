@@ -1116,6 +1116,7 @@
           },
           "1565318420888": {
             "type": "footer_links",
+            "disabled": true,
             "settings": {
               "show_content": true,
               "menu_footer": ""
