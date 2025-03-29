@@ -104,7 +104,7 @@
     "color_header_menu_hover_page": "#c71932",
     "color_header_icons_page": "#191919",
     "color_header_icons_hover_page": "#c71932",
-    "home_breadcrumbs": "Meshira",
+    "home_breadcrumbs": "Home",
     "show_breadcrumbs": true,
     "image_breadcrubs": "",
     "bg_breadcrubs": "#ffffff",
@@ -1976,7 +1976,6 @@
           "1558322311552": {
             "type": "header",
             "settings": {
-              "image": "shopify://shop_images/fancy1.jpg",
               "title": "CORAL TOWER",
               "text": "<p>70 Washington Square South<br>New York, NY 10012, United States<br>+92 423 567<br>info@bixbang.com</p>"
             }
@@ -1984,7 +1983,6 @@
           "1558322336600": {
             "type": "header",
             "settings": {
-              "image": "shopify://shop_images/fancy2.jpg",
               "title": "VANDERBILT",
               "text": "<p>101 Johnson St<br>Brooklyn, NY 11201, United States<br>+92 423 567<br>info@bixbang.com</p>"
             }
@@ -1992,7 +1990,6 @@
           "1558322366721": {
             "type": "header",
             "settings": {
-              "image": "shopify://shop_images/fancy3.jpg",
               "title": "TISCH HALL",
               "text": "<p>22 Washington Square N<br>New York, NY 10011, United States<br>+92 423 567<br>info@bixbang.com</p>"
             }
@@ -2000,7 +1997,6 @@
           "1558322399488": {
             "type": "header",
             "settings": {
-              "image": "shopify://shop_images/fancy4.jpg",
               "title": "LA MAISON",
               "text": "<p>753 Washington Square S<br>New York, NY 10012, United States<br>+92 423 567<br>info@bixbang.com</p>"
             }
@@ -2568,7 +2564,6 @@
           "1563337978778": {
             "type": "header",
             "settings": {
-              "image": "shopify://shop_images/fancy1.jpg",
               "title": "CORAL TOWER",
               "text": "<p>70 Washington Square South<br>New York, NY 10012, United States<br>+92 423 567<br>info@bixbang.com</p>"
             }
@@ -2576,7 +2571,6 @@
           "1563338051606": {
             "type": "header",
             "settings": {
-              "image": "shopify://shop_images/fancy2.jpg",
               "title": "VANDERBILT",
               "text": "<p>101 Johnson St<br>Brooklyn, NY 11201, United States<br>+92 423 567<br>info@bixbang.com</p>"
             }
@@ -2584,7 +2578,6 @@
           "1563338089471": {
             "type": "header",
             "settings": {
-              "image": "shopify://shop_images/fancy3.jpg",
               "title": "TISCH HALL",
               "text": "<p>22 Washington Square N<br>New York, NY 10011, United States<br>+92 423 567<br>info@bixbang.com</p>"
             }
@@ -2592,7 +2585,6 @@
           "1563338130450": {
             "type": "header",
             "settings": {
-              "image": "shopify://shop_images/fancy4.jpg",
               "title": "LA MAISON",
               "text": "<p>753 Washington Square S<br>New York, NY 10012, United States<br>+92 423 567<br>info@bixbang.com</p>"
             }
