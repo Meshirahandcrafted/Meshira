@@ -1000,6 +1000,7 @@
         "blocks": {
           "1531303088561": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "pr_item": "flare-skirts",
               "val_min": "1",
@@ -1013,6 +1014,7 @@
           },
           "1551340999610": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "pr_item": "basic-t-shirt",
               "val_min": "1",
@@ -1026,6 +1028,7 @@
           },
           "1553651158602": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "pr_item": "",
               "val_min": "1",
@@ -1039,6 +1042,7 @@
           },
           "1553677664792": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "pr_item": "cotton-tshirt",
               "val_min": "1",
