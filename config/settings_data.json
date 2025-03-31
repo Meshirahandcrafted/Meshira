@@ -911,6 +911,7 @@
           },
           "1522754394860": {
             "type": "topbar",
+            "disabled": true,
             "settings": {
               "show_content": true,
               "menu_top": ""
@@ -3356,7 +3357,7 @@
     "blocks": {
       "15935093690516126329": {
         "type": "shopify://apps/libautech-currency-converter/blocks/app-block/1ebbc2f4-fcb8-463f-b2b2-1a404ae0b286",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "displayCurrencyFlag": true,
           "onlyCurrencyCodeInList": false,
@@ -3368,9 +3369,9 @@
           "switcherTextColor": "#000000",
           "switcherBorderColor": "#000000",
           "switcherBorderSize": 1,
-          "switcherBorderRadius": 6,
+          "switcherBorderRadius": 5,
           "transparentBackground": false,
-          "marginLeft": 600
+          "marginLeft": 18
         }
       }
     }
