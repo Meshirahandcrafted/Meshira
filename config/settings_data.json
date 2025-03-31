@@ -3370,7 +3370,7 @@
           "switcherBorderSize": 1,
           "switcherBorderRadius": 5,
           "transparentBackground": false,
-          "marginLeft": 19
+          "marginLeft": 60
         }
       }
     }
