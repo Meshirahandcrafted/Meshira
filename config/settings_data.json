@@ -3368,9 +3368,9 @@
           "switcherTextColor": "#000000",
           "switcherBorderColor": "#000000",
           "switcherBorderSize": 1,
-          "switcherBorderRadius": 5,
+          "switcherBorderRadius": 6,
           "transparentBackground": false,
-          "marginLeft": 60
+          "marginLeft": 600
         }
       }
     }
