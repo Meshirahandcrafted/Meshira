@@ -3123,7 +3123,7 @@
               "show_button": true,
               "text_button": "Explore Now",
               "link_button": "",
-              "style_button": "style",
+              "style_button": "style_button_1",
               "color_title": "#ffffff",
               "color_text": "#ffffff",
               "show_box": false
