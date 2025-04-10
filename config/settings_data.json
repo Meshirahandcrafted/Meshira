@@ -3342,84 +3342,6 @@
           "delay_time": "7000"
         }
       },
-      "index_section_tabs_DcyNHy": {
-        "type": "index-section-tabs",
-        "blocks": {
-          "item_amzCq6": {
-            "type": "item",
-            "settings": {
-              "tab_name": "",
-              "collection": "best-sellers",
-              "limit": "6",
-              "toshow": "5",
-              "step": "1",
-              "module_autoplay": true,
-              "delay_time": "5000"
-            }
-          },
-          "item_ctF4Yz": {
-            "type": "item",
-            "disabled": true,
-            "settings": {
-              "tab_name": "Multifunction",
-              "collection": "featured-products",
-              "limit": "6",
-              "toshow": "4",
-              "step": "1",
-              "module_autoplay": false,
-              "delay_time": "7000"
-            }
-          },
-          "item_crLVym": {
-            "type": "item",
-            "disabled": true,
-            "settings": {
-              "tab_name": "Watch",
-              "collection": "featured-products",
-              "limit": "6",
-              "toshow": "4",
-              "step": "1",
-              "module_autoplay": false,
-              "delay_time": "7000"
-            }
-          },
-          "item_qbmBRY": {
-            "type": "item",
-            "disabled": true,
-            "settings": {
-              "tab_name": "Titanium",
-              "collection": "trendy-items",
-              "limit": "6",
-              "toshow": "3",
-              "step": "1",
-              "module_autoplay": false,
-              "delay_time": "7000"
-            }
-          }
-        },
-        "block_order": [
-          "item_amzCq6",
-          "item_ctF4Yz",
-          "item_crLVym",
-          "item_qbmBRY"
-        ],
-        "settings": {
-          "fullwidth": true,
-          "bg_color": "#ffffff",
-          "padding": "63px 0px 100px 0px",
-          "margin": "0px 20px 0px 20px",
-          "bg_color_mobi": "#ffffff",
-          "padding_mobi": "63px 0px 63px 0px",
-          "margin_mobi": "0px 0px 0px 0px",
-          "effect": "fade-right",
-          "layout_type": "slide",
-          "grid_row": "4",
-          "show_title": true,
-          "text1": "VIDEOS",
-          "btn_more": true,
-          "btn_text": "Shop More"
-        }
-      },
       "index_section_tabs_CRQEi7": {
         "type": "index-section-tabs",
         "blocks": {
@@ -3497,13 +3419,91 @@
           "btn_more": true,
           "btn_text": "Shop More"
         }
+      },
+      "index_section_tabs_yMAnz3": {
+        "type": "index-section-tabs",
+        "blocks": {
+          "item_3MBDEm": {
+            "type": "item",
+            "settings": {
+              "tab_name": "",
+              "collection": "best-sellers",
+              "limit": "6",
+              "toshow": "5",
+              "step": "1",
+              "module_autoplay": true,
+              "delay_time": "5000"
+            }
+          },
+          "item_qP36j9": {
+            "type": "item",
+            "disabled": true,
+            "settings": {
+              "tab_name": "Multifunction",
+              "collection": "featured-products",
+              "limit": "6",
+              "toshow": "4",
+              "step": "1",
+              "module_autoplay": false,
+              "delay_time": "7000"
+            }
+          },
+          "item_XKHTHQ": {
+            "type": "item",
+            "disabled": true,
+            "settings": {
+              "tab_name": "Watch",
+              "collection": "featured-products",
+              "limit": "6",
+              "toshow": "4",
+              "step": "1",
+              "module_autoplay": false,
+              "delay_time": "7000"
+            }
+          },
+          "item_kQthra": {
+            "type": "item",
+            "disabled": true,
+            "settings": {
+              "tab_name": "Titanium",
+              "collection": "trendy-items",
+              "limit": "6",
+              "toshow": "3",
+              "step": "1",
+              "module_autoplay": false,
+              "delay_time": "7000"
+            }
+          }
+        },
+        "block_order": [
+          "item_3MBDEm",
+          "item_qP36j9",
+          "item_XKHTHQ",
+          "item_kQthra"
+        ],
+        "settings": {
+          "fullwidth": true,
+          "bg_color": "#ffffff",
+          "padding": "63px 0px 100px 0px",
+          "margin": "0px 20px 0px 20px",
+          "bg_color_mobi": "#ffffff",
+          "padding_mobi": "63px 0px 63px 0px",
+          "margin_mobi": "0px 0px 0px 0px",
+          "effect": "fade-right",
+          "layout_type": "slide",
+          "grid_row": "4",
+          "show_title": true,
+          "text1": "BEST SELLERS",
+          "btn_more": true,
+          "btn_text": "Shop More"
+        }
       }
     },
     "content_for_index": [
       "1565086052103",
       "1565140379179",
-      "index_section_tabs_DcyNHy",
       "index_section_tabs_CRQEi7",
+      "index_section_tabs_yMAnz3",
       "1565086074531",
       "full_width_video_hChHQW",
       "1565086183892",
