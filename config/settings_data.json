@@ -1736,7 +1736,7 @@
             "type": "Typography",
             "settings": {
               "title": "",
-              "text": "<style>\ntd, th {\n  border: 1px solid #dddddd;\n  padding: 8px;\n\n}\ntable{\n\n}\n</style>\n<table>\n<tr>\n<th>\nShipping Policy\n</th>\n<th>\nIndia\n</th>\n<th>\nInternational\n</th>\n</tr>\n</table>"
+              "text": "<style>\ntd, th {\n  border: 1px solid #dddddd;\n  text-align: center;\n  padding: 8px;\n  color: black;\n}\ntable{\n  width: 100%;\n}\n</style>\n      <table>\n        <tr>\n          <th>Shipping Policy</th>\n          <th>India</th>\n          <th>International</th>\n        </tr>\n        <tr>\n          <td>Shipping Charges - Orders above Rs. 20,000</td>\n          <td>Free</td>\n          <td>Free for upto 2 outfits. 3rd outfit onwards - Rs 500 per outfit</td>\n        </tr>\n        <tr>\n          <td>Shipping Charges - Orders below Rs. 20,000</td>\n          <td>Free</td>\n          <td>Actual shipping rate at checkout</td>\n        </tr>\n        <tr>\n          <td>Shipping Carrier</td>\n          <td>Based on location</td>\n          <td>DHL</td>\n        </tr>\n        <tr>\n          <td>Duties & Taxes</td>\n          <td>NA</td>\n          <td>Will have to be borne by customer</td>\n        </tr>\n      </table>"
             }
           },
           "1558167229997": {
@@ -1750,7 +1750,7 @@
             "type": "Typography",
             "settings": {
               "title": "",
-              "text": "<ul>\n<li>Per cu mucius appetere neglegentur. Has ex legere</li>\n<li>Sed non mauris vitae erat consequa</li>\n<li>Proin neque orci, egestas</li>\n<li>Praesent ac pretium ipsum, et ornare null</li>\n</ul>"
+              "text": "<h2>Shipping within India</h2>\n<ul>\n<li>We offer complementary shipping all across India</li>\n</ul>\n<style>\nh2 {\n  text-align: center;\n  margin-bottom: 20px;\n  font-family: \"Poppins Thin\", sans-serif;\n  font-size: 30px;\n  color: #303030;\n  font-weight: bold;\n  letter-spacing: 2px;\n}\n</style>"
             }
           },
           "1558167268795": {
