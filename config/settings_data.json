@@ -1788,7 +1788,7 @@
             "type": "Typography",
             "settings": {
               "title": "<h2>General</h2>",
-              "text": "<ul>\n<li>Shipping costs of returns will have to be borne by the customer see link for more details<a href=\"https://kayfashions.in/pages/return-policy\">https://kayfashions.in/pages/return-policy</a>\n</li>\n<li>If you'd like to see the outfits before they're shipped, please mention it on the order note. We will schedule a video call for the same</li>\n<li>If your country is not listed on the checkout page, please get in touch with us. We will send you quote for the same </li>\n<li>We offer bulk shipment (packages over 20kgs) rates. Please contact us for the same</li>\n</ul>\n<style>\nh2 {\n  margin-bottom: 20px;\n  font-family: \"Poppins Thin\", sans-serif;\n  color: black;\n  font-weight: bold;\n  letter-spacing: 2px;\n}\n</style>"
+              "text": "<ul>\n<li>Shipping costs of returns will have to be borne by the customer see link for more details <a href=\"https://kayfashions.in/pages/return-policy\">https://kayfashions.in/pages/return-policy</a>\n</li>\n<li>If you'd like to see the outfits before they're shipped, please mention it on the order note. We will schedule a video call for the same</li>\n<li>If your country is not listed on the checkout page, please get in touch with us. We will send you quote for the same </li>\n<li>We offer bulk shipment (packages over 20kgs) rates. Please contact us for the same</li>\n</ul>\n<style>\nh2 {\n  margin-bottom: 20px;\n  font-family: \"Poppins Thin\", sans-serif;\n  color: black;\n  font-weight: bold;\n  letter-spacing: 2px;\n}\n</style>"
             }
           }
         },
