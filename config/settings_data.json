@@ -3103,7 +3103,7 @@
       "full_width_video_hChHQW": {
         "type": "full-width-video",
         "custom_css": [
-          "h2 {text-align: center; margin-bottom: 20px; font-family: \"Poppins Thin\", sans-serif; font-size: 30px; color: #303030; font-weight: bold; text-spacing: 20px;}"
+          "h2 {text-align: center; margin-bottom: 20px; font-family: \"Poppins Thin\", sans-serif; font-size: 30px; color: #303030; font-weight: bold; letter-spacing: 2px;}"
         ],
         "settings": {
           "video": "shopify://files/videos/Meshira 02.mp4"
