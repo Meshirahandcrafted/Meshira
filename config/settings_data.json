@@ -1116,7 +1116,6 @@
           },
           "1553755707606": {
             "type": "footer_links",
-            "disabled": true,
             "settings": {
               "show_content": true,
               "menu_footer": ""
@@ -1124,7 +1123,6 @@
           },
           "1565318420888": {
             "type": "footer_links",
-            "disabled": true,
             "settings": {
               "show_content": true,
               "menu_footer": ""
@@ -1132,7 +1130,6 @@
           },
           "1565771345120": {
             "type": "footer_instagram",
-            "disabled": true,
             "settings": {
               "title": "VISIT US ON INSTAGRAM",
               "color_title": "#7c7c80",
@@ -1175,9 +1172,9 @@
           "padding_container": "98px 110px 96px 110px",
           "padding_container_laptop": "90px 15px 90px 15px",
           "padding_container_mobi": "65px 15px 65px 15px",
-          "style": "style_3",
+          "style": "style_2",
           "footer_address": "© Meshira. Copy Right",
-          "show_socials": false,
+          "show_socials": true,
           "facebook_url": "shopify://blogs/news",
           "twitter_url": "#",
           "gmail_url": "#",
