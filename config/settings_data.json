@@ -2889,6 +2889,18 @@
       "1565086183892": {
         "type": "index-section-brands",
         "blocks": {
+          "logo_image_YKfrFQ": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_GKK9d7": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
           "1565086183892-0": {
             "type": "logo_image",
             "settings": {
@@ -2927,6 +2939,8 @@
           }
         },
         "block_order": [
+          "logo_image_YKfrFQ",
+          "logo_image_GKK9d7",
           "1565086183892-0",
           "1565086183892-1",
           "1565086183892-2",
