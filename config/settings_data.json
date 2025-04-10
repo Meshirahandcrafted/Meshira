@@ -1736,7 +1736,7 @@
             "type": "Typography",
             "settings": {
               "title": "",
-              "text": "<style>\ntd, th {\n  border: 1px solid #dddddd;\n  text-align: left;\n  padding: 8px;\n}\n</style>\n<table>\n<th>\n</th>\n<td>\nShipping Policy\n</td>\n\n</table>"
+              "text": "<style>\ntd, th {\n  border: 1px solid #dddddd;\n  text-align: left;\n  padding: 8px;\n}\n</style>\n<table>\n<tr>\n<th>\nShipping Policy\n</th>\n<th>\nIndia\n</th>\n<th>\nInternational\n</th>\n</tr>\n</table>"
             }
           },
           "1558167229997": {
