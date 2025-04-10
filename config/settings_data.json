@@ -3098,6 +3098,9 @@
           "1565140379179-2",
           "1565140602221"
         ],
+        "custom_css": [
+          ".btn-more {font-weight: bold;}"
+        ],
         "settings": {
           "fullwidth": true,
           "bg_color": "#ffffff",
@@ -3192,6 +3195,9 @@
           "items_JUmJ8c",
           "items_9jeCXi",
           "items_UhXnhW"
+        ],
+        "custom_css": [
+          ".btn-banner {font-weight: bold;}"
         ],
         "settings": {
           "fullwidth": false,
@@ -3418,6 +3424,9 @@
           "item_9TP8kM",
           "item_VGLXhP"
         ],
+        "custom_css": [
+          ".btn-more {font-weight: bold;}"
+        ],
         "settings": {
           "fullwidth": true,
           "bg_color": "#ffffff",
@@ -3495,6 +3504,9 @@
           "item_qP36j9",
           "item_XKHTHQ",
           "item_kQthra"
+        ],
+        "custom_css": [
+          ".btn-more {font-weight: bold;}"
         ],
         "settings": {
           "fullwidth": true,
