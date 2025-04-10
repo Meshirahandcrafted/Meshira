@@ -1,44 +1,5 @@
-<section class="Section" id="section-{{ section.id }}" >
-  <div class="container-index">
-    <div class="container">
-      <div class="section-button">
-        <h2 class="heading">{{ section.settings.heading }}</h2>
-        <div class="content-section">
-          {% for block in section.blocks %}
-          <div class="content">
-            <div class="content-button">
-              <a href="" class="btn-section" id="button-{{ forloop.index }}">{{ block.settings.text }}</a>
-            </div>
-          </div>
-          <style type="text/css">
-            .content #button-{{ forloop.index }}{
-              margin-right: 30px;
-              line-height: 14px;
-              font-size: 14px;
-              font-weight: 500;
-              text-transform: uppercase;
-              display: block;
-              margin-bottom: 15px;
-              border: 2px solid;
-              transition: 300ms all;
-              padding: {{ block.settings.padding }};
-              color: {{ block.settings.text_color }};
-              background-color: {{ block.settings.bg_color }};
-              border-color: {{ block.settings.border_color }};
-            }
-            .content #button-{{ forloop.index }}:hover{
-              color: {{ block.settings.text_color_hv }};
-              background-color: {{ block.settings.bg_color_hv }};
-              border-color: {{ block.settings.border_color_hv }};
-            }
-          </style>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-    </div>
-  </div>
-</section>
+
+
 <style type="text/css">
   #section-{{ section.id }}{
     padding:{{ section.settings.padding }};
