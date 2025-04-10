@@ -1116,6 +1116,7 @@
           },
           "1553755707606": {
             "type": "footer_links",
+            "disabled": true,
             "settings": {
               "show_content": true,
               "menu_footer": ""
@@ -1125,11 +1126,12 @@
             "type": "footer_links",
             "settings": {
               "show_content": true,
-              "menu_footer": ""
+              "menu_footer": "footer"
             }
           },
           "1565771345120": {
             "type": "footer_instagram",
+            "disabled": true,
             "settings": {
               "title": "VISIT US ON INSTAGRAM",
               "color_title": "#7c7c80",
