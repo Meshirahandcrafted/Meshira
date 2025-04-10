@@ -915,7 +915,7 @@
             "disabled": true,
             "settings": {
               "show_content": true,
-              "menu_top": ""
+              "menu_top": "main-menu"
             }
           },
           "1516807368327": {
@@ -1472,7 +1472,7 @@
             "settings": {
               "text": "Button 2",
               "padding": "13px 32px",
-              "bg_color": "#fff",
+              "bg_color": "#ffffff",
               "text_color": "#303030",
               "border_color": "#303030",
               "bg_color_hv": "#303030",
@@ -1736,7 +1736,7 @@
             "type": "Typography",
             "settings": {
               "title": "",
-              "text": "<h1 style=\"margin-bottom: 15px\">Heading 1</h1><h2 style=\"margin-bottom: 15px\">Heading 2</h2><h3 style=\"margin-bottom: 15px\">Heading 3</h3><h4 style=\"margin-bottom: 15px\">Heading 4</h4><h5 style=\"margin-bottom: 15px\">Heading 5</h5><h6 style=\"margin-bottom: 15px\">Heading 6</h6>"
+              "text": "<style>\ntd, th {\n  border: 1px solid #dddddd;\n  text-align: left;\n  padding: 8px;\n}\n</style>\n<table>\n<th>\n</th>\n<td>\nShipping Policy\n</td>\n\n</table>"
             }
           },
           "1558167229997": {
@@ -1773,7 +1773,7 @@
           "margin_mobile": "0 0 0 0",
           "padding_mobile": "0 0 0 0",
           "heading_color": "#373737",
-          "color": "#777"
+          "color": "#777777"
         }
       },
       "section-toggle-faq": {
@@ -2399,7 +2399,7 @@
               "bg_color": "#303030",
               "text_color": "#ffffff",
               "border_color": "#303030",
-              "bg_color_hv": "#fff",
+              "bg_color_hv": "#ffffff",
               "text_color_hv": "#303030",
               "border_color_hv": "#303030"
             }
@@ -2412,7 +2412,7 @@
               "bg_color": "#303030",
               "text_color": "#ffffff",
               "border_color": "#303030",
-              "bg_color_hv": "#fff",
+              "bg_color_hv": "#ffffff",
               "text_color_hv": "#303030",
               "border_color_hv": "#303030"
             }
@@ -2425,7 +2425,7 @@
               "bg_color": "#303030",
               "text_color": "#ffffff",
               "border_color": "#303030",
-              "bg_color_hv": "#fff",
+              "bg_color_hv": "#ffffff",
               "text_color_hv": "#303030",
               "border_color_hv": "#303030"
             }
@@ -2438,7 +2438,7 @@
               "bg_color": "#303030",
               "text_color": "#ffffff",
               "border_color": "#303030",
-              "bg_color_hv": "#fff",
+              "bg_color_hv": "#ffffff",
               "text_color_hv": "#303030",
               "border_color_hv": "#303030"
             }
@@ -2451,7 +2451,7 @@
               "bg_color": "#303030",
               "text_color": "#ffffff",
               "border_color": "#303030",
-              "bg_color_hv": "#fff",
+              "bg_color_hv": "#ffffff",
               "text_color_hv": "#303030",
               "border_color_hv": "#303030"
             }
@@ -2632,7 +2632,7 @@
           "margin_mobile": "0 0 0 0",
           "padding_mobile": "0 0 0 0",
           "heading_color": "#373737",
-          "color": "#777",
+          "color": "#777777",
           "title": "Two Columns",
           "columns": "6"
         }
@@ -2670,7 +2670,7 @@
           "margin_mobile": "0 0 0 0",
           "padding_mobile": "0 0 0 0",
           "heading_color": "#373737",
-          "color": "#777",
+          "color": "#777777",
           "title": "Three Columns",
           "columns": "4"
         }
@@ -2773,7 +2773,7 @@
           "margin_mobile": "0 0 0 0",
           "padding_mobile": "0 0 0 0",
           "heading_color": "#373737",
-          "color": "#777",
+          "color": "#777777",
           "title": "Custom Columns",
           "text": "Lorem Ipsum proin gravida nibh vel velit auctor aliqnean sollicitudin, lorem quis bibeuctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Class aptLorem Ipsum proin gravida nibh vel velit auctor aliqnean so",
           "text1": "Lorem Ipsum proin gravida nibh vel velit auctor aliqnean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Class apt"
@@ -3560,6 +3560,11 @@
           "transparentBackground": false,
           "marginLeft": 18
         }
+      },
+      "13768625480086291342": {
+        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "disabled": true,
+        "settings": {}
       }
     }
   }
