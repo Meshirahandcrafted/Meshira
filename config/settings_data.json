@@ -965,7 +965,7 @@
           "logo_stuck": "shopify://shop_images/meshira-logo.png",
           "logo_max_width": 150,
           "logo_page": "shopify://shop_images/meshira-logo.png",
-          "header_custom": "default",
+          "header_custom": "alloutline",
           "transparent_all": false,
           "menu_bar": "default",
           "menu_sidebar": "main-menu",
