@@ -1460,10 +1460,10 @@
             "settings": {
               "text": "Button",
               "padding": "13px 32px",
-              "bg_color": "#fff",
+              "bg_color": "#ffffff",
               "text_color": "#303030",
               "border_color": "#303030",
-              "bg_color_hv": "#fff",
+              "bg_color_hv": "#ffffff",
               "text_color_hv": "#303030",
               "border_color_hv": "#303030"
             }
@@ -1759,7 +1759,7 @@
             "type": "Typography",
             "settings": {
               "title": "<div class=\"policy-head\">Shipping Policy</div>",
-              "text": "<style>\ntd, th {\n  border: 1px solid #dddddd;\n  text-align: center;\n  padding: 8px;\n  color: black;\n}\ntable{\n  width: 100%;\n}\n.policy-head {\n  font-family: \"Poppins Thin\", sans-serif;\n  text-align: center;\n  color: black;\n  font-weight: bold;\n  letter-spacing: 2px;\n}\n</style>\n      <table>\n        <tr>\n          <th>Shipping Policy</th>\n          <th>India</th>\n          <th>International</th>\n        </tr>\n        <tr>\n          <td>Shipping Charges - Orders above Rs. 20,000</td>\n          <td>Free</td>\n          <td>Free for upto 2 outfits. 3rd outfit onwards - Rs 500 per outfit</td>\n        </tr>\n        <tr>\n          <td>Shipping Charges - Orders below Rs. 20,000</td>\n          <td>Free</td>\n          <td>Actual shipping rate at checkout</td>\n        </tr>\n        <tr>\n          <td>Shipping Carrier</td>\n          <td>Based on location</td>\n          <td>DHL</td>\n        </tr>\n        <tr>\n          <td>Duties & Taxes</td>\n          <td>NA</td>\n          <td>Will have to be borne by customer</td>\n        </tr>\n      </table>"
+              "text": "<style>\ntd, th {\n  border: 1px solid #dddddd;\n  text-align: center;\n  padding: 8px;\n  color: black;\n}\ntable{\n  width: 100%;\n}\n.policy-head {\n  font-family: \"Poppins Thin\", sans-serif;\n  text-align: center;\n  color: black;\n  font-weight: bold;\n  letter-spacing: 2px;\n}\n</style>\n      <table>\n        <tr>\n          <th>Shipping Policy</th>\n          <th>India</th>\n          <th>International</th>\n        </tr>\n        <tr>\n          <td>Shipping Charges - Orders above Rs. 20,000</td>\n          <td>Free</td>\n          <td>Free for upto 2 outfits. 3rd outfit onwards - Rs 500 per outfit</td>\n        </tr>\n        <tr>\n          <td>Shipping Charges - Orders below Rs. 20,000</td>\n          <td>Free</td>\n          <td>Actual shipping rate at checkout</td>\n        </tr>\n        <tr>\n          <td>Shipping Carrier</td>\n          <td>Based on location</td>\n          <td>DHL</td>\n        </tr>\n        <tr>\n          <td>Duties & Taxes</td>\n          <td>NA</td>\n          <td>Will have to be borne by customer</td>\n        </tr>\n</table>"
             }
           },
           "1558167229997": {
