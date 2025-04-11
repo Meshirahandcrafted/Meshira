@@ -2179,7 +2179,7 @@
           "title": "Who we are",
           "description": "Meshira is more than just a brand—it is a journey of passion, resilience, and the love for \ntimeless craftsmanship. After running a boutique in Neelankarai for eight years, I took a bold \nstep forward to open a three-store showroom in Adyar, bringing my dream to life. \n<br><br>\nThe name Meshira holds deep meaning. Meshi comes from the Greek word for garments for \ntrade, symbolizing our commitment to fine craftsmanship, while Ra represents the bond \nbetween my mother, Rani, and me, Rajashree—a tribute to her unwavering support.",
           "image_banner": "shopify://shop_images/rack-of-womens-clothing.jpg",
-          "image_name": "shopify://shop_images/t-shirt-store.jpg",
+          "image_name": "shopify://shop_images/gift-box-with-flower.jpg",
           "title_1": "Fashion Discover",
           "description_1": "In 2019, we were honored with the Times Retail Icon Award for the Best Silk Saree Store in \nChennai, a recognition of our dedication to quality and tradition. Over the years, Meshira has \nbuilt a loyal customer base across all groups, and many of our customers have become more \nthan just clients—they are now friends and family. \n<br><br>\nEvery piece at Meshira reflects years of dedication, blending heritage with modern elegance. \nFrom intricate Banarasi weaves to contemporary bridal couture, we craft designs that tell a \nstory—one of grace, strength, and beauty.",
           "image_banner_1": "shopify://shop_images/banner_1024-1x.jpg"
@@ -2770,6 +2770,12 @@
               "link": ""
             }
           },
+          "logo_image_TjfTGW": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
           "1563356360708": {
             "type": "logo_image",
             "settings": {
@@ -2808,6 +2814,7 @@
         "block_order": [
           "1563356333568",
           "1563356358503",
+          "logo_image_TjfTGW",
           "1563356360708",
           "1563356364122",
           "1563356372001",
