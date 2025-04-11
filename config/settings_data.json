@@ -1313,7 +1313,9 @@
           "padding_mobi": "70px 0px 70px 0px",
           "margin_mobi": "0px 0px 0px 0px",
           "effect": "none",
+          "background": "shopify://shop_images/pexels-suzyhazelwood-25646042.jpg",
           "title": "“Style is a way to say who you are without having to speak”",
+          "bg_name": "shopify://shop_images/banner_1024x2_1f207d54-89d1-4416-a6cd-ce727dcd8ac2.jpg",
           "title_name": "Rusty / CEO",
           "color_heading": "#ffffff",
           "color_text": "#ffffff"
@@ -2172,10 +2174,14 @@
       "about-template-2": {
         "type": "about-template-2",
         "settings": {
+          "image": "shopify://shop_images/pexels-suzyhazelwood-25646042_cb8bd89a-ea27-46ed-a447-0cad26b5f245.jpg",
           "title": "Who we are",
           "description": "Bixbang is a well established America fashion brand founded in 2003 in LA by two young designers John Doe and Mary Jane. Voka has been always in cooperation with people from different fields of art like the design, photography and music. The Bixbang boutique is located in the district Mar Vista, a residential and commercial neighborhood on the Westside of Los Angeles.",
+          "image_banner": "shopify://shop_images/rack-of-womens-clothing.jpg",
+          "image_name": "shopify://shop_images/banner_1024x2_1f207d54-89d1-4416-a6cd-ce727dcd8ac2.jpg",
           "title_1": "Fashion Discover",
-          "description_1": "Our audience is wonderfully unique. And we do everything we can to help you find your fit, offering our Bixbang Brands in more than 30 sizes – and we’re committed to providing all sizes at the same price – so you can be confident we’ve got the perfect thing for you. We’re also proud to partner with GLAAD, one of the biggest voices in LGBTQ activism."
+          "description_1": "Our audience is wonderfully unique. And we do everything we can to help you find your fit, offering our Bixbang Brands in more than 30 sizes – and we’re committed to providing all sizes at the same price – so you can be confident we’ve got the perfect thing for you. We’re also proud to partner with GLAAD, one of the biggest voices in LGBTQ activism.",
+          "image_banner_1": "shopify://shop_images/banner_1024-1x.jpg"
         }
       },
       "index-section-brands": {
@@ -2742,36 +2748,42 @@
           "1563356333568": {
             "type": "logo_image",
             "settings": {
+              "image": "shopify://shop_images/saree8.jpg",
               "link": ""
             }
           },
           "1563356358503": {
             "type": "logo_image",
             "settings": {
+              "image": "shopify://shop_images/saree7.jpg",
               "link": ""
             }
           },
           "1563356360708": {
             "type": "logo_image",
             "settings": {
+              "image": "shopify://shop_images/saree6.jpg",
               "link": ""
             }
           },
           "1563356364122": {
             "type": "logo_image",
             "settings": {
+              "image": "shopify://shop_images/saree4.jpg",
               "link": ""
             }
           },
           "1563356372001": {
             "type": "logo_image",
             "settings": {
+              "image": "shopify://shop_images/saree3.jpg",
               "link": ""
             }
           },
           "1563356374371": {
             "type": "logo_image",
             "settings": {
+              "image": "shopify://shop_images/saree2.jpg",
               "link": ""
             }
           },
