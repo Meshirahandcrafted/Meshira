@@ -968,7 +968,7 @@
           "logo_page": "shopify://shop_images/meshira-logo.png",
           "header_custom": "alloutline",
           "transparent_all": false,
-          "menu_bar": "default",
+          "menu_bar": "menucenter",
           "menu_sidebar": "main-menu",
           "decs_header_sidebar": "We put a strong emphasis on simplicity, quality and usefulness of fashion products over other factors.",
           "show_text": true,
