@@ -3414,7 +3414,7 @@
               "tab_name": "",
               "collection": "best-sellers",
               "limit": "6",
-              "toshow": "2",
+              "toshow": "3",
               "step": "6",
               "module_autoplay": true,
               "delay_time": "5000"
