@@ -25,7 +25,7 @@
             {%- if block.type == 'item2' -%}
               <div class="row sp-layout-product-item">
                 {%- for product in collection.products limit:block.settings.limit -%}
-                <div class="col-6 col-md-4 col-lg-{{ block.settings.toshow }}">
+                <div class="col-6 col-md-7 col-lg-{{ block.settings.toshow }}">
                   {% include "product-grid-item" %}
                 </div>
                 {%- endfor -%}
