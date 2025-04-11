@@ -971,6 +971,7 @@
           "menu_bar": "menucenter",
           "menu_sidebar": "main-menu",
           "decs_header_sidebar": "We put a strong emphasis on simplicity, quality and usefulness of fashion products over other factors.",
+          "img_header_sidebar": "shopify://shop_images/gift-box-with-flower.jpg",
           "show_text": true,
           "text_header_sidebar": "Monday to Sunday: 10 am - 9 pm",
           "custom_header_sidebar": "No. 64/1&2, Venkatarathinam Nagar, Adyar, Chennai – 600020<br>+91 74011 79779<br>info@meshira.in",
@@ -2774,6 +2775,7 @@
           "logo_image_TjfTGW": {
             "type": "logo_image",
             "settings": {
+              "image": "shopify://shop_images/saree5.jpg",
               "link": ""
             }
           },
