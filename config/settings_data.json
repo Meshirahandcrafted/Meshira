@@ -1314,7 +1314,7 @@
           "margin_mobi": "0px 0px 0px 0px",
           "effect": "none",
           "background": "shopify://shop_images/pexels-suzyhazelwood-25646042.jpg",
-          "title": "“Style is a way to say who you are without having to speak”",
+          "title": "“Welcome to Meshira- luxury handcrafted, where tradition meets today. ”",
           "bg_name": "shopify://shop_images/banner_1024x2_1f207d54-89d1-4416-a6cd-ce727dcd8ac2.jpg",
           "title_name": "Rusty / CEO",
           "color_heading": "#ffffff",
@@ -2173,14 +2173,15 @@
       },
       "about-template-2": {
         "type": "about-template-2",
+        "custom_css": [],
         "settings": {
           "image": "shopify://shop_images/pexels-suzyhazelwood-25646042_cb8bd89a-ea27-46ed-a447-0cad26b5f245.jpg",
           "title": "Who we are",
-          "description": "Bixbang is a well established America fashion brand founded in 2003 in LA by two young designers John Doe and Mary Jane. Voka has been always in cooperation with people from different fields of art like the design, photography and music. The Bixbang boutique is located in the district Mar Vista, a residential and commercial neighborhood on the Westside of Los Angeles.",
+          "description": "Meshira is more than just a brand—it is a journey of passion, resilience, and the love for \ntimeless craftsmanship. After running a boutique in Neelankarai for eight years, I took a bold \nstep forward to open a three-store showroom in Adyar, bringing my dream to life. \n<br><br>\nThe name Meshira holds deep meaning. Meshi comes from the Greek word for garments for \ntrade, symbolizing our commitment to fine craftsmanship, while Ra represents the bond \nbetween my mother, Rani, and me, Rajashree—a tribute to her unwavering support.",
           "image_banner": "shopify://shop_images/rack-of-womens-clothing.jpg",
-          "image_name": "shopify://shop_images/banner_1024x2_1f207d54-89d1-4416-a6cd-ce727dcd8ac2.jpg",
+          "image_name": "shopify://shop_images/t-shirt-store.jpg",
           "title_1": "Fashion Discover",
-          "description_1": "Our audience is wonderfully unique. And we do everything we can to help you find your fit, offering our Bixbang Brands in more than 30 sizes – and we’re committed to providing all sizes at the same price – so you can be confident we’ve got the perfect thing for you. We’re also proud to partner with GLAAD, one of the biggest voices in LGBTQ activism.",
+          "description_1": "In 2019, we were honored with the Times Retail Icon Award for the Best Silk Saree Store in \nChennai, a recognition of our dedication to quality and tradition. Over the years, Meshira has \nbuilt a loyal customer base across all groups, and many of our customers have become more \nthan just clients—they are now friends and family. \n<br><br>\nEvery piece at Meshira reflects years of dedication, blending heritage with modern elegance. \nFrom intricate Banarasi weaves to contemporary bridal couture, we craft designs that tell a \nstory—one of grace, strength, and beauty.",
           "image_banner_1": "shopify://shop_images/banner_1024-1x.jpg"
         }
       },
@@ -2368,6 +2369,15 @@
       "index-section-testimonials-page": {
         "type": "index-section-testimonials-page",
         "blocks": {
+          "item_N8xjG9": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "text2": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.",
+              "text3": "ADRIAN PARKER",
+              "text4": "Developer"
+            }
+          },
           "1562122040499": {
             "type": "item",
             "settings": {
@@ -2397,6 +2407,7 @@
           }
         },
         "block_order": [
+          "item_N8xjG9",
           "1562122040499",
           "1562122044699",
           "1562122047853"
