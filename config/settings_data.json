@@ -955,6 +955,9 @@
           "1516807368327",
           "1551494875970"
         ],
+        "custom_css": [
+          ".sp-obj-menu {text-align: center; display: flex; justify-content: center;}"
+        ],
         "settings": {
           "header_sticky_header": true,
           "main_menu_selected": "main-menu",
