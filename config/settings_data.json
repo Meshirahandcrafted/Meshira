@@ -993,7 +993,7 @@
           "show_image": false,
           "logomobile": "shopify://shop_images/meshira-logo.png",
           "logo_max_mobile_width": 110,
-          "mobile_custom_menu": "mobilelogocenter"
+          "mobile_custom_menu": "mobilelogoleft"
         }
       },
       "show-helper": {
