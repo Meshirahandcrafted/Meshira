@@ -3446,9 +3446,9 @@
             "settings": {
               "tab_name": "",
               "collection": "best-sellers",
-              "limit": "6",
+              "limit": "4",
               "toshow": "3",
-              "step": "6",
+              "step": "4",
               "module_autoplay": true,
               "delay_time": "5000"
             }
