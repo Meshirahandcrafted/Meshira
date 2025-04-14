@@ -1,0 +1,9 @@
+<div class="bixbang-products-wrapper" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+  <div class="grid grid--uniform">
+    {% for product in collection.products %}
+      <div class="grid__item medium-up--one-third large-up--one-quarter" style="margin-bottom: 30px;">
+        {% include 'product-card-grid', product: product %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
