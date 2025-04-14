@@ -2760,6 +2760,7 @@
         "blocks": {
           "1563356333568": {
             "type": "logo_image",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/saree8.jpg",
               "link": ""
@@ -2767,6 +2768,7 @@
           },
           "1563356358503": {
             "type": "logo_image",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/saree7.jpg",
               "link": ""
@@ -2774,6 +2776,7 @@
           },
           "logo_image_TjfTGW": {
             "type": "logo_image",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/saree5.jpg",
               "link": ""
@@ -2781,6 +2784,7 @@
           },
           "1563356360708": {
             "type": "logo_image",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/saree6.jpg",
               "link": ""
@@ -2788,6 +2792,7 @@
           },
           "1563356364122": {
             "type": "logo_image",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/saree4.jpg",
               "link": ""
@@ -2795,6 +2800,7 @@
           },
           "1563356372001": {
             "type": "logo_image",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/saree3.jpg",
               "link": ""
@@ -2802,6 +2808,7 @@
           },
           "1563356374371": {
             "type": "logo_image",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/saree2.jpg",
               "link": ""
@@ -2809,6 +2816,7 @@
           },
           "1563356376412": {
             "type": "logo_image",
+            "disabled": true,
             "settings": {
               "link": ""
             }
