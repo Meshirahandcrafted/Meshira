@@ -1,7 +1,7 @@
-{%- comment -%}
-  The contents of the collection.liquid template can be found in /snippets/collection-template.liquid
-{%- endcomment -%}
+{% comment %}
+  Custom Collection Page for Bixbang Theme - Inspired by Weaveinindia
+{% endcomment %}
 
-{% include 'collection-template' current_pagination_limit: settings.pagination_limit %}
-{%- section "index-section-newletter" -%}
-{%- section "index-section-instagram-page" -%}
+{% section 'collection-custom-banner' %}
+{% section 'collection-custom-description' %}
+{% section 'collection-products' %}
