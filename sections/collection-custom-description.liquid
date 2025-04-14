@@ -1,6 +1,5 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
+{% if collection.description != blank %}
+  <div class="collection-description" style="max-width: 900px; margin: 0 auto 50px; font-size: 18px; line-height: 1.8; color: #555;">
+    {{ collection.description }}
+  </div>
+{% endif %}
