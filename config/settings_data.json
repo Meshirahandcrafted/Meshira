@@ -1641,9 +1641,10 @@
           "color_mobi": "#ffffff",
           "padding_mobi": "0px 0px 0px 0px",
           "margin_mobi": "0px 0px 0px 0px",
+          "bg_section": "shopify://shop_images/meshira-luxury-handcrafted-neelankarai-chennai-boutiques-ksqfj7yrxl.png",
           "title_our": "Need our assistance?",
           "text_button": "contact us",
-          "button_url": ""
+          "button_url": "shopify://pages/contact"
         }
       },
       "section-toggle": {
@@ -1948,6 +1949,7 @@
           },
           "1558315601213": {
             "type": "Typography",
+            "disabled": true,
             "settings": {
               "title": "Privacy",
               "font_size": 40,
@@ -1956,6 +1958,7 @@
           },
           "1558315623381": {
             "type": "Typography",
+            "disabled": true,
             "settings": {
               "title": "Links",
               "font_size": 40,
@@ -1964,6 +1967,7 @@
           },
           "1558315642252": {
             "type": "Typography",
+            "disabled": true,
             "settings": {
               "title": "Product and service images and descriptions",
               "font_size": 40,
@@ -1972,6 +1976,7 @@
           },
           "1558315660583": {
             "type": "Typography",
+            "disabled": true,
             "settings": {
               "title": "Promotions",
               "font_size": 40,
@@ -1980,6 +1985,7 @@
           },
           "1558315676526": {
             "type": "Typography",
+            "disabled": true,
             "settings": {
               "title": "Additional terms and conditions and compliance with laws",
               "font_size": 40,
