@@ -216,7 +216,7 @@
     "filtergroup10": "",
     "show_collectionstab": true,
     "collectionstab_title": "COLLECTIONS",
-    "collectionstab_links": "main-menu",
+    "collectionstab_links": "collections",
     "show_collectionsbanner": false,
     "collectionsbannerurl": "shopify://products/bixbang-theme",
     "collectionsbannertitle": "",
