@@ -1641,7 +1641,6 @@
           "color_mobi": "#ffffff",
           "padding_mobi": "0px 0px 0px 0px",
           "margin_mobi": "0px 0px 0px 0px",
-          "bg_section": "shopify://shop_images/row-bg-1.jpg",
           "title_our": "Need our assistance?",
           "text_button": "contact us",
           "button_url": ""
@@ -1933,17 +1932,18 @@
           "1558172065887": {
             "type": "Typography",
             "settings": {
-              "title": "Your use of this website is governed by these terms of use",
+              "title": "Privacy Policy",
               "font_size": 40,
-              "text": "Your use of this website constitutes your agreement to these Terms of Use. Bixbang reserves the right to update or modify these Terms of Use at any time without prior notice, and your use of this website following any such change constitutes your agreement to the revised Terms of Use."
+              "text": "<p style=\"text-align: justify\"> At Meshira, we value your privacy and are committed to protecting your personal information. This policy explains how we collect, use, and safeguard the data you share with us. We collect personal information when you register an account, subscribe to our newsletters, make a purchase, use our online or personal shopping services, contact us for support, interact with us on social media, or participate in our promotions, events, surveys, or campaigns. This may include your name, email address, phone number, billing and shipping addresses, payment information, shopping preferences, sizing, IP address, browser details, location data (such as GPS or cell tower ID), as well as any images or content you share with us. By engaging with Meshira or using our services, you consent to the collection and use of your data in accordance with this policy. <br> <br>\n\nWe collect personal information fairly and lawfully, and only for purposes relevant to our business—such as fulfilling orders, improving customer experience, or offering tailored content and services. We keep your information accurate and up to date, and retain it only as long as necessary to fulfill the purpose for which it was collected. Your data is protected by reasonable security safeguards against loss, misuse, or unauthorized access. We may share your information with trusted partners including designers, third-party service providers, marketing agencies, data processors, academic researchers, or legal authorities, where necessary. Any sharing of data will align with our values and privacy commitments, and may be used to enhance our product offerings, refine marketing strategies, or support operational needs. <br> <br>\n\nYou have the right to review and update your personal information at any time. If you believe any data we hold is incorrect or incomplete, you can either edit your profile on meshira.in or email us at info@meshira.inand we will update your details. We may revise this privacy policy occasionally, so we encourage you to check it whenever you use our services or share your personal data. At Meshira, we are dedicated to upholding your privacy and ensuring your experience with us is secure, personalized, and respectful.\n\n</p><p></p>"
             }
           },
           "1558315495199": {
             "type": "Typography",
+            "disabled": true,
             "settings": {
               "title": "Use of the content on this website",
               "font_size": 40,
-              "text": "All of the content on this website, including without limitation the images, graphics and text, as well as the underlying software, networks and systems that support this website, is owned by or under license to Stop & Shop and is protected by applicable trademark, trade dress, copyright and other rights. No right, title or interest in any part of the content on this website is transferred to you and you may not use any of Stop & Shop’s marks or trade dress in any manner that would lead to confusion as to the source of any product or service, in any manner that would falsely suggest that Bixbang is affiliated with, endorses, or sponsors any product or service, or in any manner that would disparage our marks and brand. Our website may also include references to marks and copyrighted material that belong to other parties. These marks are the property of their respective owners, which may or may not be affiliated or connected with us in some way. We do not authorize you to use any third party’s marks or content.<br> <br>\n\nThe content we choose to make available on this website from time to time may be used solely for personal, noncommercial purposes in compliance with all laws and regulations that apply to you. We expect you to use this website responsibly and to respect the rights of others. submit or post any material that is violent, libelous, slanderous, promotes racism, bigotry, hatred, or physical harm against any group or individual.<br><br>\n\nAny violation of these Terms of Use or unauthorized use of any information or materials displayed on or available from the website may violate copyright laws, trademark laws, laws of privacy and publicity, and other laws and regulations and may result in, among other things, termination of your access to the website by Stop & Shop in its sole discretion. We have the right, but not the obligation, to remove any submitted or posted content for any reason."
+              "text": ""
             }
           },
           "1558315601213": {
@@ -2002,7 +2002,7 @@
           "margin_mobile": "0 0 15px 0",
           "padding_mobile": "0 0 0 0",
           "color_heading": "#373737",
-          "color_text": "#777"
+          "color_text": "#777777"
         }
       },
       "section-map": {
