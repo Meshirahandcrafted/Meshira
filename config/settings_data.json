@@ -178,7 +178,7 @@
     "tooltips_filtergroup3": true,
     "design_filtergroup3": "color",
     "title_filtergroup3": "Color",
-    "filtergroup3": "blue,\nGreen,\nGrey,\nLight Blue,\nOrange,\nRed,\nPink,\nDark brown,\nYellow,\nBright red,\nBright green,\nBright blue,\nDark brown,\nblack",
+    "filtergroup3": "blue,\nGreen,\nGrey,\nLight Blue,\nOrange,\nRed,\nPink,\nDark brown,\nYellow,\nBright red,\nBright green,\nBright blue,\nDark brown,\nblack,\nbronze,\nlemon green",
     "show_filtergroup4": true,
     "tooltips_filtergroup4": false,
     "design_filtergroup4": "inrow",
