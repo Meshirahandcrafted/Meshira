@@ -164,7 +164,7 @@
     "enable_infinite_scroll": "autoscroll",
     "no_products": "No Products",
     "sidebar": "leftColumn",
-    "show_filtergroup1": false,
+    "show_filtergroup1": true,
     "tooltips_filtergroup1": false,
     "design_filtergroup1": "default",
     "title_filtergroup1": "Sarees",
