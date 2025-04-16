@@ -184,7 +184,7 @@
     "design_filtergroup4": "inrow",
     "title_filtergroup4": "Size",
     "filtergroup4": "M,\nS.\nXL,\nL,\n35,\n36,\n37,\n38,\n39,\n40,\n41,\n42,\n43,\n44,\n45,\n46",
-    "show_filtergroup5": true,
+    "show_filtergroup5": false,
     "tooltips_filtergroup5": false,
     "design_filtergroup5": "default",
     "title_filtergroup5": "Brand",
