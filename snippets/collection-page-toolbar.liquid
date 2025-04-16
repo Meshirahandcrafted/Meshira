@@ -3,7 +3,9 @@
   <a href="#">{{ 'collections.toolbar.filter' | t }}</a>
 </div>
 {%- endunless -%}
-
+<div class="sp-sort bb-sort">
+ {{ collection.all_products_count }}</span> items
+</div>
 <!-- <div class="sp-sort">
   <select class="sort-position">
     <option value="manual"{% if collection.default_sort_by == 'manual' %} selected{% endif %}>{{ 'collections.sorting.featured' | t }}</option>
