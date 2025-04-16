@@ -70,11 +70,7 @@
               </div>
 
              {% if settings.enable_infinite_scroll == 'pagination' %}
-                <div class="pagination_page text-center">
-                  {% if paginate.pages > 1 %}
-                    {% include 'pagination' %}
-                  {% endif %}
-                 </div>
+                
               {% else %}
                 <div class="text-center tt_product_showmore infinitybutton{% if settings.enable_infinite_scroll == 'autoscroll' %} autoscroll_yes{% endif %}{% if paginate.next == empty? and paginate.previous == empty? %} hide{% endif %}">
                   
