@@ -963,9 +963,9 @@
           "logo_text": "",
           "logo_margin_top": 7,
           "logo": "shopify://shop_images/Meshira-logo_845a93eb-931d-4a45-bd4e-248f5c73c6ee.png",
-          "logo_stuck": "shopify://shop_images/meshira-logo.png",
+          "logo_stuck": "shopify://shop_images/Meshira-logo_845a93eb-931d-4a45-bd4e-248f5c73c6ee.png",
           "logo_max_width": 200,
-          "logo_page": "shopify://shop_images/meshira-logo.png",
+          "logo_page": "shopify://shop_images/Meshira-logo_845a93eb-931d-4a45-bd4e-248f5c73c6ee.png",
           "header_custom": "alloutline",
           "transparent_all": false,
           "menu_bar": "menucenter",
@@ -992,7 +992,7 @@
           "show_customer_links": true,
           "show_sign_in": true,
           "show_image": false,
-          "logomobile": "shopify://shop_images/meshira-logo.png",
+          "logomobile": "shopify://shop_images/Meshira-logo_845a93eb-931d-4a45-bd4e-248f5c73c6ee.png",
           "logo_max_mobile_width": 110,
           "mobile_custom_menu": "mobilelogoleft"
         }
