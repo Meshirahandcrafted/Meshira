@@ -3710,7 +3710,7 @@
               "image": "shopify://shop_images/Meshira-instagram-follow-us-image.jpg",
               "link": "https://www.instagram.com/meshira.in/",
               "padding_box": "50px",
-              "option_box": "topleft",
+              "option_box": "bottomcenter",
               "effect_box": "effect_bottom",
               "style_box": "style_1",
               "title": "",
