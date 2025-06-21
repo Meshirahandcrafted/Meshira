@@ -3328,6 +3328,7 @@
           },
           "item_Q8Q6Yy": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "positiontop_1": "9",
               "positionleft_1": "63",
@@ -3348,6 +3349,7 @@
           },
           "item_dAzHNc": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "positiontop_1": "9",
               "positionleft_1": "63",
@@ -3368,6 +3370,7 @@
           },
           "item_ePyxg4": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "positiontop_1": "9",
               "positionleft_1": "63",
@@ -3388,6 +3391,7 @@
           },
           "item_Xc4Uie": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "positiontop_1": "9",
               "positionleft_1": "63",
@@ -3414,13 +3418,12 @@
           "item_ePyxg4",
           "item_Xc4Uie"
         ],
-        "disabled": true,
         "settings": {
           "fullwidth": true,
           "show_title": true,
           "fullwidthpaddings": false,
-          "text1": "DISPLAY YOUR LOOKBOOK",
-          "text2": "AS GRID + SLIDER",
+          "text1": "Follow Us",
+          "text2": "",
           "text3": "",
           "toshow": "3",
           "step": "3",
