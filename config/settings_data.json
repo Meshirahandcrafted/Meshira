@@ -3632,11 +3632,11 @@
               "option_box": "topleft",
               "effect_box": "effect_bottom",
               "style_box": "style_1",
-              "title": "New Collection",
-              "text": "from $199",
+              "title": "",
+              "text": "",
               "show_button": true,
-              "text_button": "Explore Now",
-              "link_button": "",
+              "text_button": "View on Instagram",
+              "link_button": "https://www.instagram.com/meshira.in/",
               "color_title": "#303030",
               "color_text": "#909090"
             }
