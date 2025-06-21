@@ -3626,7 +3626,7 @@
             "type": "items",
             "settings": {
               "link": "",
-              "image": "shopify://shop_images/DSC06005.jpg",
+              "image": "shopify://shop_images/Meshira-instagram-follow-us-image.jpg",
               "show_box": true,
               "padding_box": "50px",
               "option_box": "topleft",
@@ -3645,6 +3645,7 @@
             "type": "items",
             "settings": {
               "link": "",
+              "image": "shopify://shop_images/Meshira-instagram-follow-us-image.jpg",
               "show_box": true,
               "padding_box": "50px",
               "option_box": "topleft",
@@ -3663,6 +3664,7 @@
             "type": "items",
             "settings": {
               "link": "",
+              "image": "shopify://shop_images/Meshira-instagram-follow-us-image.jpg",
               "show_box": true,
               "padding_box": "50px",
               "option_box": "topleft",
