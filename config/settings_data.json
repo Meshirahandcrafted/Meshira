@@ -2892,7 +2892,7 @@
             "type": "slider_list",
             "settings": {
               "image": "shopify://shop_images/cover-page-3.jpg",
-              "text": "Fashion. Style. Class.",
+              "text": "",
               "color_text": "#ffffff"
             }
           }
