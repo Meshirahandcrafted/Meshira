@@ -2880,10 +2880,18 @@
               "color_text": "#ffffff"
             }
           },
+          "slider_list_CfkD9a": {
+            "type": "slider_list",
+            "settings": {
+              "image": "shopify://shop_images/cover-page-2.jpg",
+              "text": "",
+              "color_text": "#ffffff"
+            }
+          },
           "1565086052103-1": {
             "type": "slider_list",
             "settings": {
-              "image": "shopify://shop_images/PHOTO-2025-03-21-12-44-14.jpg",
+              "image": "shopify://shop_images/cover-page-3.jpg",
               "text": "Fashion. Style. Class.",
               "color_text": "#ffffff"
             }
@@ -2891,6 +2899,7 @@
         },
         "block_order": [
           "1565086052103-0",
+          "slider_list_CfkD9a",
           "1565086052103-1"
         ],
         "settings": {
