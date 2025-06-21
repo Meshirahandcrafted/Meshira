@@ -3629,7 +3629,7 @@
               "image": "shopify://shop_images/Meshira-instagram-follow-us-image.jpg",
               "show_box": true,
               "padding_box": "50px",
-              "option_box": "bottomleft",
+              "option_box": "bottomcenter",
               "effect_box": "effect_bottom",
               "style_box": "style_1",
               "title": "",
