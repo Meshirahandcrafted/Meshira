@@ -3418,6 +3418,7 @@
           "item_ePyxg4",
           "item_Xc4Uie"
         ],
+        "disabled": true,
         "settings": {
           "fullwidth": true,
           "show_title": true,
