@@ -3685,6 +3685,7 @@
           "items_fQPYjj",
           "items_QX6aMi"
         ],
+        "disabled": true,
         "name": "Banners Sneaker",
         "settings": {
           "fullwidth": false,
@@ -3698,6 +3699,98 @@
           "text2": "CLOTHING BRANDS",
           "heading": "Follow Us",
           "text": ""
+        }
+      },
+      "index_section_banner_custom_36nfCn": {
+        "type": "index-section-banner-custom",
+        "blocks": {
+          "items_ebCfxY": {
+            "type": "items",
+            "settings": {
+              "image": "shopify://shop_images/Meshira-instagram-follow-us-image.jpg",
+              "link": "https://www.instagram.com/meshira.in/",
+              "padding_box": "50px",
+              "option_box": "topleft",
+              "effect_box": "effect_bottom",
+              "style_box": "style_1",
+              "title": "",
+              "text": "",
+              "show_button": true,
+              "text_button": "View on Instagram",
+              "link_button": "https://www.instagram.com/meshira.in/",
+              "color_title": "#303030",
+              "color_text": "#909090"
+            }
+          },
+          "items_CCDwiB": {
+            "type": "items",
+            "settings": {
+              "link": "",
+              "padding_box": "50px",
+              "option_box": "topleft",
+              "effect_box": "effect_bottom",
+              "style_box": "style_1",
+              "title": "New Collection",
+              "text": "from $199",
+              "show_button": true,
+              "text_button": "Explore Now",
+              "link_button": "",
+              "color_title": "#303030",
+              "color_text": "#909090"
+            }
+          },
+          "items_UPHPUf": {
+            "type": "items",
+            "settings": {
+              "link": "",
+              "padding_box": "50px",
+              "option_box": "topleft",
+              "effect_box": "effect_bottom",
+              "style_box": "style_1",
+              "title": "New Collection",
+              "text": "from $199",
+              "show_button": true,
+              "text_button": "Explore Now",
+              "link_button": "",
+              "color_title": "#303030",
+              "color_text": "#909090"
+            }
+          },
+          "items_dA9EQT": {
+            "type": "items",
+            "settings": {
+              "link": "",
+              "padding_box": "50px",
+              "option_box": "topleft",
+              "effect_box": "effect_bottom",
+              "style_box": "style_1",
+              "title": "New Collection",
+              "text": "from $199",
+              "show_button": true,
+              "text_button": "Explore Now",
+              "link_button": "",
+              "color_title": "#303030",
+              "color_text": "#909090"
+            }
+          }
+        },
+        "block_order": [
+          "items_ebCfxY",
+          "items_CCDwiB",
+          "items_UPHPUf",
+          "items_dA9EQT"
+        ],
+        "name": "Banners Custom",
+        "settings": {
+          "fullwidth": false,
+          "padding": "0px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "padding_mobi": "0px 0px 0px 0px",
+          "margin_mobi": "0px 0px 0px 0px",
+          "effect": "none",
+          "show_title": false,
+          "text1": "POPULAR",
+          "text2": "CLOTHING BRANDS"
         }
       }
     },
@@ -3715,7 +3808,8 @@
       "index_section_banner_XfmKTX",
       "index_section_lookbook_9axrLB",
       "index_section_products_electronic_bdgW4y",
-      "index_section_banner_sneaker_epw4mF"
+      "index_section_banner_sneaker_epw4mF",
+      "index_section_banner_custom_36nfCn"
     ],
     "blocks": {
       "15935093690516126329": {
