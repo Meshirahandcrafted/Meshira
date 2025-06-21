@@ -3618,6 +3618,85 @@
           "btn_more": true,
           "btn_text": "Shop More"
         }
+      },
+      "index_section_banner_sneaker_epw4mF": {
+        "type": "index-section-banner-sneaker",
+        "blocks": {
+          "items_JJ6PHW": {
+            "type": "items",
+            "settings": {
+              "link": "",
+              "image": "shopify://shop_images/DSC06005.jpg",
+              "show_box": true,
+              "padding_box": "50px",
+              "option_box": "topleft",
+              "effect_box": "effect_bottom",
+              "style_box": "style_1",
+              "title": "New Collection",
+              "text": "from $199",
+              "show_button": true,
+              "text_button": "Explore Now",
+              "link_button": "",
+              "color_title": "#303030",
+              "color_text": "#909090"
+            }
+          },
+          "items_fQPYjj": {
+            "type": "items",
+            "settings": {
+              "link": "",
+              "show_box": true,
+              "padding_box": "50px",
+              "option_box": "topleft",
+              "effect_box": "effect_bottom",
+              "style_box": "style_1",
+              "title": "New Collection",
+              "text": "from $199",
+              "show_button": true,
+              "text_button": "Explore Now",
+              "link_button": "",
+              "color_title": "#303030",
+              "color_text": "#909090"
+            }
+          },
+          "items_QX6aMi": {
+            "type": "items",
+            "settings": {
+              "link": "",
+              "show_box": true,
+              "padding_box": "50px",
+              "option_box": "topleft",
+              "effect_box": "effect_bottom",
+              "style_box": "style_1",
+              "title": "New Collection",
+              "text": "from $199",
+              "show_button": true,
+              "text_button": "Explore Now",
+              "link_button": "",
+              "color_title": "#303030",
+              "color_text": "#909090"
+            }
+          }
+        },
+        "block_order": [
+          "items_JJ6PHW",
+          "items_fQPYjj",
+          "items_QX6aMi"
+        ],
+        "name": "Banners Sneaker",
+        "settings": {
+          "fullwidth": false,
+          "padding": "0px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "padding_mobi": "0px 0px 0px 0px",
+          "margin_mobi": "0px 0px 0px 0px",
+          "effect": "none",
+          "show_title": false,
+          "text1": "POPULAR",
+          "text2": "CLOTHING BRANDS",
+          "heading": "Follow Us",
+          "text": ""
+        }
       }
     },
     "content_for_index": [
@@ -3633,7 +3712,8 @@
       "1565140049173",
       "index_section_banner_XfmKTX",
       "index_section_lookbook_9axrLB",
-      "index_section_products_electronic_bdgW4y"
+      "index_section_products_electronic_bdgW4y",
+      "index_section_banner_sneaker_epw4mF"
     ],
     "blocks": {
       "15935093690516126329": {
