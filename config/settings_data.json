@@ -2902,7 +2902,9 @@
           "slider_list_CfkD9a",
           "1565086052103-1"
         ],
-        "custom_css": [],
+        "custom_css": [
+          "@media screen and (max-width: 750px) {.banner, slideshow-component {display: none; }}"
+        ],
         "settings": {
           "padding": "0px 0px 0px 0px",
           "margin": "0px 0px 0px 0px",
@@ -3839,7 +3841,9 @@
           "slider_list_Xkh4FN",
           "slider_list_nnjxqT"
         ],
-        "custom_css": [],
+        "custom_css": [
+          "@media screen and (min-width: 750px) {.banner, slideshow-component{display: none;}}"
+        ],
         "settings": {
           "padding": "0px 0px 0px 0px",
           "margin": "0px 0px 0px 0px",
