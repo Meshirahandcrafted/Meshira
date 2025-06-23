@@ -2902,7 +2902,6 @@
           "slider_list_CfkD9a",
           "1565086052103-1"
         ],
-        "disabled": true,
         "custom_css": [],
         "settings": {
           "padding": "0px 0px 0px 0px",
@@ -3806,54 +3805,10 @@
           "text1": "POPULAR",
           "text2": "CLOTHING BRANDS"
         }
-      },
-      "slider_watch_QTTN7k": {
-        "type": "slider-watch",
-        "blocks": {
-          "slider_list_rAj3jW": {
-            "type": "slider_list",
-            "settings": {
-              "image": "shopify://shop_images/Meshira-cover-page-1.jpg",
-              "text": "",
-              "color_text": "#ffffff"
-            }
-          },
-          "slider_list_Xkh4FN": {
-            "type": "slider_list",
-            "settings": {
-              "image": "shopify://shop_images/cover-page-2.jpg",
-              "text": "",
-              "color_text": "#ffffff"
-            }
-          },
-          "slider_list_nnjxqT": {
-            "type": "slider_list",
-            "settings": {
-              "image": "shopify://shop_images/cover-page-3.jpg",
-              "text": "",
-              "color_text": "#ffffff"
-            }
-          }
-        },
-        "block_order": [
-          "slider_list_rAj3jW",
-          "slider_list_Xkh4FN",
-          "slider_list_nnjxqT"
-        ],
-        "custom_css": [
-          "@media screen and (min-width: 750px) {.banner, slideshow-component {display: none; }}"
-        ],
-        "settings": {
-          "padding": "0px 0px 0px 0px",
-          "margin": "0px 0px 0px 0px",
-          "padding_mobi": "0px 0px 0px 0px",
-          "margin_mobi": "0px 0px 0px 0px"
-        }
       }
     },
     "content_for_index": [
       "1565086052103",
-      "slider_watch_QTTN7k",
       "1565140379179",
       "full_width_video_hChHQW",
       "index_section_tabs_CRQEi7",
