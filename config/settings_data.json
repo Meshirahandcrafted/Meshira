@@ -3839,9 +3839,7 @@
           "slider_list_Xkh4FN",
           "slider_list_nnjxqT"
         ],
-        "custom_css": [
-          "@media screen and (max-width: 750px) {.banner, slideshow-component{display: none;}}"
-        ],
+        "custom_css": [],
         "settings": {
           "padding": "0px 0px 0px 0px",
           "margin": "0px 0px 0px 0px",
